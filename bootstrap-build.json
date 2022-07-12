@@ -8,8 +8,12 @@
     "AdditionalTargets"     :
     [
         {
-            "Name"  : "Run Pre Build",
-            "Suffix": "_PreBuild"
+            "Name"  : "Generate Documentation",
+            "Suffix": "_GenDoc"
+        },
+        {
+            "Name"  : "Create Package",
+            "Suffix": "_create_package"
         }
     ]
 }

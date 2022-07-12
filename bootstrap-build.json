@@ -8,8 +8,8 @@
     "AdditionalTargets"     :
     [
         {
-            "Name"  : "Create Package",
-            "Suffix": "_create_package"
+            "Name"  : "Run Pre Build",
+            "Suffix": "_PreBuild"
         }
     ]
 }

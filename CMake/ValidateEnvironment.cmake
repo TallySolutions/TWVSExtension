@@ -252,6 +252,7 @@ if(CMAKE_HOST_SYSTEM_NAME STREQUAL Darwin)
 
     check_ssh_config()
     check_ssh_environment()
+    check_swift_integrationt_ype_environment()
 
     message(NOTICE "Verifying environment variables ...")
 

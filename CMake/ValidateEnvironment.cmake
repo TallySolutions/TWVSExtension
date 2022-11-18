@@ -33,7 +33,6 @@ endmacro()
 
 macro(check_ssh_config)
 
-    execute_process(
         COMMAND  grep -i "^PermitUserEnvironment[ ]*yes" /etc/ssh/sshd_config
         ERROR_QUIET
         RESULT_VARIABLE retCode
@@ -80,6 +79,39 @@ macro(check_ssh_environment)
 
 endmacro()
 
+macro(check_swift_integrationt_ype_environment)
+
+    execute_process(
+        COMMAND  defaults read com.apple.dt.XCBuild EnableSwiftBuildSystemIntegration
+        RESULT_VARIABLE retCode
+        OUTPUT_VARIABLE out
+        ERROR_VARIABLE error
+    )
+    if(NOT out MATCHES "0")
+       
+        execute_process(
+            COMMAND  defaults write com.apple.dt.XCBuild EnableSwiftBuildSystemIntegration 0
+            RESULT_VARIABLE retCode
+            OUTPUT_VARIABLE out
+            ERROR_VARIABLE error
+        )
+    endif()
+
+    execute_process(
+        COMMAND  defaults read com.apple.dt.XCBuild EnableSwiftBuildSystemIntegration
+        RESULT_VARIABLE retCode
+        OUTPUT_VARIABLE out
+        ERROR_VARIABLE error
+    )
+
+    if(NOT out MATCHES "0")
+       
+        message(SEND_ERROR "Swift integration is not set to old (0).")
+        message(NOTICE "Please run command on terminal 'defaults write com.apple.dt.XCBuild EnableSwiftBuildSystemIntegration 0'")
+
+    endif()
+
+endmacro()
 
 macro(check_env_variable variable)
 

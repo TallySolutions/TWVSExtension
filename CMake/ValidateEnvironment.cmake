@@ -32,7 +32,7 @@ macro(check_linux_package_end)
 endmacro()
 
 macro(check_ssh_config)
-
+    execute_process(
         COMMAND  grep -i "^PermitUserEnvironment[ ]*yes" /etc/ssh/sshd_config
         ERROR_QUIET
         RESULT_VARIABLE retCode

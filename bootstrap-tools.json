@@ -1229,6 +1229,7 @@
                         "sh ops.sh",
                         "rm -f ops.sh",
                         "sudo apt-get install qemu-kvm qemu-utils -y"
+			"${HOME}/.ops/bin/ops update"
                     ],
                     "UninstallCommands":
                     [   

@@ -88,6 +88,7 @@
                         "sudo mkdir -p ${InstallDir}",
                         "sudo tar xvzf ${FILENAME_0} -C ${InstallDir}",
                         "sudo ln -sf ${InstallDir}/${FILENAME_WE_0}/bin/cmake /usr/bin/cmake",
+		        "sudo ln -sf ${InstallDir}/${FILENAME_WE_0}/bin/ctest /usr/bin/ctest",
                         "sudo rm -rf ${FILENAME_0}"
                     ],
                     "UninstallCommands": 

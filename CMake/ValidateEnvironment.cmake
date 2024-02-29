@@ -228,7 +228,6 @@ if(CMAKE_HOST_SYSTEM_NAME STREQUAL Linux)
    check_linux_package("libgtk-3-dev")
    check_linux_package("libcups2-dev")
    check_linux_package("m4")
-   #check_linux_package("python3-lldb-17")
    
    check_linux_package_end()
 

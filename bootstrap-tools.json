@@ -878,7 +878,7 @@
                     "InstallDir"      : "${TWHome}\\Tools\\Android",
                     "InstallCommands" :
                     [
-                        "ADO_DOWNLOAD",
+                        "ADO_DOWNLOAD"
                     ],
                     "UninstallCommands":
                     [
@@ -918,7 +918,7 @@
                     "UninstallCommands":
                     [
                         "rmdir /S /Q ${InstallDir}"
-                    ],
+                    ]
                 }
             }
 	},

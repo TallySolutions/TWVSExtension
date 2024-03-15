@@ -19,58 +19,20 @@
                 [
                     {
                         "Name"          : "TallyWorld",
+                        "ProjectFilter" : ["BuildSupportPlatform","DevSupportPlatform"],
+                        "Mandatory"     : true,
+                        "Comments"      : "Blank project filter means, ALL projects under the Organization."
+                    },
+                    {
+                        "Name"          : "TWUCCTEST1",
                         "ProjectFilter" : [],
                         "Mandatory"     : true,
                         "Comments"      : "Blank project filter means, ALL projects under the Organization."
-                    },
-                    {
-                        "Name"          : "TallyPMTTrail",
-                        "ProjectFilter" : ["BuildSupportPlatformNew","UniversalPlatformNew"],
-                        "Mandatory"     : true,
-                        "Comments"      : "Blank project filter means, ALL projects under the Organization."
-                    },
-                    {
-                        "Name"          : "TWPersonal",
-                        "ProjectFilter" : ["${DomainName}"],
-                        "Mandatory"     : false
-                    },
-                    {
-                        "Name"          : "TallySolutions",
-                        "ProjectFilter" : ["TallyPMT","TWShared"],
-                        "Mandatory"     : false
                     }
                 ]
             }
         ]
     },
-    "ThirdPartyRepositories" :
-    [
-        {
-            "Name"           : "GitHub",
-            "URL"            : "https://github.com",
-            "Owners"  :
-            [
-                {
-                    "Name"           : "TallySolutions",
-                    "Repositories"   : 
-                    [
-                        {
-                            "Name"    : "NanOS",
-                            "CloneDir": "ThirdParty"
-                        },
-                        {
-                            "Name"    : "OPS",
-                            "CloneDir": "ThirdParty"
-                        },
-                        {
-                            "Name"    : "TWVSExtension",
-                            "CloneDir": "TallySolutions"
-                        }
-                    ]
-                }
-            ]
-        }
-    ],
     "GitConfig" : 
     {
         "CloneWaitTime"  : 300,

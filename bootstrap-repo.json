@@ -24,6 +24,12 @@
                         "Comments"      : "Blank project filter means, ALL projects under the Organization."
                     },
                     {
+                        "Name"          : "TallyPMTTrail",
+                        "ProjectFilter" : ["BuildSupportPlatformNew","UniversalPlatformNew"],
+                        "Mandatory"     : true,
+                        "Comments"      : "Blank project filter means, ALL projects under the Organization."
+                    },
+                    {
                         "Name"          : "TWPersonal",
                         "ProjectFilter" : ["${DomainName}"],
                         "Mandatory"     : false

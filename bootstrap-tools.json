@@ -1319,7 +1319,7 @@
                 "Installer" : 
                 { 
                     "InstallDoc"      : "https://tallywiki.tallysolutions.com/display/TWP/Install+Required+Software+on+MacOS+x64+and+ARM64+Host#InstallRequiredSoftwareonMacOSx64andARM64Host-InstallGoogleTest",
-                    "InstallDir"      : "/Users/Shared/GoogleTest",
+                    "InstallDir"      : "/Users/aman.sahay/GoogleTest",
                     "InstallCommands" :
                     [
                         "ADO_DOWNLOAD",

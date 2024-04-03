@@ -769,7 +769,7 @@
                     },
                     "InstallDoc": "https://tallywiki.tallysolutions.com/display/TWP/Install+Required+Software+on+Windows+x64+Host#InstallRequiredSoftwareonWindowsx64Host-InstallAndroidSDKCommandLineTools",
                     "InstallDir": "${TWHome}\\Tools\\Android\\SDK",
-                    "Installcommands": [
+                    "InstallCommands": [
                         "DOWNLOAD ${URL_0} ${TEMPDIR}\\commandlinetools-win-8092744_latest.zip",
                         "UNZIP ${TEMPDIR}\\commandlinetools-win-8092744_latest.zip",
                         "DEL /F ${TEMPDIR}\\commandlinetools-win-8092744_latest.zip",
@@ -809,7 +809,7 @@
                     },
                     "InstallDoc": "https://tallywiki.tallysolutions.com/display/TWP/Install+Required+Software+on+Windows+x64+Host#InstallRequiredSoftwareonWindowsx64Host-InstallAndroidSDKBuildTools",
                     "InstallDir": "${TWHome}\\Tools\\Android\\SDK\\build-tools\\${VERSION}",
-                    "Installcommands": [
+                    "InstallCommands": [
                         "if exist ${TWHome}\\Tools\\Android\\SDK\\build-tools\\ (rmdir /S /Q ${TWHome}\\Tools\\Android\\SDK\\build-tools\\)",
                         "start \"Android SDK Installer\" cmd /c ${TWHome}\\Tools\\Android\\SDK\\cmdline-tools\\latest\\bin\\sdkmanager.bat \"platforms;android-32\" \"build-tools;32.0.0\" \"system-images;android-32;google_apis;x86_64\"",
                         "start \"Android SDK Updates\" cmd /c ${TWHome}\\Tools\\Android\\SDK\\cmdline-tools\\latest\\bin\\sdkmanager.bat --update",
@@ -837,7 +837,7 @@
                     },
                     "InstallDoc"      : "https://tallywiki.tallysolutions.com/display/TWP/Install+Required+Software+on+Windows+x64+Host#InstallRequiredSoftwareonWindowsx64Host-InstallAndroidNDK",
                     "InstallDir"      : "${TWHome}\\Tools\\Android\\NDK",
-                    "Installcommands"    :
+                    "InstallCommands"    :
                     [
                         "DOWNLOAD ${URL_0} ${TEMPDIR}\\android-ndk-r${VERSION-MAJOR}-windows.zip",
                         "UNZIP ${TEMPDIR}\\android-ndk-r${VERSION-MAJOR}-windows.zip",
@@ -909,7 +909,7 @@
                     },
                     "InstallDoc"      : "https://tallywiki.tallysolutions.com/display/TWP/Install+Required+Software+on+Windows+x64+Host#InstallRequiredSoftwareonWindowsx64Host-InstallKotlin",
                     "InstallDir"      : "${TWHome}\\Tools\\kotlin",
-                    "Installcommands"    :
+                    "InstallCommands"    :
                     [
                         "DOWNLOAD ${URL_0} ${TEMPDIR}\\kotlin-compiler-1.8.21.zip",
                         "UNZIP ${TEMPDIR}\\kotlin-compiler-1.8.21.zip",
@@ -943,7 +943,7 @@
                     },
                     "InstallDoc"      : "https://tallywiki.tallysolutions.com/display/TWP/Install+Required+Software+on+Windows+x64+Host#InstallRequiredSoftwareonWindowsx64Host-InstallFlexandBison",
                     "InstallDir"      : "${TWHome}\\Tools\\FlexBison",
-                    "Installcommands"    :
+                    "InstallCommands"    :
                     [
                         "DOWNLOAD ${URL_0} ${TEMPDIR}\\win_flex_bison-2.5.25.zip",
                         "UNZIP ${TEMPDIR}\\win_flex_bison-2.5.25.zip",
@@ -1549,7 +1549,7 @@
                     },
                     "InstallDoc"      : "https://tallywiki.tallysolutions.com/display/TWP/Install+Required+Software+on+Windows+x64+Host#InstallRequiredSoftwareonWindowsx64Host-InstallDoxyGen",
                     "InstallDir"      : "${TWHome}\\Tools\\DoxyGen",
-                    "Installcommands"    :
+                    "InstallCommands"    :
                     [
                         "DOWNLOAD ${URL_0} ${TEMPDIR}\\doxygen.zip",
                         "UNZIP ${TEMPDIR}\\doxygen.zip",

@@ -260,7 +260,7 @@ macro(check_and_fix_homebrew_git_ownership)
         ERROR_VARIABLE error
     )
 	
-    if(DEFINED out AND out STREQUAL "arm64")
+    if(out MATCHES "arm64")
 	set(homebrewpath /opt/homebrew)
     else ()
         set(homebrewpath /usr/local/Homebrew)

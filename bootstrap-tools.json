@@ -986,7 +986,7 @@
                     ],
                     "UninstallCommands":
                     [
-                        "sudo apt purge bison -y"
+                        "sudo rm -fr /usr/bin/bison  /usr/share/Bison /usr/local/share/bison"
                     ]
                 }
             },

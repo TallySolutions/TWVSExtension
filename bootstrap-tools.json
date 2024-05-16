@@ -748,7 +748,7 @@
         {
             "Name": "AndroidSDK_CMDLineTool",
             "Windows": {
-                "VersionString": "6.0",
+                "VersionString": "12.0",
                 "VersionInfo": {
                     "Command": "type ${InstallDir}\\cmdline-tools\\latest\\source.properties",
                     "OutputType": "PlainText",
@@ -764,8 +764,8 @@
                         }
                     ],
                     "URL": {
-                        "X64": "https://dl.google.com/android/repository/commandlinetools-win-8092744_latest.zip",
-                        "ARM64": "https://dl.google.com/android/repository/commandlinetools-win-8092744_latest.zip"
+                        "X64": "https://dl.google.com/android/repository/commandlinetools-win-11076708_latest.zip",
+                        "ARM64": "https://dl.google.com/android/repository/commandlinetools-win-11076708_latest.zip"
                     },
                     "InstallDoc": "https://tallywiki.tallysolutions.com/display/TWP/Install+Required+Software+on+Windows+x64+Host#InstallRequiredSoftwareonWindowsx64Host-InstallAndroidSDKCommandLineTools",
                     "InstallDir": "${TWHome}\\Tools\\Android\\SDK",
@@ -788,7 +788,7 @@
         {
             "Name": "AndroidSDK_BuildTools",
             "Windows": {
-                "VersionString": "32.0.0",
+                "VersionString": "34.0.0",
                 "VersionInfo": {
                     "Command": "type ${InstallDir}\\source.properties",
                     "OutputType": "PlainText",
@@ -804,14 +804,14 @@
                         }
                     ],
                     "URL": {
-                        "X64": "https://dl.google.com/android/repository/commandlinetools-win-8092744_latest.zip",
-                        "ARM64": "https://dl.google.com/android/repository/commandlinetools-win-8092744_latest.zip"
+                        "X64": "https://dl.google.com/android/repository/commandlinetools-win-11076708_latest.zip",
+                        "ARM64": "https://dl.google.com/android/repository/commandlinetools-win-11076708_latest.zip"
                     },
                     "InstallDoc": "https://tallywiki.tallysolutions.com/display/TWP/Install+Required+Software+on+Windows+x64+Host#InstallRequiredSoftwareonWindowsx64Host-InstallAndroidSDKBuildTools",
                     "InstallDir": "${TWHome}\\Tools\\Android\\SDK\\build-tools\\${VERSION}",
                     "InstallCommands": [
                         "if exist ${TWHome}\\Tools\\Android\\SDK\\build-tools\\ (rmdir /S /Q ${TWHome}\\Tools\\Android\\SDK\\build-tools\\)",
-                        "start \"Android SDK Installer\" cmd /c ${TWHome}\\Tools\\Android\\SDK\\cmdline-tools\\latest\\bin\\sdkmanager.bat \"platforms;android-32\" \"build-tools;32.0.0\" \"system-images;android-32;google_apis;x86_64\"",
+                        "start \"Android SDK Installer\" cmd /c ${TWHome}\\Tools\\Android\\SDK\\cmdline-tools\\latest\\bin\\sdkmanager.bat \"platforms;android-34\" \"build-tools;34.0.0\" \"system-images;android-34;google_apis;x86_64\"",
                         "start \"Android SDK Updates\" cmd /c ${TWHome}\\Tools\\Android\\SDK\\cmdline-tools\\latest\\bin\\sdkmanager.bat --update",
                         "start \"Android SDK Licenses - Please accept all\" cmd /c ${TWHome}\\Tools\\Android\\SDK\\cmdline-tools\\latest\\bin\\sdkmanager.bat --licenses"
                     ]

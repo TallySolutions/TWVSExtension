@@ -711,7 +711,7 @@
             "Name"        : "Java",
             "Windows"     :
             {
-                "VersionString"  : "11.0",
+                "VersionString"  : "11.1",
                 "Artifactory" : 
                 {
                         "Name"         : "ADOService",
@@ -733,8 +733,8 @@
                     "InstallCommands"    :
                     [
                         "ADO_DOWNLOAD",
-                        "${InstallDir}\\jdk-11.0.16_windows-${HOST-ARCH}_bin.exe /s ADDLOCAL=ToolsFeature INSTALLDIR=${TWHome}\\Tools\\Java",
-                        "del /f ${InstallDir}\\jdk-11.0.16_windows-${HOST-ARCH}_bin.exe"
+                        "${InstallDir}\\jdk-17.0.10_windows-${HOST-ARCH}_bin.exe /s ADDLOCAL=ToolsFeature INSTALLDIR=${TWHome}\\Tools\\Java",
+                        "del /f ${InstallDir}\\jdk-17.0.10_windows-${HOST-ARCH}_bin.exe"
                     ],
                     "UninstallCommands": 
                     [

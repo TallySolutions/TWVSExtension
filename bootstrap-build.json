@@ -16,6 +16,10 @@
         {
             "Name"  : "Create Package",
             "Suffix": "_create_package"
+        },
+        {
+            "Name"  : "Create Coverage",
+            "Suffix": "_create_coverage"
         }
     ]
 }

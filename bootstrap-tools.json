@@ -360,12 +360,12 @@
                     "InstallCommands"  : 
                     [
                         "DOWNLOAD ${URL_0} ${TEMPDIR}\\Git-${VERSION}-64-bit.exe",
-                        "start /wait ${TEMPDIR}\\Git-${VERSION}-64-bit.exe /SILENT",
+                        "start /wait ${TEMPDIR}\\Git-${VERSION}-64-bit.exe /SILENT /NORESTART",
                         "DEL /F ${TEMPDIR}\\Git-${VERSION}-64-bit.exe"
                     ],
                     "UninstallCommands" :
                     [
-                        "start /d \"${InstallDir}\" /wait unins000.exe /SILENT"
+                        "start /d \"${InstallDir}\" /wait unins000.exe /SILENT "
                     ],
                     "InstallDoc"      : "https://tallywiki.tallysolutions.com/display/TWP/Install+Required+Software+on+Windows+x64+Host#InstallRequiredSoftwareonWindowsx64Host-InstallGit"
                 },
@@ -524,9 +524,7 @@
                     ],
                     "UninstallCommands"  : 
                     [
-                        "DOWNLOAD ${URL_0} ${TEMPDIR}\\azure-cli-${VERSION}.msi",
-                        "start /wait msiexec /x ${TEMPDIR}\\azure-cli-${VERSION}.msi /passive",
-                        "DEL /F ${TEMPDIR}\\azure-cli-${VERSION}.msi"
+                        "winget uninstall Microsoft.AzureCLI --disable-interactivity"
                     ],
                     "UpdateCommands"  :
                     [
@@ -711,7 +709,7 @@
             "Name"        : "Java",
             "Windows"     :
             {
-                "VersionString"  : "11.0",
+                "VersionString"  : "11.1",
                 "Artifactory" : 
                 {
                         "Name"         : "ADOService",
@@ -733,8 +731,8 @@
                     "InstallCommands"    :
                     [
                         "ADO_DOWNLOAD",
-                        "${InstallDir}\\jdk-11.0.16_windows-${HOST-ARCH}_bin.exe /s ADDLOCAL=ToolsFeature INSTALLDIR=${TWHome}\\Tools\\Java",
-                        "del /f ${InstallDir}\\jdk-11.0.16_windows-${HOST-ARCH}_bin.exe"
+                        "${InstallDir}\\jdk-17.0.10_windows-${HOST-ARCH}_bin.exe /s ADDLOCAL=ToolsFeature INSTALLDIR=${TWHome}\\Tools\\Java",
+                        "del /f ${InstallDir}\\jdk-17.0.10_windows-${HOST-ARCH}_bin.exe"
                     ],
                     "UninstallCommands": 
                     [
@@ -811,9 +809,11 @@
                     "InstallDir": "${TWHome}\\Tools\\Android\\SDK\\build-tools\\${VERSION}",
                     "InstallCommands": [
                         "if exist ${TWHome}\\Tools\\Android\\SDK\\build-tools\\ (rmdir /S /Q ${TWHome}\\Tools\\Android\\SDK\\build-tools\\)",
-                        "start \"Android SDK Installer\" cmd /c ${TWHome}\\Tools\\Android\\SDK\\cmdline-tools\\latest\\bin\\sdkmanager.bat \"platforms;android-32\" \"build-tools;32.0.0\" \"system-images;android-32;google_apis;x86_64\"",
-                        "start \"Android SDK Updates\" cmd /c ${TWHome}\\Tools\\Android\\SDK\\cmdline-tools\\latest\\bin\\sdkmanager.bat --update",
-                        "start \"Android SDK Licenses - Please accept all\" cmd /c ${TWHome}\\Tools\\Android\\SDK\\cmdline-tools\\latest\\bin\\sdkmanager.bat --licenses"
+                        "(for /l %i in (1,1,10) do @echo y) > \"${TWHome}\\sdkmanager_responses.txt\"",
+                        "type \"${TWHome}\\sdkmanager_responses.txt\" | ${TWHome}\\Tools\\Android\\SDK\\cmdline-tools\\latest\\bin\\sdkmanager.bat \"platforms;android-32\" \"build-tools;32.0.0\" \"system-images;android-32;google_apis;x86_64\"",
+                        "start \"Android SDK Updates\" /wait cmd /c ${TWHome}\\Tools\\Android\\SDK\\cmdline-tools\\latest\\bin\\sdkmanager.bat --update",
+                        " type \"${TWHome}\\sdkmanager_responses.txt\" | ${TWHome}\\Tools\\Android\\SDK\\cmdline-tools\\latest\\bin\\sdkmanager.bat --licenses",
+                        "del \"${TWHome}\\sdkmanager_responses.txt\""
                     ]
                 }
             }

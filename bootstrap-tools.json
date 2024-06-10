@@ -524,7 +524,9 @@
                     ],
                     "UninstallCommands"  : 
                     [
-                        "winget uninstall Microsoft.AzureCLI --disable-interactivity"
+			"(for /l %i in (1,1,10) do @echo y) > \"${TWHome}\\y_responses.txt\"",
+                        " type \"${TWHome}\\y_responses.txt\" | winget uninstall Microsoft.AzureCLI",
+			 "del \"${TWHome}\\y_responses.txt\""
                     ],
                     "UpdateCommands"  :
                     [

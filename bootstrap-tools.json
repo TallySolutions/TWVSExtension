@@ -711,7 +711,7 @@
             "Name"        : "Java",
             "Windows"     :
             {
-                "VersionString"  : "11.1",
+                "VersionString"  : "17.0.11",
                 "Artifactory" : 
                 {
                         "Name"         : "ADOService",

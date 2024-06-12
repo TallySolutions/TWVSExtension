@@ -817,7 +817,14 @@
                         "start \"Android SDK Updates\" /wait cmd /c ${TWHome}\\Tools\\Android\\SDK\\cmdline-tools\\latest\\bin\\sdkmanager.bat --update",
                         " type \"${TWHome}\\sdkmanager_responses.txt\" | ${TWHome}\\Tools\\Android\\SDK\\cmdline-tools\\latest\\bin\\sdkmanager.bat --licenses",
                         "del \"${TWHome}\\sdkmanager_responses.txt\""
-                    ]
+                    ],
+		   "UninstallCommands": [
+			"rmdir /S /Q ${TWHome}\\Tools\\Android\\SDK\\build-tools",
+			"rmdir /S /Q ${TWHome}\\Tools\\Android\\SDK\\licenses",
+			"rmdir /S /Q ${TWHome}\\Tools\\Android\\SDK\\platforms",
+			"rmdir /S /Q ${TWHome}\\Tools\\Android\\SDK\\platform-tools",
+			"rmdir /S /Q ${TWHome}\\Tools\\Android\\SDK\\system-images"
+		    ]
                 }
             }
         },

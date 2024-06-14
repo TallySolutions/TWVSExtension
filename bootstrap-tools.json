@@ -1188,22 +1188,14 @@
                     "InstallDir"      : "${TWHome}\\Tools\\TWCLangFormat",
                     "InstallCommands" :
                     [
-                        "ADO_DOWNLOAD"
+                        "ADO_DOWNLOAD",
+			"copy ${InstallDir}\\_clang-format ${TWHome}\\Workspace"
                     ],
                     "UninstallCommands":
                     [
                         "rmdir /S /Q ${InstallDir}"
                     ]
-                },
-                "Validations"   : 
-                [
-                    {
-                        "Command"        : "if  exist ${TWHome}\\Workspace\\_clang-format echo present",
-                        "ExpectedOutput" : "present",
-                        "FixCommand"     : "copy ${InstallDir}\\_clang-format ${TWHome}\\Workspace"
-                    }
-		]
-				
+                }				
             }
         },
         {

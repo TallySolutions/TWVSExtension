@@ -1189,8 +1189,7 @@
                     "InstallCommands" :
                     [
                         "ADO_DOWNLOAD",
-			"copy ${InstallDir}\\_clang-format ${TWHome}\\Workspace",
-			"del /f ${InstallDir}\\_clang-format"
+			"copy ${InstallDir}\\_clang-format ${TWHome}\\Workspace"
                     ],
                     "UninstallCommands":
                     [

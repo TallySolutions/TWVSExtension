@@ -712,7 +712,7 @@
             "Name"        : "Java",
             "Windows"     :
             {
-                "VersionString"  : "11.1",
+                "VersionString"  : "17.0.11",
                 "Artifactory" : 
                 {
                         "Name"         : "ADOService",
@@ -749,7 +749,7 @@
         {
             "Name": "AndroidSDK_CMDLineTool",
             "Windows": {
-                "VersionString": "6.0",
+                "VersionString": "12.0",
                 "VersionInfo": {
                     "Command": "type ${InstallDir}\\cmdline-tools\\latest\\source.properties",
                     "OutputType": "PlainText",
@@ -765,8 +765,8 @@
                         }
                     ],
                     "URL": {
-                        "X64": "https://dl.google.com/android/repository/commandlinetools-win-8092744_latest.zip",
-                        "ARM64": "https://dl.google.com/android/repository/commandlinetools-win-8092744_latest.zip"
+                        "X64": "https://dl.google.com/android/repository/commandlinetools-win-11076708_latest.zip",
+                        "ARM64": "https://dl.google.com/android/repository/commandlinetools-win-11076708_latest.zip"
                     },
                     "InstallDoc": "https://tallywiki.tallysolutions.com/display/TWP/Install+Required+Software+on+Windows+x64+Host#InstallRequiredSoftwareonWindowsx64Host-InstallAndroidSDKCommandLineTools",
                     "InstallDir": "${TWHome}\\Tools\\Android\\SDK",
@@ -789,7 +789,7 @@
         {
             "Name": "AndroidSDK_BuildTools",
             "Windows": {
-                "VersionString": "32.0.0",
+                "VersionString": "34.0.0",
                 "VersionInfo": {
                     "Command": "type ${InstallDir}\\source.properties",
                     "OutputType": "PlainText",
@@ -805,15 +805,15 @@
                         }
                     ],
                     "URL": {
-                        "X64": "https://dl.google.com/android/repository/commandlinetools-win-8092744_latest.zip",
-                        "ARM64": "https://dl.google.com/android/repository/commandlinetools-win-8092744_latest.zip"
+                        "X64": "https://dl.google.com/android/repository/commandlinetools-win-11076708_latest.zip",
+                        "ARM64": "https://dl.google.com/android/repository/commandlinetools-win-11076708_latest.zip"
                     },
                     "InstallDoc": "https://tallywiki.tallysolutions.com/display/TWP/Install+Required+Software+on+Windows+x64+Host#InstallRequiredSoftwareonWindowsx64Host-InstallAndroidSDKBuildTools",
                     "InstallDir": "${TWHome}\\Tools\\Android\\SDK\\build-tools\\${VERSION}",
                     "InstallCommands": [
                         "if exist ${TWHome}\\Tools\\Android\\SDK\\build-tools\\ (rmdir /S /Q ${TWHome}\\Tools\\Android\\SDK\\build-tools\\)",
                         "(for /l %i in (1,1,10) do @echo y) > \"${TWHome}\\sdkmanager_responses.txt\"",
-                        "type \"${TWHome}\\sdkmanager_responses.txt\" | ${TWHome}\\Tools\\Android\\SDK\\cmdline-tools\\latest\\bin\\sdkmanager.bat \"platforms;android-32\" \"build-tools;32.0.0\" \"system-images;android-32;google_apis;x86_64\"",
+                        "type \"${TWHome}\\sdkmanager_responses.txt\" | ${TWHome}\\Tools\\Android\\SDK\\cmdline-tools\\latest\\bin\\sdkmanager.bat \"platforms;android-34\" \"build-tools;34.0.0\" \"system-images;android-34;google_apis;x86_64\"",
                         "start \"Android SDK Updates\" /wait cmd /c ${TWHome}\\Tools\\Android\\SDK\\cmdline-tools\\latest\\bin\\sdkmanager.bat --update",
                         " type \"${TWHome}\\sdkmanager_responses.txt\" | ${TWHome}\\Tools\\Android\\SDK\\cmdline-tools\\latest\\bin\\sdkmanager.bat --licenses",
                         "del \"${TWHome}\\sdkmanager_responses.txt\""
@@ -1191,22 +1191,14 @@
                     "InstallDir"      : "${TWHome}\\Tools\\TWCLangFormat",
                     "InstallCommands" :
                     [
-                        "ADO_DOWNLOAD"
+                        "ADO_DOWNLOAD",
+			"copy ${InstallDir}\\_clang-format ${TWHome}\\Workspace"
                     ],
                     "UninstallCommands":
                     [
                         "rmdir /S /Q ${InstallDir}"
                     ]
-                },
-                "Validations"   : 
-                [
-                    {
-                        "Command"        : "if  exist ${TWHome}\\Workspace\\_clang-format echo present",
-                        "ExpectedOutput" : "present",
-                        "FixCommand"     : "copy ${InstallDir}\\_clang-format ${TWHome}\\Workspace"
-                    }
-		]
-				
+                }		
             }
         },
         {

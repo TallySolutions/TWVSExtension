@@ -520,14 +520,14 @@
                     [
                         "DOWNLOAD ${URL_0} ${TEMPDIR}\\azure-cli-${VERSION}.msi",
                         "start /wait msiexec /i ${TEMPDIR}\\azure-cli-${VERSION}.msi /passive",
-                        "DEL /F ${TEMPDIR}\\azure-cli-${VERSION}.msi"
+                        "DEL /F ${TEMPDIR}\\azure-cli-${VERSION}.msi",
+			"set PATH=%PATH%;C:\\Program Files (x86)\\Microsoft SDKs\\Azure\\CLI2\\wbin"
                     ],
                     "UninstallCommands"  : 
                     [
 			"(for /l %i in (1,1,10) do @echo y) > \"${TWHome}\\y_responses.txt\"",
                         " type \"${TWHome}\\y_responses.txt\" | winget uninstall Microsoft.AzureCLI",
-			"del \"${TWHome}\\y_responses.txt\"",
-			"set PATH=%PATH%;C:\\Program Files (x86)\\Microsoft SDKs\\Azure\\CLI2\\wbin"
+			"del \"${TWHome}\\y_responses.txt\""
                     ],
                     "UpdateCommands"  :
                     [

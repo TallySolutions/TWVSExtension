@@ -253,8 +253,8 @@
    ],
    "RepoTabHeaders":[
       "TWSources",
-      "TWTest",
+      "TWTests",
       "TWSecondary",
-      "Other"
+      "Others"
    ]
 }

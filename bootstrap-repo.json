@@ -250,5 +250,11 @@
       ".vs",
       "backups",
       "out"
+   ],
+   "RepoTabHeaders":[
+      "TWSources",
+      "TWTest",
+      "TWSecondary",
+      "Other"
    ]
 }

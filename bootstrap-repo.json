@@ -49,6 +49,7 @@
                         "Project":"FoundationalPlatform",
                         "SourceRepos":[
                            "TWCoreBasic.Source",
+                           "TWCoreUtils.Source",
                            "TWCoreMain.Source",
                            "TWCorePrimitives.Source",
                            "TWCoreObject.Source",

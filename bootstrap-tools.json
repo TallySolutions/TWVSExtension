@@ -280,11 +280,11 @@
                     "InstallDir"      : "/usr/local/bin",
                     "InstallCommands"  : 
                     [
-                        "ASADMIN brew install ccache"
+                        "brew install ccache"
                     ],
                     "UninstallCommands": 
                     [
-                        "ASADMIN brew uninstall ccache"
+                        "brew uninstall ccache"
                     ],
                     "InstallDoc"      : "https://tallywiki.tallysolutions.com/display/TWP/Install+Required+Software+on+Linux+x64+Host#InstallRequiredSoftwareonLinuxx64Host-InstallNinja"
 

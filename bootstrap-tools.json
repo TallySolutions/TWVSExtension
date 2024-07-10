@@ -459,12 +459,12 @@
                     "InstallDoc"      : "https://tallywiki.tallysolutions.com/display/TWP/Install+Required+Software+on+MacOS+x64+and+ARM64+Host#InstallRequiredSoftwareonMacOSx64andARM64Host-InstallGit",
                     "InstallCommands" : 
                     [
-                        "ASADMIN brew install git",
+                        "brew install git",
                         "sudo git config --global core.autocrlf input"
                     ],
                     "UninstallCommands" :
                     [
-                        "ASADMIN brew uninstall git"
+                        "brew uninstall git"
                     ]
                 },
                 "Validations"   : 
@@ -586,12 +586,12 @@
                     "InstallCommands" : 
                     [
                         "sudo chown -R $(whoami) /opt/homebrew  /usr/local/var/homebrew /usr/local/Cellar | echo",
-                        "ASADMIN brew install azure-cli",
+                        "brew install azure-cli",
                         "sudo az upgrade"
                     ],
                     "UninstallCommands" :
                     [
-                        "ASADMIN brew uninstall azure-cli"
+                        "brew uninstall azure-cli"
                     ],
                     "UpdateCommands"  :
                     [
@@ -1016,14 +1016,14 @@
                     "InstallDir"      : "/usr/local/bin",
                     "InstallCommands" :
                     [
-                        "ASADMIN brew install bison",
+                        "brew install bison",
                         "sudo mkdir -p /opt/homebrew/opt",
                         "OPTIONAL_LINK /usr/local/opt/bison /opt/homebrew/opt/bison",
                         "OPTIONAL_LINK /usr/local/opt/bison/bin/bison /usr/local/bin/bison"
                     ],
                     "UninstallCommands" :
                     [
-                        "ASADMIN brew uninstall bison"
+                        "brew uninstall bison"
                     ]
 
                 }

@@ -61,7 +61,7 @@
                            "TWCoreDiskIO.Source", 
                            "TWCoreDiskMgr.Source",
                            "TWCoreDataMgr.Source",
-                           "TWNewCoreDiskIO.Source"
+                           "TWNewCoreDiskIO.Source",
                            "TWNewCoreDiskMgr.Source",
                            "TWNewCoreDataMgr.Source",
                            "TWCoreDeviceIOMain.Source",

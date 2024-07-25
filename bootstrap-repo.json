@@ -51,7 +51,7 @@
                            "TWCoreBasic.Source",
                            "TWCoreUtils.Source",
                            "TWCoreMain.Source",
-                           "TWCorePrimitives.Source",
+                           "TWCoreDataTypes.Source",
                            "TWCoreObject.Source",
                            "TWCoreStructures.Source",
                            "TWCoreEventMgr.Source",
@@ -61,6 +61,9 @@
                            "TWCoreDiskIO.Source", 
                            "TWCoreDiskMgr.Source",
                            "TWCoreDataMgr.Source",
+                           "TWNewCoreDiskIO.Source"
+                           "TWNewCoreDiskMgr.Source",
+                           "TWNewCoreDataMgr.Source",
                            "TWCoreDeviceIOMain.Source",
                            "TWCoreDeviceIOWorker.Source",
                            "TWCoreDeviceMgr.Source",
@@ -71,7 +74,7 @@
                         ],
                         "TestRepos":[
                            "TWCoreMain.Test",
-                           "TWCorePrimitives.Test",
+                           "TWCoreDataTypes.Test",
                            "TWCoreObject.Test",
                            "TWCoreStructures.Test",
                            "TWCoreEventMgr.Test",
@@ -81,6 +84,9 @@
                            "TWCoreDiskIO.Test", 
                            "TWCoreDiskMgr.Test",
                            "TWCoreDataMgr.Test",
+                           "TWNewCoreDiskIO.Test"
+                           "TWNewCoreDiskMgr.Test",
+                           "TWNewCoreDataMgr.Test",
                            "TWCoreDeviceIOMain.Test",
                            "TWCoreDeviceIOWorker.Test",
                            "TWCoreDeviceMgr.Test",

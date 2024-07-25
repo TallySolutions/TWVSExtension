@@ -84,7 +84,7 @@
                            "TWCoreDiskIO.Test", 
                            "TWCoreDiskMgr.Test",
                            "TWCoreDataMgr.Test",
-                           "TWNewCoreDiskIO.Test"
+                           "TWNewCoreDiskIO.Test",
                            "TWNewCoreDiskMgr.Test",
                            "TWNewCoreDataMgr.Test",
                            "TWCoreDeviceIOMain.Test",

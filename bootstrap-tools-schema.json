@@ -244,7 +244,7 @@
                 "Value"
             ]
         },
-        "TextMateLanguageGrammer": {
+        "TWTextMateLanguageGrammer": {
             "type": [
                 "array",
                 "null"

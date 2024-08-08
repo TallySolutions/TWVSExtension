@@ -673,7 +673,7 @@
             }
         },
 	{
-            "Name"        : "TWBuildGen",
+            "Name"        : "TWBhadra",
             "Windows"     :
             {
                 "VersionType" : "ArtifactoryLatest",
@@ -682,11 +682,11 @@
                         "Name"         : "ADOService",
                         "Organization" : "TallyWorld",
                         "Feed"         : "Windows-${HOST-ARCH}-BuildTools",
-                        "Package"      : "twbuildgen"
+                        "Package"      : "twbhadra"
                 },
                 "VersionInfo" : 
                 {
-                    "Command"    : "${InstallDir}/TWBuildGen --version",
+                    "Command"    : "${InstallDir}/TWBhadra --version",
                     "OutputType" : "PlainText",
                     "Prefix"     : "v",
                     "Line"       : 1,
@@ -694,8 +694,8 @@
                 },
                 "Installer" : 
                 { 
-                    "InstallDoc"      : "https://tallywiki.tallysolutions.com/display/TWP/Install+Required+Software+on+Windows+x64+Host#InstallRequiredSoftwareonWindowsx64Host-InstallTWBuildGen",
-                    "InstallDir"      : "${TWHome}\\Tools\\TWBuildGen",
+                    "InstallDoc"      : "https://tallywiki.tallysolutions.com/display/TWP/Install+Required+Software+on+Windows+x64+Host#InstallRequiredSoftwareonWindowsx64Host-InstallTWBhadra",
+                    "InstallDir"      : "${TWHome}\\Tools\\TWBhadra",
                     "InstallCommands" :
                     [
                         "ADO_DOWNLOAD"

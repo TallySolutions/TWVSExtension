@@ -82,7 +82,7 @@
                            "TWNewCoreProcessMgr.Test",
                            "TWNewCoreStructures.Test",
                            "TWCoreStructures.Test",
-                           "TWCoreEventMgr.Test",
+                           "TWCoreProcessMgr.Test",
                            "TWCoreCacheStructures.Test",
                            "TWCoreCommIO.Test",
                            "TWCoreCommMgr.Test", 

@@ -706,7 +706,40 @@
                         "rmdir /S /Q ${InstallDir}"
                     ]
                 }
-            }
+            },
+	    "Linux"     :
+            {
+		"ForPipelineOnly": true,
+                "VersionType" : "ArtifactoryLatest",
+                "Artifactory" : 
+                {
+                        "Name"         : "ADOService",
+                        "Organization" : "TallyWorld",
+                        "Feed"         : "Linux-${HOST-ARCH}-BuildTools",",
+                        "Package"      : "twbhadra"
+                },
+                "VersionInfo" : 
+                {
+                    "Command"    : "${InstallDir}/TWBhadra --version",
+                    "OutputType" : "PlainText",
+                    "Prefix"     : "v",
+                    "Line"       : 1,
+                    "Column"     : 1
+                },
+                "Installer" : 
+                { 
+                    "InstallDoc"      : "https://tallywiki.tallysolutions.com/display/TWP/Install+Required+Software+on+Linux+x64+Host#InstallRequiredSoftwareonWindowsx64Host-InstallTWBhadra",
+                    "InstallDir"      : "/usr/share/TWBhadra",
+                    "InstallCommands" :
+                    [
+                        "ADO_DOWNLOAD"
+                    ],
+                    "UninstallCommands":
+                    [
+                        "rmdir /S /Q ${InstallDir}"
+                    ]
+                }
+            },
         },
         {
             "Name"        : "Java",

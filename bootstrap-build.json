@@ -19,7 +19,25 @@
         },
         {
             "Name"  : "Create Coverage",
-            "Suffix": "_create_coverage"
+            "Suffix": "_create_coverage",
+            "buildProperties": 
+            {
+                "configurations":
+                {
+                    "list": "Debug",
+                    "isListSupported": true
+                },
+                "operatingSystems":
+                {
+                    "list": "Linux",
+                    "isListSupported": true
+                },
+                "architectures":
+                {
+                    "list": "x64",
+                    "isListSupported": true
+                }
+            }
         }
     ]
 }

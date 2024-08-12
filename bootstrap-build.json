@@ -19,7 +19,15 @@
         },
         {
             "Name"  : "Create Coverage",
-            "Suffix": "_create_coverage"
+            "Suffix": "_create_coverage",
+            "buildProperties": 
+            {
+                "configurations":
+                {
+                    "list": "Simulation",
+                    "isListSupported": true
+                }
+            }
         }
     ]
 }

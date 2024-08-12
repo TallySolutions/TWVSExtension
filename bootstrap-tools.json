@@ -715,7 +715,7 @@
                 {
                         "Name"         : "ADOService",
                         "Organization" : "TallyWorld",
-                        "Feed"         : "Linux-${HOST-ARCH}-BuildTools",",
+                        "Feed"         : "Linux-${HOST-ARCH}-BuildTools",
                         "Package"      : "twbhadra"
                 },
                 "VersionInfo" : 

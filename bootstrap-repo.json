@@ -101,43 +101,32 @@
                         ]
                      },
                      {
-                        "Project":"FoundationalTier",
+                        "Project":"AdminPlatform",
                         "SourceRepos":[
-                           "TWSpaceAdminTier.Source",
-                           "TWPremiseAdminTier.Source",
-                           "TWSpaceServerTier.Source",
-                           "TWPremiseServerTier.Source",
-                           "TWClientTier.Source",
-                           "TWPresentationTier.Source"
+                           "TWAdminEngine.Source"
                         ],
                         "TestRepos":[
-                           "TWSpaceAdminTier.Test",
-                           "TWPremiseAdminTier.Test",
-                           "TWSpaceServerTier.Test",
-                           "TWPremiseServerTier.Test",
-                           "TWClientTier.Test"
+                           "TWAdminEngine.Test"
                         ]
                      },
                      {
-                        "Project":"FunctionalPlatform",
+                        "Project":"ServerPlatform",
                         "SourceRepos":[
-                           "TWSpaceAdminServices.Source",
-                           "TWPrajapatiServices.Source",
-                           "TWSpaceInternalServices.Source",
-                           "TWSpaceRealmServices.Source",
-                           "TWSpaceConnectedServices.Source",
-                           "TWPremiseAdminServices.Source",
-                           "TWPremiseInternalApps.Source",
-                           "TWPremiseServerFeatures.Source",
-                           "TWPremiseClientFeatures.Source",
-                           "TWPresentationFeatures.Source"
+                           "TWServerEngine.Source"
                         ],
                         "TestRepos":[
-                           "TWPremiseAdminServices.Test",
-                           "TWPremiseInternalApps.Test",
-                           "TWPremiseServerFeatures.Test",
-                           "TWPremiseClientFeatures.Test",
-                           "TWPresentationFeatures.Test"
+                           "TWServerEngine.Test"
+                        ]
+                     },
+                     {
+                        "Project":"ClientPlatform",
+                        "SourceRepos":[
+                           "TWInteractionEngine.Source",
+                           "TWVisualEngine.Source"
+                        ],
+                        "TestRepos":[
+                           "TWInteractionEngine.Test",
+                           "TWVisualEngine.Test"
                         ]
                      },
                      {

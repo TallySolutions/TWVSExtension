@@ -26,16 +26,6 @@
                 {
                     "list": "Simulation",
                     "isListSupported": true
-                },
-                "operatingSystems":
-                {
-                    "list": "Linux",
-                    "isListSupported": true
-                },
-                "architectures":
-                {
-                    "list": "x64",
-                    "isListSupported": true
                 }
             }
         }

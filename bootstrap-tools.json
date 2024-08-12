@@ -677,7 +677,6 @@
             "Name"        : "TWBhadra",
             "Windows"     :
             {
-		"ForPipelineOnly": true,
                 "VersionType" : "ArtifactoryLatest",
                 "Artifactory" : 
                 {

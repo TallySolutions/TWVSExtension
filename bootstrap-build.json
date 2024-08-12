@@ -24,7 +24,7 @@
             {
                 "configurations":
                 {
-                    "list": "Debug",
+                    "list": "Simulation",
                     "isListSupported": true
                 },
                 "operatingSystems":

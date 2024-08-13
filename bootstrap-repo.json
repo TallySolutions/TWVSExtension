@@ -21,7 +21,7 @@
                   "Comments":"Blank project filter means, ALL projects under the Organization.",
                   "ADOProjects":[
                      {
-                        "Project":"BuildSupportPlatform111111111",
+                        "Project":"BuildSupportPlatform",
                         "SourceRepos":[
                            "TWBuildSupport.Source"
                         ],

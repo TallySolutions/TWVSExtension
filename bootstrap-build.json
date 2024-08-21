@@ -26,6 +26,11 @@
                 {
                     "list": "Simulation",
                     "isListSupported": true
+                },
+                "operatingSystems":
+                {
+                    "list": "Linux",
+                    "isListSupported": true
                 }
             }
         }

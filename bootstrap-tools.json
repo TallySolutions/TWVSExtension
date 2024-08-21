@@ -1356,7 +1356,6 @@
                 },
                 "Installer": {
                     "InstallDir"      : "${TWHome}\\Tools\\ReportGenerator",
-                    "InstallDoc"      : "https://tallywiki.tallysolutions.com/display/TWP/Install+Required+Software+on+Windows+x64+Host#InstallRequiredSoftwareonWindowsx64Host-InstallGradle",
                     "InstallCommands" :
                     [
                         "ADO_DOWNLOAD"
@@ -1366,6 +1365,68 @@
                         "rmdir /S /Q ${InstallDir}"
                     ]
                 }
+            }
+        },
+        {
+            "ForPipelineOnly": true,
+            "Name"        : "junit2html",
+            "Windows": {
+                "VersionString": "1.0.0",
+                "Artifactory" : 
+                {
+                        "Name"         : "ADOService",
+                        "Organization" : "TallyWorld",
+                        "Feed"         : "Windows-${HOST-ARCH}-BuildTools",
+                        "Package"      : "junit2html"
+                },
+                "VersionInfo": {
+                    "Command": "type ${InstallDir}\\source.properties",
+                    "OutputType": "PlainText",
+                    "Line": 1,
+                    "Column": 1,
+                    "Prefix": "Version="
+                },
+                "Installer": {
+                    "InstallDir"      : "${TWHome}\\Tools\\junit2html",
+                    "InstallCommands" :
+                    [
+                        "ADO_DOWNLOAD"
+                    ],
+                    "UninstallCommands":
+                    [
+                        "rmdir /S /Q ${InstallDir}"
+                    ]
+                }
+            
+            },
+            "Linux": {
+                "VersionString": "1.0.0",
+                "Artifactory" : 
+                {
+                        "Name"         : "ADOService",
+                        "Organization" : "TallyWorld",
+                        "Feed"         : "Linux-${HOST-ARCH}-BuildTools",
+                        "Package"      : "junit2html"
+                },
+                "VersionInfo": {
+                    "Command": "type ${InstallDir}/source.properties",
+                    "OutputType": "PlainText",
+                    "Line": 1,
+                    "Column": 1,
+                    "Prefix": "Version="
+                },
+                "Installer": {
+                    "InstallDir"      : "/usr/share/junit2html",
+                    "InstallCommands" :
+                    [
+                        "ADO_DOWNLOAD"
+                    ],
+                    "UninstallCommands":
+                    [
+                        "sudo rm -rf ${InstallDir}"
+                    ]
+                }
+            
             }
         }
     ],

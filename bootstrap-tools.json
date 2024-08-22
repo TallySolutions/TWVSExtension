@@ -1460,6 +1460,43 @@
             }
         
         }
+        },
+        {
+            "Name"        : "BuildTools",
+            "Windows": {
+                "VersionString": "1.0.0",
+                "ForPipelineOnly": true,
+                "VersionInfo": {
+                    "Command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\Installer\\vswhere.exe -products Microsoft.VisualStudio.Product.BuildTools -property catalog_productDisplayVersion",
+                    "OutputType": "PlainText"
+                },
+                "Installer": {
+                    "InstallDir"      : "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools",
+                    "URL": {
+                        "X64": "https://aka.ms/vs/17/release/vs_BuildTools.exe",
+                        "ARM64": "https://aka.ms/vs/17/release/vs_BuildTools.exe"
+                    },
+                    "InstallCommands" :
+                    [
+                        "DOWNLOAD ${URL_0} ${TEMPDIR}\\vs_BuildTools.exe",
+                        "${TEMPDIR}\\vs_BuildTools.exe --passive",
+                        "${TEMPDIR}\\vs_BuildTools.exe --passive --config $(Build.SourcesDirectory)\\TWBuildPipeline\\vsconfig\\build_tools.vsconfig",
+                        "DEL /F ${TEMPDIR}\\vs_BuildTools.exe"
+                    ],
+                    "UninstallCommands":
+                    [
+                        "DOWNLOAD ${URL_0} ${TEMPDIR}\\vs_BuildTools.exe",
+                        "${TEMPDIR}\\vs_BuildTools.exe uninstall --productId Microsoft.VisualStudio.Product.BuildTools --channelId VisualStudio.17.Release --passive",
+                        "DEL /F ${TEMPDIR}\\vs_BuildTools.exe"
+                    ],
+                    "UpdateCommands"  : [
+                        "DOWNLOAD ${URL_0} ${TEMPDIR}\\vs_BuildTools.exe",
+                        "${TEMPDIR}\\vs_BuildTools.exe update --productId Microsoft.VisualStudio.Product.BuildTools --channelId VisualStudio.17.Release --passive",
+                        "DEL /F ${TEMPDIR}\\vs_BuildTools.exe"
+                    ]
+                }
+            
+            }
         }
     ],
     "ValidationCMakeFile"  :  "${BootstrapURL}/CMake/ValidateEnvironment.cmake",

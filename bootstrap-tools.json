@@ -1464,11 +1464,13 @@
         {
             "Name"        : "BuildTools",
             "Windows": {
-                "VersionString": "1.0.0",
+                "VersionString": "17.11.0",
                 "ForPipelineOnly": true,
                 "VersionInfo": {
-                    "Command": "C:\\Program Files (x86)\\Microsoft Visual Studio\\Installer\\vswhere.exe -products Microsoft.VisualStudio.Product.BuildTools -property catalog_productDisplayVersion",
-                    "OutputType": "PlainText"
+                    "Command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\Installer\\vswhere.exe\" -products Microsoft.VisualStudio.Product.BuildTools -property catalog_productDisplayVersion",
+                    "OutputType": "PlainText",
+                    "Line"       : 1,
+                    "Column"     : 1 
                 },
                 "Installer": {
                     "InstallDir"      : "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools",

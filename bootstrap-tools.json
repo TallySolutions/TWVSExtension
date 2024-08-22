@@ -1429,7 +1429,37 @@
                     ]
                 }
             
+            },
+        "MacOS": {
+            "VersionString": "1.0.0",
+            "ForPipelineOnly": true,
+            "Artifactory" : 
+            {
+                    "Name"         : "ADOService",
+                    "Organization" : "TallyWorld",
+                    "Feed"         : "MacOS-${HOST-ARCH}-BuildTools",
+                    "Package"      : "junit2html"
+            },
+            "VersionInfo": {
+                "Command": "type ${InstallDir}/source.properties",
+                "OutputType": "PlainText",
+                "Line": 1,
+                "Column": 1,
+                "Prefix": "Version="
+            },
+            "Installer": {
+                "InstallDir"      : "/Users/Shared/junit2html",
+                "InstallCommands" :
+                [
+                    "ADO_DOWNLOAD"
+                ],
+                "UninstallCommands":
+                [
+                    "sudo rm -rf ${InstallDir}"
+                ]
             }
+        
+        }
         }
     ],
     "ValidationCMakeFile"  :  "${BootstrapURL}/CMake/ValidateEnvironment.cmake",

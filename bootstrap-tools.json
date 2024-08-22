@@ -1335,11 +1335,11 @@
             }
         },
         {
-            "ForPipelineOnly": true,
             "Name"        : "ReportGenerator",
             "Windows"     :
             {
                 "VersionString": "1.0.0",
+                "ForPipelineOnly": true,
                 "Artifactory" : 
                 {
                         "Name"         : "ADOService",
@@ -1368,10 +1368,11 @@
             }
         },
         {
-            "ForPipelineOnly": true,
+            
             "Name"        : "junit2html",
             "Windows": {
                 "VersionString": "1.0.0",
+                "ForPipelineOnly": true,
                 "Artifactory" : 
                 {
                         "Name"         : "ADOService",
@@ -1401,6 +1402,7 @@
             },
             "Linux": {
                 "VersionString": "1.0.0",
+                "ForPipelineOnly": true,
                 "Artifactory" : 
                 {
                         "Name"         : "ADOService",

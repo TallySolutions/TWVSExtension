@@ -1446,7 +1446,6 @@
                     "InstallCommands" :
                     [
                         "DOWNLOAD ${URL_0} ${TEMPDIR}\\vs_BuildTools.exe",
-                        "${TEMPDIR}\\vs_BuildTools.exe --passive --wait --force",
                         "${TEMPDIR}\\vs_BuildTools.exe --passive --wait --force --config %BUILD_SOURCESDIRECTORY%\\TWBuildPipeline\\vsconfig\\build_tools.vsconfig",
                         "DEL /F ${TEMPDIR}\\vs_BuildTools.exe"
                     ],

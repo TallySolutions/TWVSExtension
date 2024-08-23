@@ -1482,7 +1482,7 @@
                     [
                         "DOWNLOAD ${URL_0} ${TEMPDIR}\\vs_BuildTools.exe",
                         "${TEMPDIR}\\vs_BuildTools.exe --passive",
-                        "${TEMPDIR}\\vs_BuildTools.exe --passive --config $(Build.SourcesDirectory)\\TWBuildPipeline\\vsconfig\\build_tools.vsconfig",
+                        "${TEMPDIR}\\vs_BuildTools.exe --passive --config %BUILD_SOURCESDIRECTORY%\\TWBuildPipeline\\vsconfig\\build_tools.vsconfig",
                         "DEL /F ${TEMPDIR}\\vs_BuildTools.exe"
                     ],
                     "UninstallCommands":

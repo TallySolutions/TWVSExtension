@@ -102,7 +102,7 @@
             },
             "MacOS"     :
             {
-                "VersionString"  : "3.27.3",
+                "VersionString"  : "3.30.2",
                 "Command"        : "/usr/local/bin/cmake",
                 "VersionInfo"    : 
                 {

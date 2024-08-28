@@ -1501,7 +1501,7 @@
         {
             "Name": "WinUI3Package",
             "Windows": {
-                "VersionString": "0.0.1",
+                "VersionString": "1.0.0",
                 "Artifactory" : 
                 {
                         "Name"         : "ADOService",

@@ -1502,7 +1502,6 @@
             "Name": "winui3_package",
             "Windows": {
                 "VersionString": "1.0.1",
-                "ForPipelineOnly": true,
                 "Artifactory" : 
                 {
                         "Name"         : "ADOService",

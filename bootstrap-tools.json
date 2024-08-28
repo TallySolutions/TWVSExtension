@@ -1462,6 +1462,39 @@
                 }
             
             }
+        },
+        {
+            "Name": "winui3_package",
+            "Windows": {
+                "VersionString": "1.0.1",
+                "ForPipelineOnly": true,
+                "Artifactory" : 
+                {
+                        "Name"         : "ADOService",
+                        "Organization" : "TallyWorld",
+                        "Feed"         : "Windows-${HOST-ARCH}-BuildTools",
+                        "Package"      : "winui3_package"
+                },
+                "VersionInfo": {
+                    "Command": "type ${InstallDir}\\source.properties",
+                    "OutputType": "PlainText",
+                    "Line": 1,
+                    "Column": 1,
+                    "Prefix": "Version="
+                },
+                "Installer": {
+                    "InstallDir"      : "${TWHome}\\Tools\\winui3_package",
+                    "InstallCommands" :
+                    [
+                        "ADO_DOWNLOAD"
+                    ],
+                    "UninstallCommands":
+                    [
+                        "rmdir /S /Q ${InstallDir}"
+                    ]
+                }
+            
+            }
         }
     ],
     "ValidationCMakeFile"  :  "${BootstrapURL}/CMake/ValidateEnvironment.cmake",

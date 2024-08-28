@@ -1499,15 +1499,15 @@
             }
         },
         {
-            "Name": "winui3_package",
+            "Name": "WinUI3Package",
             "Windows": {
-                "VersionString": "1.0.1",
+                "VersionString": "0.0.1",
                 "Artifactory" : 
                 {
                         "Name"         : "ADOService",
                         "Organization" : "TallyWorld",
                         "Feed"         : "Windows-${HOST-ARCH}-BuildTools",
-                        "Package"      : "winui3_package"
+                        "Package"      : "winui3package"
                 },
                 "VersionInfo": {
                     "Command": "type ${InstallDir}\\source.properties",
@@ -1517,7 +1517,7 @@
                     "Prefix": "Version="
                 },
                 "Installer": {
-                    "InstallDir"      : "${TWHome}\\Tools\\winui3_package",
+                    "InstallDir"      : "${TWHome}\\Tools\\WinUI3Package",
                     "InstallCommands" :
                     [
                         "ADO_DOWNLOAD"

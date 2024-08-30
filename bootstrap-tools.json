@@ -149,7 +149,7 @@
                 "Installer": {
                     "InstallDir": "/usr/bin",
                     "InstallCommands": [
-                        "sudo apt install ninja-build=1.10.0-1build1 -y"
+                        "sudo apt install ninja-build -y"
                     ],
                     "UninstallCommands": [
                         "sudo apt purge ninja-build -y"
@@ -215,7 +215,7 @@
                 "Installer": {
                     "InstallDir": "/usr/bin",
                     "InstallCommands": [
-                        "sudo apt install ccache=3.7.7-1 -y"
+                        "sudo apt install ccache -y"
                     ],
                     "UninstallCommands": [
                         "sudo apt purge ccache -y"
@@ -273,9 +273,9 @@
                         "sudo ln -sf /usr/bin/llvm-ar-${VERSION-MAJOR} /usr/bin/llvm-ar",
                         "sudo ln -sf /usr/bin/llvm-ranlib-${VERSION-MAJOR} /usr/bin/llvm-ranlib",
                         "sudo ln -sf /usr/bin/lld-link-${VERSION-MAJOR} /usr/bin/lld-link",
-                        "sudo apt install -y gcc-aarch64-linux-gnu=4:9.3.0-1ubuntu2  libgcc-9-dev-arm64-cross=9.4.0-1ubuntu1~20.04.2cross2 libstdc++-10-dev-arm64-cross=10.5.0-1ubuntu1~20.04cross1",
-                        "sudo apt install -y gcc-multilib=4:9.3.0-1ubuntu2 g++-multilib=4:9.3.0-1ubuntu2 | echo ignoring errors...",
-                        "sudo apt install -y gcc-multilib-arm-linux-gnueabi=4:9.3.0-1ubuntu2 gcc-multilib-arm-linux-gnueabihf=4:9.3.0-1ubuntu2"
+                        "sudo apt install -y gcc-aarch64-linux-gnu  libgcc-9-dev-arm64-cross libstdc++-10-dev-arm64-cross",
+                        "sudo apt install -y gcc-multilib g++-multilib | echo ignoring errors...",
+                        "sudo apt install -y gcc-multilib-arm-linux-gnueabi gcc-multilib-arm-linux-gnueabihf"
                     ],
                     "UninstallCommands": [
                         "sudo apt purge llvm-* clang-* -y",
@@ -362,7 +362,7 @@
                     "InstallCommands": [
                         "sudo add-apt-repository ppa:git-core/ppa -y",
                         "sudo apt update",
-                        "sudo apt-get install git=1:2.46.0-0ppa1~ubuntu20.04.1 -y",
+                        "sudo apt-get install git -y",
                         "sudo git config --global core.autocrlf input"
                     ],
                     "UninstallCommands": [
@@ -457,7 +457,7 @@
                 }
             },
             "Linux": {
-                "VersionString": "2.61",
+                "VersionString": "2.34",
                 "VersionInfo": {
                     "Command": "sudo /usr/bin/az --version",
                     "OutputType": "PlainText",
@@ -1000,7 +1000,7 @@
                         "sudo usermod -aG kvm ${LOGINID}",
                         "sh ops.sh",
                         "rm -f ops.sh",
-                        "sudo apt-get install qemu-kvm=1:4.2-3ubuntu6.29 qemu-utils=1:4.2-3ubuntu6.29 -y",
+                        "sudo apt-get install qemu-kvm qemu-utils -y",
                         "${HOME}/.ops/bin/ops update"
                     ],
                     "UninstallCommands": [

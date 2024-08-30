@@ -622,7 +622,8 @@
                     "InstallDoc": "https://tallywiki.tallysolutions.com/display/TWP/Install+Required+Software+on+Linux+x64+Host#InstallRequiredSoftwareonWindowsx64Host-InstallTWBhadra",
                     "InstallDir": "/usr/share/TWBhadra",
                     "InstallCommands": [
-                        "ADO_DOWNLOAD"
+                        "ADO_DOWNLOAD",
+                        "sudo chmod +x ${InstallDir}/TWBhadra"
                     ],
                     "UninstallCommands": [
                         "rmdir /S /Q ${InstallDir}"

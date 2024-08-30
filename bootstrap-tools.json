@@ -816,7 +816,8 @@
                     "UninstallCommands": [
                         "rmdir /S /Q ${InstallDir}"
                     ]
-                }
+                },
+                "DependsOn" : "Java"
             }
         },
         {
@@ -858,7 +859,8 @@
 			"rmdir /S /Q ${TWHome}\\Tools\\Android\\SDK\\platform-tools",
 			"rmdir /S /Q ${TWHome}\\Tools\\Android\\SDK\\system-images"
 		    ]
-                }
+                },
+                "DependsOn" : "Java"
             }
         },
         {
@@ -893,7 +895,8 @@
                     [
                         "rmdir /S /Q ${InstallDir}"
                     ]
-                }
+                },
+                "DependsOn" : "Java"
             }
         },
         {
@@ -928,7 +931,8 @@
                         "rmdir /S /Q ${InstallDir}\\Androidx",
 		        "DEL /f ${InstallDir}\\androidx.properties"
                     ]
-                }
+                },
+                "DependsOn" : "Java"
 	    }
         },
 	{
@@ -962,7 +966,8 @@
                     [
                         "rmdir /S /Q ${InstallDir}"
                     ]
-                }
+                },
+                "DependsOn" : "Java"
             }
 	},
         {
@@ -1556,4 +1561,4 @@
 			]
 		}
 	]
-}
+} 

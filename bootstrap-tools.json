@@ -623,7 +623,7 @@
                     "InstallDir": "/usr/share/TWBhadra",
                     "InstallCommands": [
                         "ADO_DOWNLOAD",
-                        "sudo chmod +x /usr/share/TWBhadra/TWBhadra"
+                        "sudo chmod +x ${InstallDir}/TWBhadra"
                     ],
                     "UninstallCommands": [
                         "rmdir /S /Q ${InstallDir}"

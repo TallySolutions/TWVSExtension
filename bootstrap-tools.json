@@ -601,7 +601,8 @@
                     "UninstallCommands": [
                         "rmdir /S /Q ${InstallDir}"
                     ]
-                }
+                },
+                "DependsOn": [ "AzureCLI" ]
             },
             "Linux": {
                 "ForPipelineOnly": true,
@@ -629,7 +630,8 @@
                     "UninstallCommands": [
                         "rmdir /S /Q ${InstallDir}"
                     ]
-                }
+                },
+                "DependsOn": [ "AzureCLI" ]
             }
         },
         {
@@ -661,7 +663,8 @@
                         "rmdir /Q /S ${InstallDir}"
                     ],
                     "PostInstallMessage": "Please set JAVA_HOME System Environment Varable to ${InstallDir}"
-                }
+                },
+                "DependsOn": [ "AzureCLI" ]
             }
         },
         {
@@ -702,7 +705,7 @@
                         "rmdir /S /Q ${InstallDir}"
                     ]
                 },
-                "DependsOn": ["Java"]
+                "DependsOn": [ "Java" ]
             }
         },
         {
@@ -745,7 +748,7 @@
                         "rmdir /S /Q ${TWHome}\\Tools\\Android\\SDK\\system-images"
                     ]
                 },
-                "DependsOn": ["Java"]
+                "DependsOn": [ "Java" ]
             }
         },
         {
@@ -777,7 +780,7 @@
                         "rmdir /S /Q ${InstallDir}"
                     ]
                 },
-                "DependsOn": ["Java"]
+                "DependsOn": [ "Java" ]
             }
         },
         {
@@ -807,7 +810,7 @@
                         "DEL /f ${InstallDir}\\androidx.properties"
                     ]
                 },
-                "DependsOn": ["Java"]
+                "DependsOn": [ "Java" , "AzureCLI" ]
             }
         },
         {
@@ -836,7 +839,7 @@
                         "rmdir /S /Q ${InstallDir}"
                     ]
                 },
-                "DependsOn": ["Java"]
+                "DependsOn": [ "Java" ]
             }
         },
         {
@@ -892,7 +895,8 @@
                     "UninstallCommands": [
                         "sudo rm -fr /usr/bin/bison  /usr/share/Bison /usr/local/share/bison"
                     ]
-                }
+                },
+                "DependsOn": [ "AzureCLI" ]
             },
             "MacOS": {
                 "VersionString": "3.8.2",
@@ -949,7 +953,8 @@
                     "UninstallCommands": [
                         "rmdir /S /Q ${InstallDir}"
                     ]
-                }
+                },
+                "DependsOn": [ "AzureCLI" ]
             }
         },
         {
@@ -979,7 +984,8 @@
                         "rmdir /S /Q ${InstallDir}"
                     ]
 
-                }
+                },
+                "DependsOn": [ "AzureCLI" ]
             }
         },
         {
@@ -1037,7 +1043,8 @@
                     "UninstallCommands": [
                         "rmdir /S /Q ${InstallDir}"
                     ]
-                }
+                },
+                "DependsOn": [ "AzureCLI" ]
             },
             "Linux": {
                 "VersionType": "ArtifactoryLatest",
@@ -1063,7 +1070,8 @@
                     "UninstallCommands": [
                         "sudo rm -rf ${InstallDir}"
                     ]
-                }
+                },
+                "DependsOn": [ "AzureCLI" ]
             },
             "MacOS": {
                 "VersionType": "ArtifactoryLatest",
@@ -1089,7 +1097,8 @@
                     "UninstallCommands": [
                         "sudo rm -rf ${InstallDir}"
                     ]
-                }
+                },
+                "DependsOn": [ "AzureCLI" ]
             }
         },
         {
@@ -1146,7 +1155,8 @@
                     "UninstallCommands": [
                         "rmdir /S /Q ${InstallDir}"
                     ]
-                }
+                },
+                "DependsOn": [ "AzureCLI" ]
             }
         },
         {
@@ -1175,7 +1185,8 @@
                     "UninstallCommands": [
                         "rmdir /S /Q ${InstallDir}"
                     ]
-                }
+                },
+                "DependsOn": [ "AzureCLI" ]
             }
         },
         {
@@ -1205,7 +1216,8 @@
                     "UninstallCommands": [
                         "rmdir /S /Q ${InstallDir}"
                     ]
-                }
+                },
+                "DependsOn": [ "AzureCLI" ]
 
             },
             "Linux": {
@@ -1232,7 +1244,8 @@
                     "UninstallCommands": [
                         "sudo rm -rf ${InstallDir}"
                     ]
-                }
+                },
+                "DependsOn": [ "AzureCLI" ]
 
             },
             "MacOS": {
@@ -1259,7 +1272,8 @@
                     "UninstallCommands": [
                         "sudo rm -rf ${InstallDir}"
                     ]
-                }
+                },
+                "DependsOn": [ "AzureCLI" ]
 
             }
         },
@@ -1324,7 +1338,8 @@
                     "UninstallCommands": [
                         "rmdir /S /Q ${InstallDir}"
                     ]
-                }
+                },
+                "DependsOn": [ "AzureCLI" ]
 
             }
         }

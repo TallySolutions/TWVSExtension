@@ -381,7 +381,7 @@
             "MacOS": {
                 "VersionString": "2.33.0",
                 "VersionInfo": {
-                    "Command": "git version",
+                    "Command": "/opt/homebrew/opt/git/bin/git version",
                     "OutputType": "PlainText",
                     "Line": 1,
                     "Column": 3
@@ -391,7 +391,8 @@
                     "InstallDoc": "https://tallywiki.tallysolutions.com/display/TWP/Install+Required+Software+on+MacOS+x64+and+ARM64+Host#InstallRequiredSoftwareonMacOSx64andARM64Host-InstallGit",
                     "InstallCommands": [
                         "brew install git",
-                        "sudo git config --global core.autocrlf input"
+                        "sudo git config --global core.autocrlf input",
+                        "OPTIONAL_LINK /usr/local/opt/git /opt/homebrew/opt/git"
                     ],
                     "UninstallCommands": [
                         "brew uninstall git"
@@ -896,7 +897,7 @@
             "MacOS": {
                 "VersionString": "3.8.2",
                 "VersionInfo": {
-                    "Command": "bison --version",
+                    "Command": "/opt/homebrew/opt/bison/bin/bison --version",
                     "EnvVars": [
                         {
                             "Name": "PATH",

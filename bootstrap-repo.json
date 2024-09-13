@@ -78,8 +78,9 @@
                         ],
                         "TestRepos":[
                            "TWCoreMain.Test",
-                           "TWCoreDataTypes.Test",
-                           "TWCoreBasicStructures.Test",
+                           "TWCoreFixedDataTypes.Test",
+                           "TWCoreBuffers.Test",
+                           "TWCoreVariableDataTypes.Test",
                            "TWCoreObject.Test",                           
                            "TWNewCoreProcessMgr.Test",
                            "TWNewCoreStructures.Test",

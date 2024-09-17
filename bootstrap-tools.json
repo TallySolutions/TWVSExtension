@@ -628,7 +628,7 @@
                         "sudo chmod +x ${InstallDir}/TWBhadra"
                     ],
                     "UninstallCommands": [
-                        "sudo rm -fr /usr/share/TWBhadra"
+                        "sudo rm -fr ${InstallDir}"
                     ]
                 },
                 "DependsOn": [ "AzureCLI" ]

@@ -391,7 +391,7 @@
                     "InstallDoc": "https://tallywiki.tallysolutions.com/display/TWP/Install+Required+Software+on+MacOS+x64+and+ARM64+Host#InstallRequiredSoftwareonMacOSx64andARM64Host-InstallGit",
                     "InstallCommands": [
                         "brew install git",
-                        "sudo git config --global core.autocrlf input",
+                        "sudo /opt/homebrew/opt/git/bin/git config --global core.autocrlf input",
                         "OPTIONAL_LINK /usr/local/opt/git /opt/homebrew/opt/git"
                     ],
                     "UninstallCommands": [
@@ -402,7 +402,7 @@
                     {
                         "Command": "git config --global --default input core.autocrlf",
                         "ExpectedOutput": "input",
-                        "FixCommand": "git config --global core.autocrlf input"
+                        "FixCommand": "/opt/homebrew/opt/git/bin/git config --global core.autocrlf input"
                     }
                 ]
             }

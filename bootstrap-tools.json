@@ -635,6 +635,65 @@
             }
         },
         {
+            "Name": "TWVastu",
+            "Windows": {
+                "VersionType": "ArtifactoryLatest",
+                "Artifactory": {
+                    "Name": "ADOService",
+                    "Organization": "TallyWorld",
+                    "Feed": "Windows-${HOST-ARCH}-BuildTools",
+                    "Package": "twvastu"
+                },
+                "VersionInfo": {
+                    "Command": "${InstallDir}/TWVastu --version",
+                    "OutputType": "PlainText",
+                    "Prefix": "v",
+                    "Line": 1,
+                    "Column": 1
+                },
+                "Installer": {
+                    "InstallDoc": "",
+                    "InstallDir": "${TWHome}\\Tools\\TWVastu",
+                    "InstallCommands": [
+                        "ADO_DOWNLOAD"
+                    ],
+                    "UninstallCommands": [
+                        "rmdir /S /Q ${InstallDir}"
+                    ]
+                },
+                "DependsOn": [ "AzureCLI" ]
+            },
+            "Linux": {
+                "ForPipelineOnly": true,
+                "VersionType": "ArtifactoryLatest",
+                "Artifactory": {
+                    "Name": "ADOService",
+                    "Organization": "TallyWorld",
+                    "Feed": "Linux-${HOST-ARCH}-BuildTools",
+                    "Package": "twvastu"
+                },
+                "VersionInfo": {
+                    "Command": "${InstallDir}/TWVastu --version",
+                    "OutputType": "PlainText",
+                    "Prefix": "v",
+                    "Line": 1,
+                    "Column": 1
+                },
+                "Installer": {
+                    "InstallDoc": "",
+                    "InstallDir": "/usr/share/TWVastu",
+                    "InstallCommands": [
+                        "ADO_DOWNLOAD",
+                        "sudo chmod +x ${InstallDir}/TWVastu"
+                    ],
+                    "UninstallCommands": [
+                        "sudo rm -fr ${InstallDir}"
+                    ]
+                },
+                "DependsOn": [ "AzureCLI" ]
+            }
+        },
+        {
             "Name": "Java",
             "Windows": {
                 "VersionString": "17.0.11",

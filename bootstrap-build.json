@@ -18,6 +18,10 @@
             "Suffix": "_create_package"
         },
         {
+            "Name"  : "Run Static Analyzer",
+            "Suffix": "_run_code_analysis"
+        },
+        {
             "Name"  : "Create Coverage",
             "Suffix": "_create_coverage",
             "buildProperties": 

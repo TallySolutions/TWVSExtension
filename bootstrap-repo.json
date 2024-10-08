@@ -39,8 +39,7 @@
                      {
                         "Project":"UniversalPlatform",
                         "SourceRepos":[
-                           "TWUniversal.Source",
-                           "TWUniversalNext.Source"
+                           "TWUniversal.Source"
                         ],
                         "TestRepos":[
                            "TWUniversal.Test"

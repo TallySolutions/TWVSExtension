@@ -275,7 +275,9 @@
                         "sudo ln -sf /usr/bin/lld-link-${VERSION-MAJOR} /usr/bin/lld-link",
                         "sudo apt install -y gcc-aarch64-linux-gnu  libgcc-9-dev-arm64-cross libstdc++-10-dev-arm64-cross",
                         "sudo apt install -y gcc-multilib g++-multilib | echo ignoring errors...",
-                        "sudo apt install -y gcc-multilib-arm-linux-gnueabi gcc-multilib-arm-linux-gnueabihf"
+                        "sudo apt install -y gcc-multilib-arm-linux-gnueabi gcc-multilib-arm-linux-gnueabihf",
+                        "sudo apt install -y clang-tidy-${VERSION-MAJOR}",
+                        "sudo ln -sf /usr/bin/clang-tidy-${VERSION-MAJOR} /usr/bin/clang-tidy"
                     ],
                     "UninstallCommands": [
                         "sudo apt purge llvm-* clang-* -y",

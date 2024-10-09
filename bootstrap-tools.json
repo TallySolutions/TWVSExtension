@@ -248,7 +248,7 @@
         {
             "Name": "LLVM",
             "Linux": {
-                "VersionString": "17.0.6",
+                "VersionString": "19.1.0",
                 "Command": "clang++",
                 "VersionInfo": {
                     "Command": "${COMMAND} --version",

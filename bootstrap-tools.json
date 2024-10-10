@@ -303,11 +303,12 @@
                         "sudo ln -sf /usr/bin/clang-tidy-${VERSION-MAJOR} /usr/bin/clang-tidy"
                     ],
                     "UninstallCommands": [
-                        "sudo apt purge llvm-* clang-* -y",
+                        "sudo apt purge clang-tidy* -y",
                         "sudo apt autoremove -y"
                     ],
-                    "InstallDoc": "https://tallywiki.tallysolutions.com/display/TWP/Install+Required+Software+on+Linux+x64+Host#InstallRequiredSoftwareonLinuxx64Host-InstallLLVM",
-                    "DependsOn": [ "LLVM" ]
+                    "DependsOn": [ "LLVM" ],
+                    "InstallDoc": "https://tallywiki.tallysolutions.com/display/TWP/Install+Required+Software+on+Linux+x64+Host#InstallRequiredSoftwareonLinuxx64Host-InstallLLVM"
+                    
                     
                 }
             }

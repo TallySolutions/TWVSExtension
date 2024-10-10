@@ -462,11 +462,10 @@
                     "Column": 2
                 },
                 "Installer": {
-                    "InstallDir": "/user/local/bin",
                     "InstallCommands": [
                         "sudo chown -R $(whoami) /opt/homebrew  /usr/local/var/homebrew /usr/local/Cellar | echo",
-                        "brew install llvm@18",
-                        "sudo ln -sf /opt/homebrew/opt/llvm@18/bin/clang-tidy /usr/local/bin"
+                        "brew install llvm@${VERSION-MAJOR}",
+                        "sudo ln -sf /opt/homebrew/opt/llvm@${VERSION-MAJOR}/bin/clang-tidy /usr/local/bin"
                     ],
                     "UninstallCommands": [
                         "brew remove llvm"

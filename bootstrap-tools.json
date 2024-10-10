@@ -962,18 +962,12 @@
                     "Column": 2
                 },
                 "Installer": {
-                    "URL": {
-                        "X64": "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.8/clang+llvm-18.1.8-x86_64-pc-windows-msvc.tar.xz",
-                        "ARM64": "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.8/clang+llvm-18.1.8-x86_64-pc-windows-msvc.tar.xz"
-                    },
                     "InstallDir": "${TWHome}\\Tools\\clang-tidy",
                     "InstallCommands": [
-                        "DOWNLOAD ${URL_0} ${TEMPDIR}\\clang+llvm-18.1.8-x86_64-pc-windows-msvc.tar.xz",
-                        "UNZIP ${TEMPDIR}\\clang+llvm-18.1.8-x86_64-pc-windows-msvc.tar.xz",
-                        "DEL /F ${TEMPDIR}\\clang+llvm-18.1.8-x86_64-pc-windows-msvc.tar.xz"
+                        "move ${TWHome}\\Tools\\Android\\NDK\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin ${TWHome}\\Tools\\clang-tidy"
                     ],
                     "UninstallCommands": [
-                        "rmdir /S /Q ${InstallDir}"
+                        "rmdir /S /Q ${TWHome}\\Tools\\clang-tidy"
                     ]
                 }
             }

@@ -465,7 +465,7 @@
                     "InstallDir": "/user/local/bin",
                     "InstallCommands": [
                         "sudo chown -R $(whoami) /opt/homebrew  /usr/local/var/homebrew /usr/local/Cellar | echo",
-                        "brew install llvm"
+                        "brew install llvm@18"
                     ],
                     "UninstallCommands": [
                         "brew remove llvm"

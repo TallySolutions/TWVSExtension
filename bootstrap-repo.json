@@ -1,91 +1,263 @@
 {
-    "Version"                :  "1.3",
-    "ADORepositories"        :
-    {
-        "BranchPolicies" :
-        {
-            "DevelopmentTrunkName" : "DevTrunk",
-            "PreReleaseTrunkName"  : "PreReleaseTrunk",
-            "ReleaseTrunkName"     : "ReleaseTrunk",
-            "WorkBranchPrefix"     : "Work",
-            "EnableRecursiveRebase": true
-        },
-        "Repositories":
-        [
-            {
-                "Name"          : "ADOService",
-                "URL"           : "https://dev.azure.com",
-                "Organizations" : 
-                [
-                    {
-                        "Name"          : "TallyWorld",
-                        "ProjectFilter" : [],
-                        "Mandatory"     : true,
-                        "Comments"      : "Blank project filter means, ALL projects under the Organization."
-                    },
-                    {
-                        "Name"          : "TWPersonal",
-                        "ProjectFilter" : ["${DomainName}"],
-                        "Mandatory"     : false
-                    },
-                    {
-                        "Name"          : "TallySolutions",
-                        "ProjectFilter" : ["TallyPMT","TWShared"],
-                        "Mandatory"     : false
-                    }
-                ]
-            }
-        ]
-    },
-    "ThirdPartyRepositories" :
-    [
-        {
-            "Name"           : "GitHub",
-            "URL"            : "https://github.com",
-            "Owners"  :
-            [
-                {
-                    "Name"           : "TallySolutions",
-                    "Repositories"   : 
-                    [
-                        {
-                            "Name"    : "NanOS",
-                            "CloneDir": "ThirdParty"
-                        },
-                        {
-                            "Name"    : "OPS",
-                            "CloneDir": "ThirdParty"
-                        },
-                        {
-                            "Name"    : "TWVSExtension",
-                            "CloneDir": "TallySolutions"
-                        }
-                    ]
-                }
+   "Version":"1.3",
+   "ADORepositories":{
+      "BranchPolicies":{
+         "DevelopmentTrunkName":"DevTrunk",
+         "PreReleaseTrunkName":"PreReleaseTrunk",
+         "ReleaseTrunkName":"ReleaseTrunk",
+         "WorkBranchPrefix":"Work",
+         "EnableRecursiveRebase":true
+      },
+      "Repositories":[
+         {
+            "Name":"ADOService",
+            "URL":"https://dev.azure.com",
+            "Organizations":[
+               {
+                  "Name":"TallyWorld",
+                  "ProjectFilter":[ 
+                  ],
+                  "Mandatory":true,
+                  "Comments":"Blank project filter means, ALL projects under the Organization.",
+                  "ADOProjects":[
+                     {
+                        "Project":"BuildSupportPlatform",
+                        "SourceRepos":[
+                           "TWBuildSupport.Source"
+                        ],
+                        "TestRepos":[
+                        ]
+                     },
+                     {
+                        "Project":"DevSupportPlatform",
+                        "SourceRepos":[
+                           "TWDevSupport.Source"
+                        ],
+                        "TestRepos":[
+                        ]
+                     },
+                     {
+                        "Project":"UniversalPlatform",
+                        "SourceRepos":[
+                           "TWUniversal.Source"
+                        ],
+                        "TestRepos":[
+                           "TWUniversal.Test"
+                        ]
+                     },
+                     {
+                        "Project":"FoundationalPlatform",
+                        "SourceRepos":[
+                           "TWCoreBasic.Source",
+                           "TWCoreUtils.Source",
+                           "TWCoreMain.Source",
+                           "TWCoreFixedDataTypes.Source",
+                           "TWCoreBuffers.Source",
+                           "TWCoreVariableDataTypes.Source",
+                           "TWCoreObject.Source",
+                           "TWNewCoreProcessMgr.Source",
+                           "TWNewCoreStructures.Source",
+                           "TWCoreStructures.Source",
+                           "TWCoreProcessMgr.Source",
+                           "TWCoreBaseEngine.Source",
+                           "TWCoreSchemaMgr.Source",
+                           "TWCoreCacheStructures.Source",
+                           "TWCoreCommIO.Source",
+                           "TWCoreCommMgr.Source", 
+                           "TWCoreDiskIO.Source", 
+                           "TWCoreDiskMgr.Source",
+                           "TWCoreDataMgr.Source",
+                           "TWNewCoreDiskIO.Source",
+                           "TWNewCoreDiskMgr.Source",
+                           "TWNewCoreDataMgr.Source",
+                           "TWCoreDeviceIOMain.Source",
+                           "TWCoreDeviceIOWorker.Source",
+                           "TWCoreDeviceMgr.Source",
+                           "TWCoreApplicationEngine.Source",
+                           "TWCoreNotification.Source"
+                        ],
+                        "TestRepos":[
+                           "TWCoreMain.Test",
+                           "TWCoreFixedDataTypes.Test",
+                           "TWCoreBuffers.Test",
+                           "TWCoreVariableDataTypes.Test",
+                           "TWCoreObject.Test",                           
+                           "TWNewCoreProcessMgr.Test",
+                           "TWNewCoreStructures.Test",
+                           "TWCoreStructures.Test",
+                           "TWCoreProcessMgr.Test",
+                           "TWCoreSchemaMgr.Test",
+                           "TWCoreCacheStructures.Test",
+                           "TWCoreCommIO.Test",
+                           "TWCoreCommMgr.Test", 
+                           "TWCoreDiskIO.Test", 
+                           "TWCoreDiskMgr.Test",
+                           "TWCoreDataMgr.Test",
+                           "TWNewCoreDiskIO.Test",
+                           "TWNewCoreDiskMgr.Test",
+                           "TWNewCoreDataMgr.Test",
+                           "TWCoreDeviceIOMain.Test",
+                           "TWCoreDeviceIOWorker.Test",
+                           "TWCoreDeviceMgr.Test",
+                           "TWCoreApplicationEngine.Test",
+                           "TWCoreNotification.Test"
+                        ]
+                     },
+                     {
+                        "Project":"AdminPlatform",
+                        "SourceRepos":[
+                           "TWAdminEngine.Source",
+                           "TWAkashAdminEngine.Source"
+                        ],
+                        "TestRepos":[
+                           "TWAdminEngine.Test"
+                        ]
+                     },
+                     {
+                        "Project":"ServerPlatform",
+                        "SourceRepos":[
+                           "TWServerEngine.Source"
+                        ],
+                        "TestRepos":[
+                           "TWServerEngine.Test"
+                        ]
+                     },
+                     {
+                        "Project":"ClientPlatform",
+                        "SourceRepos":[
+                           "TWInteractionEngine.Source",
+                           "TWVisualEngine.Source"
+                        ],
+                        "TestRepos":[
+                           "TWInteractionEngine.Test",
+                           "TWVisualEngine.Test"
+                        ]
+                     },
+                     {
+                        "Project":"InternalToolsLib",
+                        "SourceRepos":[
+                           "TWInternalToolsLib.Source"
+                        ],
+                        "TestRepos":[
+                        ]
+                     },
+                     {
+                        "Project":"Applications",
+                        "SourceRepos":[
+                           "TWInternalApplications.Source",
+                           "TWProducts.Source",
+                           "TWSpaceApplications.Source",
+                           "TWUtilities.Source"
+                        ],
+                        "TestRepos":[
+                           "TWProducts.Test"
+                        ]
+                     },
+                     {
+                        "Project":"InternalTools",
+                        "SourceRepos":[
+                           "TWDevTools.Source",
+                           "TWQATools.Source"
+                        ],
+                        "TestRepos":[
+                        ]
+                     }
+                  ]
+               },
+               {
+                  "Name":"TWPersonal",
+                  "ProjectFilter":[
+                     "${DomainName}"
+                  ],
+                  "Mandatory":false
+               },
+               {
+                  "Name":"TallySolutions",
+                  "ProjectFilter":[
+                     "TallyPMT",
+                     "TWShared"
+                  ],
+                  "Mandatory":false,
+                  "ADOProjects":[
+                     {
+                        "Project":"TallyPMT",
+                        "SourceRepos":[
+                           "TallyPMT.Source"
+                        ],
+                        "TestRepos":[
+                        ]
+                     },
+                     {
+                        "Project":"TWShared",
+                        "SourceRepos":[
+                           "TWSampleProducts",
+                           "TWScratchPadApps",
+                           "TWProofOfConcept"
+                        ],
+                        "TestRepos":[
+                        ]
+                     }
+                  ]
+               }
             ]
-        }
-    ],
-    "GitConfig" : 
-    {
-        "CloneWaitTime"  : 300,
-        "Configs"        :
-        [
+         }
+      ]
+   },
+   "ThirdPartyRepositories":[
+      {
+         "Name":"GitHub",
+         "URL":"https://github.com",
+         "Owners":[
             {
-                "Name" : "core.ignoreCase",
-                "Value": "false"
-            },
-            {
-                "Name" : "core.autocrlf",
-                "Value": "false"
+               "Name":"TallySolutions",
+               "Repositories":[
+                  {
+                     "Name":"NanOS",
+                     "CloneDir":"ThirdParty"
+                  },
+                  {
+                     "Name":"OPS",
+                     "CloneDir":"ThirdParty"
+                  },
+                  {
+                     "Name":"TWVSExtension",
+                     "CloneDir":"TallySolutions"
+                  }
+               ]
             }
-        ]
-    },
-    "RepoListConfig"   :
-    {
-        "AcceptableRefreshGap" : 1,
-        "DelayedExecutionTime" : 3,
-        "StaleIfNotSyncSince"  : 24
-    },
-    "RemoteName" : "origin",
-    "IgnoredFolders" : ["Builds", "Tools", ".vs", "backups", "out"]
- }
+         ]
+      }
+   ],
+   "GitConfig":{
+      "CloneWaitTime":300,
+      "Configs":[
+         {
+            "Name":"core.ignoreCase",
+            "Value":"false"
+         },
+         {
+            "Name":"core.autocrlf",
+            "Value":"false"
+         }
+      ]
+   },
+   "RepoListConfig":{
+      "AcceptableRefreshGap":1,
+      "DelayedExecutionTime":3,
+      "StaleIfNotSyncSince":1
+   },
+   "RemoteName":"origin",
+   "IgnoredFolders":[
+      "Builds",
+      "Tools",
+      ".vs",
+      "backups",
+      "out"
+   ],
+   "RepoTabHeaders":[
+      "TWSources",
+      "TWTests",
+      "TWSecondary",
+      "Others"
+   ]
+}

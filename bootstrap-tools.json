@@ -959,7 +959,7 @@
                     "Command": "clang-tidy --version",
                     "OutputType": "PlainText",
                     "Line": 2,
-                    "Column": 2
+                    "Column": 3
                 },
                 "Installer": {
                     "InstallDir": "${TWHome}\\Tools\\clang-tidy",

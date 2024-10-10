@@ -465,8 +465,7 @@
                     "InstallDir": "/user/local/bin",
                     "InstallCommands": [
                         "sudo chown -R $(whoami) /opt/homebrew  /usr/local/var/homebrew /usr/local/Cellar | echo",
-                        "brew install llvm",
-                        "sudo ln -s \"$(brew --prefix llvm@${VERSION-MAJOR})/bin/clang-tidy\" \"/usr/local/bin/clang-tidy\""
+                        "brew install llvm"
                     ],
                     "UninstallCommands": [
                         "brew remove llvm"

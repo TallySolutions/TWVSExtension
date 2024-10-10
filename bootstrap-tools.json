@@ -959,7 +959,7 @@
                     "Command": "clang-tidy --version",
                     "OutputType": "PlainText",
                     "Line": 1,
-                    "Column": 3
+                    "Column": 2
                 },
                 "Installer": {
                     "URL": {

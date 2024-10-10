@@ -952,6 +952,33 @@
             }
         },
         {
+            "Name": "clang-tidy",
+            "Windows": {
+                "VersionString": "18.1.8",
+                "VersionInfo": {
+                    "Command": "clang-tidy --version",
+                    "OutputType": "PlainText",
+                    "Line": 1,
+                    "Column": 3
+                },
+                "Installer": {
+                    "URL": {
+                        "X64": "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.8/clang+llvm-18.1.8-x86_64-pc-windows-msvc.tar.xz",
+                        "ARM64": "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.8/clang+llvm-18.1.8-x86_64-pc-windows-msvc.tar.xz"
+                    },
+                    "InstallDir": "${TWHome}\\Tools\\clang-tidy",
+                    "InstallCommands": [
+                        "DOWNLOAD ${URL_0} ${TEMPDIR}\\clang+llvm-18.1.8-x86_64-pc-windows-msvc.tar.xz",
+                        "UNZIP ${TEMPDIR}\\clang+llvm-18.1.8-x86_64-pc-windows-msvc.tar.xz",
+                        "DEL /F ${TEMPDIR}\\clang+llvm-18.1.8-x86_64-pc-windows-msvc.tar.xz"
+                    ],
+                    "UninstallCommands": [
+                        "rmdir /S /Q ${InstallDir}"
+                    ]
+                }
+            }
+        },
+        {
             "Name": "Bison",
             "Windows": {
                 "VersionString": "3.8.2",

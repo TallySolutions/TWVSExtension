@@ -958,7 +958,7 @@
                 "VersionInfo": {
                     "Command": "clang-tidy --version",
                     "OutputType": "PlainText",
-                    "Line": 1,
+                    "Line": 2,
                     "Column": 3
                 },
                 "Installer": {

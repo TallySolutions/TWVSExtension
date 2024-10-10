@@ -964,7 +964,7 @@
                 "Installer": {
                     "InstallDir": "${TWHome}\\Tools\\clang-tidy",
                     "InstallCommands": [
-                        "move ${TWHome}\\Tools\\Android\\NDK\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang-tidy.exe ${TWHome}\\Tools\\clang-tidy"
+                        "move ${TWHome}\\Tools\\Android\\NDK\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin ${TWHome}\\Tools\\clang-tidy"
                     ],
                     "UninstallCommands": [
                         "rmdir /S /Q ${TWHome}\\Tools\\clang-tidy"

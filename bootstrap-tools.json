@@ -959,7 +959,7 @@
                     "Command": "${TWHome}\\Tools\\Android\\NDK\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang-tidy --version",
                     "OutputType": "PlainText",
                     "Line": 2,
-                    "Column": 14
+                    "Column": 3
                 },
                 "Installer": {
                     "InstallDir": "${TWHome}\\Tools\\clang-tidy",

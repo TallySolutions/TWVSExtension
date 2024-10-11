@@ -459,7 +459,7 @@
                     "Command": "clang-tidy --version",
                     "OutputType": "PlainText",
                     "Line": 1,
-                    "Column": 2
+                    "Column": 4
                 },
                 "Installer": {
                     "InstallCommands": [

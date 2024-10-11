@@ -284,7 +284,35 @@
                     "InstallDoc": "https://tallywiki.tallysolutions.com/display/TWP/Install+Required+Software+on+Linux+x64+Host#InstallRequiredSoftwareonLinuxx64Host-InstallLLVM"
                 }
             }
+        },{
+            "Name": "clang-tidy",
+            "Linux": {
+                "VersionString": "18.1.8",
+                "Command": "clang++",
+                "VersionInfo": {
+                    "Command": "${COMMAND} --version",
+                    "OutputType": "PlainText",
+                    "Line": 1,
+                    "Column": 4
+                },
+                "Installer": {
+                    "InstallDir": "/usr/bin",
+                    "InstallCommands": [
+                        "sudo apt install -y clang-tidy-${VERSION-MAJOR}",
+                        "sudo ln -sf /usr/bin/clang-tidy-${VERSION-MAJOR} /usr/bin/clang-tidy"
+                    ],
+                    "UninstallCommands": [
+                        "sudo apt purge clang-tidy* -y",
+                        "sudo apt autoremove -y"
+                    ],
+                    "DependsOn": [ "LLVM" ],
+                    "InstallDoc": "https://tallywiki.tallysolutions.com/display/TWP/Install+Required+Software+on+Linux+x64+Host#InstallRequiredSoftwareonLinuxx64Host-InstallLLVM"
+                    
+                    
+                }
+            }
         },
+        
         {
             "Name": "git",
             "Windows": {
@@ -420,6 +448,28 @@
                 "Installer": {
                     "InstallDir": "/opt/homebrew",
                     "InstallDoc": "https://docs.brew.sh/Installation"
+                }
+            }
+        },
+        {
+            "Name": "clang-tidy",
+            "MacOS": {
+                "VersionString": "18.1.8",
+                "VersionInfo": {
+                    "Command": "clang-tidy --version",
+                    "OutputType": "PlainText",
+                    "Line": 1,
+                    "Column": 4
+                },
+                "Installer": {
+                    "InstallCommands": [
+                        "sudo chown -R $(whoami) /opt/homebrew  /usr/local/var/homebrew /usr/local/Cellar | echo",
+                        "brew install llvm@${VERSION-MAJOR}",
+                        "sudo ln -sf /opt/homebrew/opt/llvm@${VERSION-MAJOR}/bin/clang-tidy /usr/local/bin"
+                    ],
+                    "UninstallCommands": [
+                        "brew remove llvm@${VERSION-MAJOR}"
+                    ],
                 }
             }
         },
@@ -899,6 +949,30 @@
                     ]
                 },
                 "DependsOn": [ "Java" ]
+            }
+        },
+        {
+            "Name": "clang-tidy",
+            "Windows": {
+                "VersionString": "12.0.8",
+                "VersionInfo": {
+                    "Command": "${TWHome}\\Tools\\clang-tidy\\clang-tidy --version",
+                    "OutputType": "PlainText",
+                    "Line": 2,
+                    "Column": 3,
+                    "Suffix": "git",
+                    
+                },
+                "Installer": {
+                    "InstallDir": "${TWHome}\\Tools\\clang-tidy",
+                    "InstallCommands": [
+                        "mkdir ${TWHome}\\Tools\\clang-tidy",
+                        "copy ${TWHome}\\Tools\\Android\\NDK\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang-tidy.exe ${TWHome}\\Tools\\clang-tidy",
+                    ],
+                    "UninstallCommands": [
+                        "rmdir /S /Q ${TWHome}\\Tools\\clang-tidy"
+                    ]
+                }
             }
         },
         {

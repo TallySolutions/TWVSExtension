@@ -956,7 +956,7 @@
             "Windows": {
                 "VersionString": "18.1.8",
                 "VersionInfo": {
-                    "Command": "${TWHome}\\Tools\\clang-tidy\\clang++ --version",
+                    "Command": "${TWHome}\\Tools\\clang-tidy\\clang-tidy --version",
                     "OutputType": "PlainText",
                     "Line": 1,
                     "Column": 3

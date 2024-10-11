@@ -956,7 +956,7 @@
             "Windows": {
                 "VersionString": "18.1.8",
                 "VersionInfo": {
-                    "Command": "clang++ --version",
+                    "Command": "${TWHome}\\Tools\\clang-tidy\\clang++ --version",
                     "OutputType": "PlainText",
                     "Line": 1,
                     "Column": 3
@@ -965,7 +965,6 @@
                     "InstallDir": "${TWHome}\\Tools\\clang-tidy",
                     "InstallCommands": [
                         "copy ${TWHome}\\Tools\\Android\\NDK\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin ${TWHome}\\Tools\\clang-tidy",
-                        "setx PATH %PATH%;%TWHome%\\Tools\\clang-tidy"
                     ],
                     "UninstallCommands": [
                         "rmdir /S /Q ${TWHome}\\Tools\\clang-tidy"

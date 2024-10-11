@@ -958,8 +958,8 @@
                 "VersionInfo": {
                     "Command": "${TWHome}\\Tools\\Android\\NDK\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang-tidy --version",
                     "OutputType": "PlainText",
-                    "Line": 4,
-                    "Column": 3
+                    "Line": 2,
+                    "Column": 4
                 },
                 "Installer": {
                     "InstallDir": "${TWHome}\\Tools\\clang-tidy",

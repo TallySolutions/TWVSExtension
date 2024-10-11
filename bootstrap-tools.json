@@ -956,7 +956,7 @@
             "Windows": {
                 "VersionString": "12.0.8",
                 "VersionInfo": {
-                    "Command": "${TWHome}\\Tools\\Android\\NDK\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang-tidy --version",
+                    "Command": "${TWHome}\\Tools\\clang-tidy\\clang-tidy --version",
                     "OutputType": "PlainText",
                     "Line": 2,
                     "Column": 3,

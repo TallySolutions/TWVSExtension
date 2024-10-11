@@ -956,7 +956,7 @@
             "Windows": {
                 "VersionString": "18.1.8",
                 "VersionInfo": {
-                    "Command": "${TWHome}\\Tools\\clang-tidy\\clang-tidy --version",
+                    "Command": "${TWHome}\\Tools\\Android\\NDK\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang-tidy --version",
                     "OutputType": "PlainText",
                     "Line": 3,
                     "Column": 3

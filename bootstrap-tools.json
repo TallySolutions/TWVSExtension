@@ -464,6 +464,7 @@
                 "Installer": {
                     "InstallCommands": [
                         "sudo chown -R $(whoami) /opt/homebrew  /usr/local/var/homebrew /usr/local/Cellar | echo",
+                        "chmod u+w /usr/local/share/zsh /usr/local/share/zsh/site-functions",
                         "brew install llvm@${VERSION-MAJOR}",
                         "sudo ln -sf /opt/homebrew/opt/llvm@${VERSION-MAJOR}/bin/clang-tidy /usr/local/bin"
                     ],

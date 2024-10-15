@@ -288,7 +288,7 @@
             "Name": "clang-tidy",
             "Linux": {
                 "VersionString": "18.1.8",
-                "Command": "clang++",
+                "Command": "clang-tidy",
                 "VersionInfo": {
                     "Command": "${COMMAND} --version",
                     "OutputType": "PlainText",

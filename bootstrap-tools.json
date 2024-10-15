@@ -953,30 +953,6 @@
             }
         },
         {
-            "Name": "clang-tidy",
-            "Windows": {
-                "VersionString": "12.0.8",
-                "VersionInfo": {
-                    "Command": "${TWHome}\\Tools\\clang-tidy\\clang-tidy --version",
-                    "OutputType": "PlainText",
-                    "Line": 2,
-                    "Column": 3,
-                    "Suffix": "git",
-                    
-                },
-                "Installer": {
-                    "InstallDir": "${TWHome}\\Tools\\clang-tidy",
-                    "InstallCommands": [
-                        "mkdir ${TWHome}\\Tools\\clang-tidy",
-                        "copy ${TWHome}\\Tools\\Android\\NDK\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin ${TWHome}\\Tools\\clang-tidy",
-                    ],
-                    "UninstallCommands": [
-                        "rmdir /S /Q ${TWHome}\\Tools\\clang-tidy"
-                    ]
-                }
-            }
-        },
-        {
             "Name": "Bison",
             "Windows": {
                 "VersionString": "3.8.2",

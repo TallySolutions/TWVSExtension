@@ -130,7 +130,7 @@
                     "Command": "${COMMAND} --version",
                     "OutputType": "PlainText",
                     "Line": 2,
-                    "Column": 4
+                    "Column": 3
                 },
                 "Installer": {
                     "InstallDir": "${VSClangTidyProductLocation}",

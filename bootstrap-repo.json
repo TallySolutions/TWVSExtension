@@ -63,6 +63,7 @@
                            "TWCoreSchemaMgr.Source",
                            "TWCoreCacheStructures.Source",
                            "TWCoreCommIO.Source",
+                           "TWCoreNotification.Source",
                            "TWCoreCommMgr.Source", 
                            "TWCoreDiskIO.Source", 
                            "TWCoreDiskMgr.Source",
@@ -73,8 +74,7 @@
                            "TWCoreDeviceIOMain.Source",
                            "TWCoreDeviceIOWorker.Source",
                            "TWCoreDeviceMgr.Source",
-                           "TWCoreApplicationEngine.Source",
-                           "TWCoreNotification.Source"
+                           "TWCoreApplicationEngine.Source"
                         ],
                         "TestRepos":[
                            "TWCoreMain.Test",
@@ -89,6 +89,7 @@
                            "TWCoreSchemaMgr.Test",
                            "TWCoreCacheStructures.Test",
                            "TWCoreCommIO.Test",
+                           "TWCoreNotification.Test",
                            "TWCoreCommMgr.Test", 
                            "TWCoreDiskIO.Test", 
                            "TWCoreDiskMgr.Test",
@@ -99,8 +100,7 @@
                            "TWCoreDeviceIOMain.Test",
                            "TWCoreDeviceIOWorker.Test",
                            "TWCoreDeviceMgr.Test",
-                           "TWCoreApplicationEngine.Test",
-                           "TWCoreNotification.Test"
+                           "TWCoreApplicationEngine.Test"
                         ]
                      },
                      {

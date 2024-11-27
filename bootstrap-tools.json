@@ -122,6 +122,57 @@
             }
         },
         {
+            "Name": "TWBaseBuildSystem",
+            "Windows": {
+                "VersionType": "ArtifactoryLatest",
+                "Artifactory": {
+                    "Name": "ADOService",
+                    "Organization": "TallyWorld",
+                    "Feed": "Common-BuildTools",
+                    "Package": "twbasebuildsystem"
+                },
+                "VersionInfo": {
+                    "Command": "type ${InstallDir}\\twbasebuildsystem.properties",
+                    "OutputType": "PlainText",
+                    "Line": 1,
+                    "Column": 3
+                },
+                "Installer": {
+                    "InstallDir": "${TWHome}\\Tools\\TWBaseBuildSystem",
+                    "InstallCommands": [
+                        "ADO_DOWNLOAD"
+                    ],
+                    "UninstallCommands": [
+                        "rmdir /S /Q ${InstallDir}"
+                    ]
+                },
+            }
+            "Linux": {
+                "VersionType": "ArtifactoryLatest",
+                "Artifactory": {
+                    "Name": "ADOService",
+                    "Organization": "TallyWorld",
+                    "Feed": "Common-BuildTools",
+                    "Package": "twbasebuildsystem"
+                },
+                "VersionInfo": {
+                    "Command": "type ${InstallDir}\\twbasebuildsystem.properties",
+                    "OutputType": "PlainText",
+                    "Line": 1,
+                    "Column": 3
+                },
+                "Installer": {
+                    "InstallDir": "${TWHome}\\Tools\\TWBaseBuildSystem",
+                    "InstallCommands": [
+                        "ADO_DOWNLOAD"
+                    ],
+                    "UninstallCommands": [
+                        "rmdir /S /Q ${InstallDir}"
+                    ]
+                },
+            }
+        },
+        {
             "Name": "Ninja",
             "Windows": {
                 "VersionString": "1.11.0",

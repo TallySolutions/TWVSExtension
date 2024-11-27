@@ -188,8 +188,7 @@
                 "Installer": {
                     "InstallDir": "/Users/Shared/TWBaseBuildSystem",
                     "InstallCommands": [
-                        "ADO_DOWNLOAD",
-                        "sudo chmod -R 755 /Users/Shared/GoogleTest/Apple"
+                        "ADO_DOWNLOAD"
                     ],
                     "UninstallCommands": [
                         "rmdir /S /Q ${InstallDir}"

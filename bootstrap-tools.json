@@ -146,7 +146,7 @@
                         "rmdir /S /Q ${InstallDir}"
                     ]
                 },
-            }
+            },
             "Linux": {
                 "VersionType": "ArtifactoryLatest",
                 "Artifactory": {

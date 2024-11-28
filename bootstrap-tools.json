@@ -145,7 +145,7 @@
                     "UninstallCommands": [
                         "rmdir /S /Q ${InstallDir}"
                     ]
-                },
+                }
             },
             "Linux": {
                 "VersionType": "ArtifactoryLatest",
@@ -169,7 +169,7 @@
                     "UninstallCommands": [
                         "rmdir /S /Q ${InstallDir}"
                     ]
-                },
+                }
             },
             "MacOS": {
                 "VersionType": "ArtifactoryLatest",

@@ -193,7 +193,7 @@
                     "UninstallCommands": [
                         "rmdir /S /Q ${InstallDir}"
                     ]
-                },
+                }
             }
         },
         {

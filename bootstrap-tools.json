@@ -413,6 +413,11 @@
                         "FixCommand": "git config --global core.autocrlf false"
                     },
                     {
+                        "Command": "git config --global --default false core.ignoreCase",
+                        "ExpectedOutput": "false",
+                        "FixCommand": "git config --global core.ignoreCase false"
+                    },
+                    {
                         "Command": "git config --global user.name",
                         "ExpectedOutput": "${USERNAME}",
                         "FixCommand": "git config --global user.name \"${USERNAME}\""

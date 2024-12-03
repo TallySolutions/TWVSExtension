@@ -43,13 +43,6 @@
             "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreMain.Test",
             "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreMain.Test"
         },
-        ////{
-        ////    "RepoName": "TWCoreMainTest.Source",
-        ////    "TWRepoType": "Sources",
-        ////    "Category": "FoundationalPlatform",
-        ////    "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreMain.Test",
-        ////    "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreMainTest.Test"
-        ////},
         {
             "RepoName": "TWCoreBasic.Source",
             "TWRepoType": "Sources",

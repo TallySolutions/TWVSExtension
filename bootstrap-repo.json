@@ -20,7 +20,7 @@
             "TWRepoType": "Sources",
             "Category": "DevSupportPlatform",
             "RemoteUrl": "https://dev.azure.com/TallyWorld/DevSupportPlatform/_git/TWDevSupport.Source",
-            "LocalPath": "TallyWorld\\UniversalPlatform\\TWDevSupport.Source"
+            "LocalPath": "TallyWorld\\DevSupportPlatform\\TWDevSupport.Source"
         },
         {
             "RepoName": "TWUniversal.Source",

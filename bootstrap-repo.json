@@ -16,6 +16,13 @@
             "LocalPath": "TallyWorld\\BuildSupportPlatform\\TWBuildSupport.Source"
         },
         {
+            "RepoName": "TWDevSupport.Source",
+            "TWRepoType": "Sources",
+            "Category": "DevSupportPlatform",
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/DevSupportPlatform/_git/TWDevSupport.Source",
+            "LocalPath": "TallyWorld\\UniversalPlatform\\TWDevSupport.Source"
+        },
+        {
             "RepoName": "TWUniversal.Source",
             "TWRepoType": "Sources",
             "Category": "UniversalPlatform",

@@ -160,7 +160,7 @@
             "RepoName": "TWNewCoreObject.Source",
             "TWRepoType": "Sources",
             "Category": "FoundationalPlatform",
-            "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreVariableDataTypes.Source",
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWNewCoreObject.Source",
             "LocalPath": "TallyWorld\\FoundationalPlatform\\TWNewCoreObject.Source"
         },
         {
@@ -663,15 +663,16 @@
 
         {
             "RepoName": "TWVSExtension",
-            "Category": "Others/TallySolutions",
+            "TWRepoType": "TWSecondary",
+            "Category": "TallySolutions",
             "RemoteUrl": "https://github.com/TallySolutions/TWVSExtension.git",
             "LocalPath": "TallySolutions\\TWVSExtension"
         },
         {
             "RepoName": "OPS",
-            "Category": "Others/ThirdParty",
-            "RemoteUrl": null,
-            "https": "github.com/TallySolutions/ops.git",
+            "TWRepoType": "ThirdParty",
+            "Category": "ThirdParty",
+            "RemoteUrl": "https://github.com/TallySolutions/ops.git",
             "LocalPath": "ThirdParty\\OPS"
         }
     ],

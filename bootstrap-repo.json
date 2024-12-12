@@ -171,6 +171,22 @@
             "LocalPath": "TallyWorld\\FoundationalPlatform\\TWNewCoreProcessMgr.Test"
         },
 
+       {
+            "RepoName": "TWCoreProcessMgr.Source",
+            "TWRepoType": "Sources",
+            "Category": "FoundationalPlatform",
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreProcessMgr.Source",
+            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreProcessMgr.Source"
+        },
+        {
+            "RepoName": "TWCoreProcessMgr.Test",
+            "TWRepoType": "TWTests",
+            "Category": "FoundationalPlatform",
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreProcessMgr.Test",
+            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreProcessMgr.Test"
+        },
+
+
 
         {
             "RepoName": "TWNewCoreStructures.Source",
@@ -185,21 +201,6 @@
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWNewCoreStructures.Test",
             "LocalPath": "TallyWorld\\FoundationalPlatform\\TWNewCoreStructures.Test"
-        },
-
-        {
-            "RepoName": "TWCoreProcessMgr.Source",
-            "TWRepoType": "Sources",
-            "Category": "FoundationalPlatform",
-            "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreProcessMgr.Source",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreProcessMgr.Source"
-        },
-        {
-            "RepoName": "TWCoreProcessMgr.Test",
-            "TWRepoType": "TWTests",
-            "Category": "FoundationalPlatform",
-            "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreProcessMgr.Test",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreProcessMgr.Test"
         },
 
         {

@@ -37,32 +37,11 @@
             "LocalPath": "TallyWorld\\UniversalPlatform\\TWUniversal.Test"
         },
         {
-            "RepoName": "TWCoreMain.Source",
-            "TWRepoType": "Sources",
-            "Category": "FoundationalPlatform",
-            "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreMain.Source",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreMain.Source"
-        },
-        {
-            "RepoName": "TWCoreMain.Test",
-            "TWRepoType": "TWTests",
-            "Category": "FoundationalPlatform",
-            "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreMain.Test",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreMain.Test"
-        },
-        {
             "RepoName": "TWCoreBasic.Source",
             "TWRepoType": "Sources",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreBasic.Source",
             "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreBasic.Source"
-        },
-        {
-            "RepoName": "TWCoreBasic.Test",
-            "TWRepoType": "TWTests",
-            "Category": "FoundationalPlatform",
-            "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreBasic.Test",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreBasic.Test"
         },
         {
             "RepoName": "TWCoreUtils.Source",
@@ -71,15 +50,6 @@
             "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreUtils.Source",
             "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreUtils.Source"
         },
-        {
-            "RepoName": "TWCoreUtils.Test",
-            "TWRepoType": "TWTests",
-            "Category": "FoundationalPlatform",
-            "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreUtils.Test",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreUtils.Test"
-        },
-
-
         {
             "RepoName": "TWCoreMain.Source",
             "TWRepoType": "Sources",

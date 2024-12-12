@@ -586,28 +586,28 @@
             "TWRepoType": "TWSecondary",
             "Category": "TallyPMT",
             "RemoteUrl": "https://dev.azure.com/TallySolutions/TallyPMT/_git/TallyPMT.Source",
-            "LocalPath": "TallySolutions\\TallyPMT.Source"
+            "LocalPath": "TallySolutions\\TallyPMT\\TallyPMT.Source"
         },
         {
             "RepoName": "TWSampleProducts",
             "TWRepoType": "TWSecondary",
             "Category": "TWShared",
             "RemoteUrl": "https://dev.azure.com/TallySolutions/TWShared/_git/TWSampleProducts",
-            "LocalPath": "TallySolutions\\TWSampleProducts"
+            "LocalPath": "TallySolutions\\TWShared\\TWSampleProducts"
         },
         {
             "RepoName": "TWScratchPadApps",
             "TWRepoType": "TWSecondary",
             "Category": "TWShared",
             "RemoteUrl": "https://dev.azure.com/TallySolutions/TWShared/_git/TWScratchPadApps",
-            "LocalPath": "TallySolutions\\TWScratchPadApps"
+            "LocalPath": "TallySolutions\\TWShared\\TWScratchPadApps"
         },
         {
             "RepoName": "TWProofOfConcept",
             "TWRepoType": "TWSecondary",
             "Category": "TWShared",
             "RemoteUrl": "https://dev.azure.com/TallySolutions/TWShared/_git/TWProofOfConcept",
-            "LocalPath": "TallySolutions\\TWProofOfConcept"
+            "LocalPath": "TallySolutions\\TWShared\\TWProofOfConcept"
         },
 
 

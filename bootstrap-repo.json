@@ -224,13 +224,6 @@
             "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreBaseEngine.Source",
             "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreBaseEngine.Source"
         },
-        {
-            "RepoName": "TWCoreBaseEngine.Test",
-            "TWRepoType": "TWTests",
-            "Category": "FoundationalPlatform",
-            "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreBaseEngine.Test",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreBaseEngine.Test"
-        },
 
         {
             "RepoName": "TWCoreSchemaMgr.Source",
@@ -481,13 +474,6 @@
             "Category": "AdminPlatform",
             "RemoteUrl": "https://dev.azure.com/TallyWorld/AdminPlatform/_git/TWAkashAdminEngine.Source",
             "LocalPath": "TallyWorld\\AdminPlatform\\TWAkashAdminEngine.Source"
-        },
-        {
-            "RepoName": "TWAkashAdminEngine.Test",
-            "TWRepoType": "TWTests",
-            "Category": "AdminPlatform",
-            "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWAkashAdminEngine.Test",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWAkashAdminEngine.Test"
         },
 
         {

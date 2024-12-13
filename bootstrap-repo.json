@@ -639,7 +639,7 @@
     "RepoListConfig": {
         "AcceptableRefreshGap": 1,
         "DelayedExecutionTime": 3,
-        "StaleIfNotSyncSince": 0.01
+        "StaleIfNotSyncSince": 24
     },
     "RemoteName": "origin",
     "IgnoredFolders": [

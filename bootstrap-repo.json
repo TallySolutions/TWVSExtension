@@ -294,14 +294,15 @@
             "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWNewCoreNotification.Source",
             "LocalPath": "TallyWorld\\FoundationalPlatform\\TWNewCoreNotification.Source"
         },
+
         {
-            "RepoName": "TWCoreNotification.Test",
+            "RepoName": "TWNewCoreNotification.Test",
             "TWRepoType": "TWTests",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWNewCoreNotification.Test",
             "LocalPath": "TallyWorld\\FoundationalPlatform\\TWNewCoreNotification.Test"
         },
-
+        
         {
             "RepoName": "TWNewCoreCommMgr.Source",
             "TWRepoType": "TWSources",

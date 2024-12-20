@@ -776,7 +776,7 @@
         {
             "Name": "Java",
             "Windows": {
-                "VersionString": "11.1.1",
+                "VersionString": "17.0.13",
                 "Artifactory": {
                     "Name": "ADOService",
                     "Organization": "TallyWorld",

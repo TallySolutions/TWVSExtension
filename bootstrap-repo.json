@@ -23,6 +23,13 @@
             "LocalPath": "TallyWorld\\DevSupportPlatform\\TWDevSupport.Source"
         },
         {
+            "RepoName": "TWDevSupport.Test",
+            "TWRepoType": "TWTests",
+            "Category": "DevSupportPlatform",
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/DevSupportPlatform/_git/TWDevSupport.Test",
+            "LocalPath": "TallyWorld\\DevSupportPlatform\\TWDevSupport.Test"
+        },
+        {
             "RepoName": "TWUniversal.Source",
             "TWRepoType": "TWSources",
             "Category": "UniversalPlatform",

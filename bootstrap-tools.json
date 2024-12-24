@@ -426,7 +426,12 @@
                         "Command": "git config --global user.email",
                         "ExpectedOutput": "${EMAIL}",
                         "FixCommand": "git config --global user.email ${EMAIL}"
-                    }
+                    },
+                    {
+                        "Command": "git config --global core.packedRefsTimeout",
+                        "ExpectedOutput": "5000",
+                        "FixCommand": "git config --global core.packedRefsTimeout 5000"
+                    },
                 ]
             },
             "Linux": {

@@ -431,7 +431,7 @@
                         "Command": "git config --global core.packedRefsTimeout",
                         "ExpectedOutput": "5000",
                         "FixCommand": "git config --global core.packedRefsTimeout 5000"
-                    },
+                    }
                 ]
             },
             "Linux": {

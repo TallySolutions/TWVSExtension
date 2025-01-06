@@ -8,7 +8,7 @@
 					<PropertyValue name="IndentSize">4</PropertyValue>
 					<PropertyValue name="InsertTabs">false</PropertyValue>
 				</ToolsOptionsSubCategory>
-		        <ToolsOptionsSubCategory name="C/C++ Specific" RegisteredName="C/C++ Specific" PackageName="Visual C++ Language Manager Package">
+		        <ToolsOptionsSubCategory name="C/C++" RegisteredName="C/C++" PackageName="Visual C++ Language Manager Package">
 	                <PropertyValue name="AutoIndentOnTab">false</PropertyValue>
 					<PropertyValue name="AutoFormatOnSemicolon">false</PropertyValue>
 					<PropertyValue name="AutoFormatOnPaste2">1</PropertyValue>

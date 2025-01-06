@@ -22,10 +22,6 @@
     "Directories"        :
     [
         { 
-            "Name"   : "Workspace",
-            "Path"   : "Workspace"
-        },
-        { 
             "Name"   : "Tools",
             "Path"   : "Tools"
         }

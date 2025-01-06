@@ -1490,7 +1490,7 @@
     "VisualStudioOptions": [
         {
             "Category": "TextEditor",
-            "SubCategory": "C/C++ Specific",
+            "SubCategory": "C/C++",
             "Properties": [
                 {
                     "Name": "ClangFormatExePath",

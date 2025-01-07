@@ -681,6 +681,13 @@
             "Category": "ThirdParty",
             "RemoteUrl": "https://github.com/TallySolutions/ops.git",
             "LocalPath": "ThirdParty\\OPS"
+        },
+        {
+            "RepoName": "nanos",
+            "TWRepoType": "ThirdParty",
+            "Category": "ThirdParty",
+            "RemoteUrl": "https://github.com/TallySolutions/nanos.git",
+            "LocalPath": "ThirdParty\\nanos"
         }
     ],
     "AdditionalRepositories": [

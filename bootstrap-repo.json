@@ -688,6 +688,14 @@
             "Category": "ThirdParty",
             "RemoteUrl": "https://github.com/TallySolutions/nanos.git",
             "LocalPath": "ThirdParty\\nanos"
+        },
+        {
+            "RepoName": "${DomainName}",
+            "TWRepoType": "Others",
+            "Category": "Personal",
+            "RemoteUrl": "https://dev.azure.com/",
+            "LocalPath": "TWPersonal",
+            "Organization": "TWPersonal"
         }
     ],
     "AdditionalRepositories": [

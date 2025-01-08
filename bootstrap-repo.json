@@ -693,7 +693,7 @@
             "RepoName": "${DomainName}",
             "TWRepoType": "Others",
             "Category": "Personal",
-            "RemoteUrl": "https://dev.azure.com/",
+            "RemoteUrl": "https://dev.azure.com/${DomainName}",
             "LocalPath": "TWPersonal",
             "Organization": "TWPersonal"
         }

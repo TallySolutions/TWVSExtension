@@ -22,6 +22,10 @@
             "Suffix": "_run_code_analysis"
         },
         {
+            "Name"  : "Clean Static Analyzer Report",
+            "Suffix": "_clean_yaml"
+        },
+        {
             "Name"  : "Create Coverage",
             "Suffix": "_create_coverage",
             "buildProperties": 

@@ -1145,7 +1145,7 @@
         {
             "Name": "Gradle",
             "Windows": {
-                "VersionString": "7.2",
+                "VersionString": "8.10.2",
                 "Artifactory": {
                     "Name": "ADOService",
                     "Organization": "TallyWorld",

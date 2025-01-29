@@ -1165,7 +1165,7 @@
                         "ADO_DOWNLOAD"
                     ],
                     "UninstallCommands": [
-                        "rmdir /S /Q ${InstallDir}"
+                        "rmdir /S /Q ${InstallDir}\\gradle"
                     ]
                 },
                 "DependsOn": [ "AzureCLI" ]

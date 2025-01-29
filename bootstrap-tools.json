@@ -925,7 +925,7 @@
         {
             "Name": "AndroidSDK_BuildTools",
             "Windows": {
-                "VersionString": "34.0.0",
+                "VersionString": "35.0.0",
                 "VersionInfo": {
                     "Command": "type ${InstallDir}\\source.properties",
                     "OutputType": "PlainText",
@@ -949,7 +949,7 @@
                     "InstallCommands": [
                         "if exist ${TWHome}\\Tools\\Android\\SDK\\build-tools\\ (rmdir /S /Q ${TWHome}\\Tools\\Android\\SDK\\build-tools\\)",
                         "(for /l %i in (1,1,10) do @echo y) > \"${TWHome}\\sdkmanager_responses.txt\"",
-                        "type \"${TWHome}\\sdkmanager_responses.txt\" | ${TWHome}\\Tools\\Android\\SDK\\cmdline-tools\\latest\\bin\\sdkmanager.bat \"platforms;android-34\" \"build-tools;34.0.0\" \"system-images;android-34;google_apis;x86_64\"",
+                        "type \"${TWHome}\\sdkmanager_responses.txt\" | ${TWHome}\\Tools\\Android\\SDK\\cmdline-tools\\latest\\bin\\sdkmanager.bat \"platforms;android-35\" \"build-tools;35.0.0\" \"system-images;android-35;google_apis;x86_64\"",
                         "start \"Android SDK Updates\" /wait cmd /c ${TWHome}\\Tools\\Android\\SDK\\cmdline-tools\\latest\\bin\\sdkmanager.bat --update",
                         " type \"${TWHome}\\sdkmanager_responses.txt\" | ${TWHome}\\Tools\\Android\\SDK\\cmdline-tools\\latest\\bin\\sdkmanager.bat --licenses",
                         "del \"${TWHome}\\sdkmanager_responses.txt\""
@@ -968,7 +968,7 @@
         {
             "Name": "AndroidNDK",
             "Windows": {
-                "VersionString": "23.0",
+                "VersionString": "27.0",
                 "VersionInfo": {
                     "Command": "type ${InstallDir}\\source.properties",
                     "OutputType": "PlainText",

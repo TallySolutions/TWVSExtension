@@ -968,7 +968,7 @@
         {
             "Name": "AndroidNDK",
             "Windows": {
-                "VersionString": "23.0",
+                "VersionString": "27.0",
                 "VersionInfo": {
                     "Command": "type ${InstallDir}\\source.properties",
                     "OutputType": "PlainText",

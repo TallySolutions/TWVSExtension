@@ -1162,7 +1162,8 @@
                     "InstallDir": "${TWHome}\\Tools\\gradle",
                     "InstallDoc": "https://tallywiki.tallysolutions.com/display/TWP/Install+Required+Software+on+Windows+x64+Host#InstallRequiredSoftwareonWindowsx64Host-InstallGradle",
                     "InstallCommands": [
-                        "ADO_DOWNLOAD"
+                        "ADO_DOWNLOAD",
+                        "move ${InstallDir}\\gradle ${InstallDir}",
                     ],
                     "UninstallCommands": [
                         "rmdir /S /Q ${InstallDir}"

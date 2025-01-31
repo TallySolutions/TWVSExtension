@@ -124,13 +124,7 @@
         {
             "Name": "clang-tidy",
             "Windows": {
-                "VersionType": "ArtifactoryLatest",
-                "Artifactory": {
-                    "Name": "ADOService",
-                    "Organization": "TallyWorld",
-                    "Feed": "Windows-x64-BuildTools",
-                    "Package": "clang-tidy"
-                },
+                "VersionString": "19.1.0",
                 "VersionInfo": {
                     "Command": "${InstallDir}\\clang-tidy.exe --version",
                     "OutputType": "PlainText",
@@ -138,9 +132,18 @@
                     "Column": 3
                 },
                 "Installer": {
+                    "URL": {
+                        "X64": "https://github.com/llvm/llvm-project/releases/download/llvmorg-19.1.0/clang+llvm-19.1.0-x86_64-pc-windows-msvc.tar.xz",
+                        "ARM64": "https://github.com/llvm/llvm-project/releases/download/llvmorg-19.1.0/clang+llvm-19.1.0-x86_64-pc-windows-msvc.tar.xz"
+                    },
                     "InstallDir": "${TWHome}\\Tools\\clang-tidy",
                     "InstallCommands": [
-                        "ADO_DOWNLOAD"
+                        "DOWNLOAD ${URL_0} ${TEMPDIR}\\clang+llvm-19.1.0-x86_64-pc-windows-msvc.tar.xz",
+                        "tar -xf ${TEMPDIR}\\clang+llvm-19.1.0-x86_64-pc-windows-msvc.tar.xz",
+                        "mkdir ${TWHome}\\Tools\\clang-tidy",
+                        "move ${TWHome}\\clang+llvm-19.1.0-x86_64-pc-windows-msvc\\bin\\clang-tidy.exe ${InstallDir}",
+                        "DEL /F ${TEMPDIR}\\clang+llvm-19.1.0-x86_64-pc-windows-msvc.tar.xz",
+                        "rmdir /S /Q ${TWHome}\\clang+llvm-19.1.0-x86_64-pc-windows-msvc"
                     ],
                     "UninstallCommands": [
                         "rmdir /S /Q ${InstallDir}"

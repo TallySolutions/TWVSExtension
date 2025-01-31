@@ -139,11 +139,10 @@
                     "InstallDir": "${TWHome}\\Tools\\clang-tidy",
                     "InstallCommands": [
                         "DOWNLOAD ${URL_0} ${TEMPDIR}\\clang+llvm-19.1.0-x86_64-pc-windows-msvc.tar.xz",
-                        "tar -xf ${TEMPDIR}\\clang+llvm-19.1.0-x86_64-pc-windows-msvc.tar.xz",
+                        "tar -xf ${TEMPDIR}\\clang+llvm-19.1.0-x86_64-pc-windows-msvc.tar.xz\\bin\\clang-tidy.exe",
                         "mkdir ${TWHome}\\Tools\\clang-tidy",
-                        "move ${TWHome}\\clang+llvm-19.1.0-x86_64-pc-windows-msvc\\bin\\clang-tidy.exe ${InstallDir}",
-                        "DEL /F ${TEMPDIR}\\clang+llvm-19.1.0-x86_64-pc-windows-msvc.tar.xz",
-                        "rmdir /S /Q ${TWHome}\\clang+llvm-19.1.0-x86_64-pc-windows-msvc"
+                        "move ${TWHome}\\clang-tidy.exe ${InstallDir}",
+                        "DEL /F ${TEMPDIR}\\clang+llvm-19.1.0-x86_64-pc-windows-msvc.tar.xz"
                     ],
                     "UninstallCommands": [
                         "rmdir /S /Q ${InstallDir}"

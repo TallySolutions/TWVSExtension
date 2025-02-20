@@ -187,7 +187,7 @@
                     "InstallCommands": [
                         "brew install llvm@${VERSION-MAJOR}",
                         "OPTIONAL_LINK  /usr/local/opt /opt/homebrew/",
-                        "OPTIONAL_LINK  /opt/homebrew/opt/llvm@${VERSION-MAJOR}/bin/clang-tidy /usr/local/bin"
+                        "OPTIONAL_LINK  /opt/homebrew/opt/llvm@${VERSION-MAJOR}/bin/clang-tidy /usr/local/bin/clang-tidy"
                     ],
                     "UninstallCommands": [
                         "brew remove llvm@${VERSION-MAJOR}"

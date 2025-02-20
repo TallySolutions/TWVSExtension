@@ -17,10 +17,10 @@
     },
     "TextMateLanguageGrammers": [
         {
-            "Name": "TWAppIDCompiler",
+            "Name": "TWAppDefinitions",
             "LanguageService": {
-                "BundlePathUrl": "https://github.com/TallySolutions/TWVSExtension/raw/DevTrunk/TextMateLanguageGrammers/TWAppIDCompiler.tmbundle.zip",
-                "BundlePathLocal": "${UserProfile}\\.vs\\Extensions\\TextMateLanguageGrammers\\TWAppIDCompiler.tmbundle.zip"
+                "BundlePathUrl": "https://github.com/TallySolutions/TWVSExtension/raw/Work/TextMate/TextMateLanguageGrammers/TWAppDefinitions.tmbundle.zip",
+                "BundlePathLocal": "${UserProfile}\\.vs\\Extensions\\TextMateLanguageGrammers\\TWAppDefinitions.tmbundle.zip"
             }
         },
         {

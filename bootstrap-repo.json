@@ -13,7 +13,8 @@
             "TWRepoType": "TWSources",
             "Category": "BuildSupportPlatform",
             "RemoteUrl": "https://dev.azure.com/TallyWorld/BuildSupportPlatform/_git/TWBuildSupport.Source",
-            "LocalPath": "TallyWorld\\BuildSupportPlatform\\TWBuildSupport.Source"
+            "LocalPath": "TallyWorld\\BuildSupportPlatform\\TWBuildSupport.Source",
+            "UseTWSpecificGitignore": false
         },
         {
             "RepoName": "TWDevSupport.Source",
@@ -642,7 +643,8 @@
             "TWRepoType": "TWSecondary",
             "Category": "TWShared",
             "RemoteUrl": "https://dev.azure.com/TallySolutions/TWShared/_git/TWScratchPadApps",
-            "LocalPath": "TallySolutions\\TWShared\\TWScratchPadApps"
+            "LocalPath": "TallySolutions\\TWShared\\TWScratchPadApps",
+            "UseTWSpecificGitignore": false
         },
         {
             "RepoName": "TWProofOfConcept",

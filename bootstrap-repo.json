@@ -635,8 +635,7 @@
             "TWRepoType": "TWSecondary",
             "Category": "TWShared",
             "RemoteUrl": "https://dev.azure.com/TallySolutions/TWShared/_git/TWSampleProducts",
-            "LocalPath": "TallySolutions\\TWShared\\TWSampleProducts",
-            "UseTWSpecificGitignore": false
+            "LocalPath": "TallySolutions\\TWShared\\TWSampleProducts"
         },
         {
             "RepoName": "TWScratchPadApps",
@@ -651,7 +650,8 @@
             "TWRepoType": "TWSecondary",
             "Category": "TWShared",
             "RemoteUrl": "https://dev.azure.com/TallySolutions/TWShared/_git/TWProofOfConcept",
-            "LocalPath": "TallySolutions\\TWShared\\TWProofOfConcept"
+            "LocalPath": "TallySolutions\\TWShared\\TWProofOfConcept",
+            "UseTWSpecificGitignore": false
         },
 
 

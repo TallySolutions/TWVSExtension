@@ -99,23 +99,20 @@
             "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreFixedDataTypes.Test",
             "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreFixedDataTypes.Test"
         },
-
-
         {
-            "RepoName": "TWCoreBuffers.Source",
+            "RepoName": "TWCoreStructures.Source",
             "TWRepoType": "TWSources",
             "Category": "FoundationalPlatform",
-            "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreBuffers.Source",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreBuffers.Source"
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreStructures.Source",
+            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreStructures.Source"
         },
         {
-            "RepoName": "TWCoreBuffers.Test",
+            "RepoName": "TWCoreStructures.Test",
             "TWRepoType": "TWTests",
             "Category": "FoundationalPlatform",
-            "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreBuffers.Test",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreBuffers.Test"
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreStructures.Test",
+            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreStructures.Test"
         },
-
         {
             "RepoName": "TWNewCoreVariableDataTypes.Source",
             "TWRepoType": "TWSources",
@@ -209,33 +206,33 @@
 
 
         {
-            "RepoName": "TWNewCoreStructures.Source",
+            "RepoName": "TWNewCoreDC.Source",
             "TWRepoType": "TWSources",
             "Category": "FoundationalPlatform",
-            "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWNewCoreStructures.Source",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWNewCoreStructures.Source"
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWNewCoreDC.Source",
+            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWNewCoreDC.Source"
         },
         {
-            "RepoName": "TWNewCoreStructures.Test",
+            "RepoName": "TWNewCoreDC.Test",
             "TWRepoType": "TWTests",
             "Category": "FoundationalPlatform",
-            "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWNewCoreStructures.Test",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWNewCoreStructures.Test"
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWNewCoreDC.Test",
+            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWNewCoreDC.Test"
         },
 
         {
-            "RepoName": "TWCoreStructures.Source",
+            "RepoName": "TWCoreDC.Source",
             "TWRepoType": "TWSources",
             "Category": "FoundationalPlatform",
-            "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreStructures.Source",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreStructures.Source"
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreDC.Source",
+            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreDC.Source"
         },
         {
-            "RepoName": "TWCoreStructures.Test",
+            "RepoName": "TWCoreDC.Test",
             "TWRepoType": "TWTests",
             "Category": "FoundationalPlatform",
-            "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreStructures.Test",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreStructures.Test"
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreDC.Test",
+            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreDC.Test"
         },
 
         {

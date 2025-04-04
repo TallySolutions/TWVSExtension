@@ -562,7 +562,29 @@
             "RemoteUrl": "https://dev.azure.com/TallyWorld/ClientPlatform/_git/TWVisualEngine.Test",
             "LocalPath": "TallyWorld\\ClientPlatform\\TWVisualEngine.Test"
         },
-
+        
+        {
+            "RepoName": "TWNewInternalTools.Source",
+            "TWRepoType": "TWSources",
+            "Category": "InternalToolsLib",
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/InternalToolsLib/_git/TWNewInternalTools.Source",
+            "LocalPath": "TallyWorld\\InternalToolsLib\\TWNewInternalTools.Source"
+        },
+        
+        {
+            "RepoName": "TWNewBhadra.Source",
+            "TWRepoType": "TWSources",
+            "Category": "InternalToolsLib",
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/InternalToolsLib/_git/TWNewBhadra.Source",
+            "LocalPath": "TallyWorld\\InternalToolsLib\\TWNewBhadra.Source"
+        },
+        {
+            "RepoName": "TWNewVastu.Source",
+            "TWRepoType": "TWSources",
+            "Category": "InternalToolsLib",
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/InternalToolsLib/_git/TWNewVastu.Source",
+            "LocalPath": "TallyWorld\\InternalToolsLib\\TWNewVastu.Source"
+        },  
         {
             "RepoName": "TWInternalToolsLib.Source",
             "TWRepoType": "TWSources",

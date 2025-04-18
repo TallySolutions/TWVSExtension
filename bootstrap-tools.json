@@ -1307,7 +1307,7 @@
                     "InstallDir": "/Users/Shared/GoogleTest",
                     "InstallCommands": [
                         "ADO_DOWNLOAD",
-                        "sudo chmod -R 755 /Users/Shared/GoogleTest/Apple"
+                        "sudo chmod -R 755 /Users/Shared/GoogleTest/MacOS"
                     ],
                     "UninstallCommands": [
                         "sudo rm -rf ${InstallDir}"

@@ -110,6 +110,7 @@
                         "sudo rm -rf /Applications/CMake.app",
                         "sudo mv -f ./CMake.app /Applications/",
                         "sudo ln -sf /Applications/CMake.app/Contents/bin/cmake /usr/local/bin/cmake",
+                        "sudo ln -sf /Applications/CMake.app/Contents/bin/ctest /usr/local/bin/ctest",
                         "sudo rm -f ${FILENAME_0}"
                     ],
                     "UninstallCommands": [

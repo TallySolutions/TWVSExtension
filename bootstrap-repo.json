@@ -448,8 +448,34 @@
             "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreDataMgr.Test",
             "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreDataMgr.Test"
         },
-
-
+        {
+            "RepoName": "TWNewCoreDeviceIO.Source",
+            "TWRepoType": "TWSources",
+            "Category": "FoundationalPlatform",
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWNewCoreDeviceIO.Source",
+            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWNewCoreDeviceIO.Source"
+        },
+        {
+            "RepoName": "TWNewCoreDeviceIO.Test",
+            "TWRepoType": "TWTests",
+            "Category": "FoundationalPlatform",
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWNewCoreDeviceIO.Test",
+            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWNewCoreDeviceIO.Test"
+        },
+        {
+            "RepoName": "TWNewCoreDeviceMgr.Source",
+            "TWRepoType": "TWSources",
+            "Category": "FoundationalPlatform",
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWNewCoreDeviceMgr.Source",
+            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWNewCoreDeviceMgr.Source"
+        },
+        {
+            "RepoName": "TWNewCoreDeviceMgr.Test",
+            "TWRepoType": "TWTests",
+            "Category": "FoundationalPlatform",
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWNewCoreDeviceMgr.Test",
+            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWNewCoreDeviceMgr.Test"
+        },
         {
             "RepoName": "TWCoreDeviceIO.Source",
             "TWRepoType": "TWSources",

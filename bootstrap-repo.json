@@ -133,7 +133,7 @@
             "TWRepoType": "TWSources",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreVariableDataTypes.Source",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreVariableDataTypes.Source"
+            "LocalPath": "OldTallyWorld\\FoundationalPlatform\\TWCoreVariableDataTypes.Source"
         },
         {
             "RepoName": "TWCoreVariableDataTypes.Test",
@@ -163,7 +163,7 @@
             "TWRepoType": "TWSources",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreObject.Source",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreObject.Source"
+            "LocalPath": "OldTallyWorld\\FoundationalPlatform\\TWCoreObject.Source"
         },
         {
             "RepoName": "TWCoreObject.Test",
@@ -688,14 +688,6 @@
             "Category": "TWShared",
             "RemoteUrl": "https://dev.azure.com/TallySolutions/TWShared/_git/TWScratchPadApps",
             "LocalPath": "TallySolutions\\TWShared\\TWScratchPadApps",
-            "UseTWSpecificGitignore": false
-        },
-        {
-            "RepoName": "TWTestRepo",
-            "TWRepoType": "TestRepo",
-            "Category": "TWShared",
-            "RemoteUrl": "https://dev.azure.com/TallySolutions/TWShared/_git/TWTestRepo",
-            "LocalPath": "TallySolutions\\TWShared\\TWTestRepo",
             "UseTWSpecificGitignore": false
         },
         {

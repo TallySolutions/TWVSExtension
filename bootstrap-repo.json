@@ -114,11 +114,11 @@
             "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreStructures.DevSupport"
         },
         {
-            "RepoName": "TWCoreVariableDataTypes.Source",
+            "RepoName": "TWOldCoreVariableDataTypes.Source",
             "TWRepoType": "TWSources",
             "Category": "OldInternalToolsLib",
             "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWCoreVariableDataTypes.Source",
-            "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWCoreVariableDataTypes.Source"
+            "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreVariableDataTypes.Source"
         },
         {
             "RepoName": "TWOldCoreVariableDataTypes.DevSupport",

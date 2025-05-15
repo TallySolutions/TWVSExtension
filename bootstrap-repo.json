@@ -161,7 +161,7 @@
         {
             "RepoName": "TWCoreObject.Source",
             "TWRepoType": "TWSources",
-            "Category": "TallyWorldOld/FoundationalPlatform",
+            "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreObject.Source",
             "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreObject.Source"
         },

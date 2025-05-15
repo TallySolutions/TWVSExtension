@@ -394,7 +394,7 @@
             "TWRepoType": "TWSources",
             "Category": "OldInternalToolsLib",
             "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWCoreDataMgr.Source",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWOldCoreDataMgr.Source"
+            "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreDataMgr.Source"
         },
         {
             "RepoName": "TWOldCoreDataMgr.DevSupport",

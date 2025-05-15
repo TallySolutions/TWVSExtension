@@ -121,11 +121,11 @@
             "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreVariableDataTypes.Source"
         },
         {
-            "RepoName": "TWOldCoreVariableDataTypes.DevSupport",
+            "RepoName": "TWOldCoreVariableDataTypes.Test",
             "TWRepoType": "TWTests",
             "Category": "OldInternalToolsLib",
-            "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWCoreVariableDataTypes.DevSupport",
-            "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreVariableDataTypes.DevSupport"
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWCoreVariableDataTypes.Test",
+            "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreVariableDataTypes.Test"
         },
 
         {
@@ -151,11 +151,11 @@
             "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreObject.Source"
         },
         {
-            "RepoName": "TWOldCoreObject.DevSupport",
+            "RepoName": "TWOldCoreObject.Test",
             "TWRepoType": "TWTests",
             "Category": "OldInternalToolsLib",
-            "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWCoreObject.DevSupport",
-            "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreObject.DevSupport"
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWCoreObject.Test",
+            "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreObject.Test"
         },
 
         {
@@ -181,11 +181,11 @@
             "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreProcessMgr.Source"
         },
         {
-            "RepoName": "TWOldCoreProcessMgr.DevSupport",
+            "RepoName": "TWOldCoreProcessMgr.Test",
             "TWRepoType": "TWTests",
             "Category": "OldInternalToolsLib",
-            "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWCoreProcessMgr.DevSupport",
-            "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreProcessMgr.DevSupport"
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWCoreProcessMgr.Test",
+            "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreProcessMgr.Test"
         },
 
         {
@@ -213,11 +213,11 @@
             "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreDC.Source"
         },
         {
-            "RepoName": "TWOldCoreDC.DevSupport",
+            "RepoName": "TWOldCoreDC.Test",
             "TWRepoType": "TWTests",
             "Category": "OldInternalToolsLib",
-            "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWCoreDC.DevSupport",
-            "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreDC.DevSupport"
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWCoreDC.Test",
+            "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreDC.Test"
         },
 
         {
@@ -297,11 +297,11 @@
             "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreCommIO.Source"
         },
         {
-            "RepoName": "TWOldCoreCommIO.DevSupport",
+            "RepoName": "TWOldCoreCommIO.Test",
             "TWRepoType": "TWTests",
             "Category": "OldInternalToolsLib",
-            "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWCoreCommIO.DevSupport",
-            "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreCommIO.DevSupport"
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWCoreCommIO.Test",
+            "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreCommIO.Test"
         },
 
         {
@@ -313,11 +313,11 @@
         },
 
         {
-            "RepoName": "TWOldCoreNotification.DevSupport",
+            "RepoName": "TWOldCoreNotification.Test",
             "TWRepoType": "TWTests",
             "Category": "OldInternalToolsLib",
-            "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWCoreNotification.DevSupport",
-            "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreNotification.DevSupport"
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWCoreNotification.Test",
+            "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreNotification.Test"
         },
 
         {
@@ -328,11 +328,11 @@
             "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreCommMgr.Source"
         },
         {
-            "RepoName": "TWOldCoreCommMgr.DevSupport",
+            "RepoName": "TWOldCoreCommMgr.Test",
             "TWRepoType": "TWTests",
             "Category": "OldInternalToolsLib",
-            "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWCoreCommMgr.DevSupport",
-            "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreCommMgr.DevSupport"
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWCoreCommMgr.Test",
+            "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreCommMgr.Test"
         },
 
         {
@@ -367,11 +367,11 @@
             "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreDiskIO.Source"
         },
         {
-            "RepoName": "TWOldCoreDiskIO.DevSupport",
+            "RepoName": "TWOldCoreDiskIO.Test",
             "TWRepoType": "TWTests",
             "Category": "OldInternalToolsLib",
-            "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWCoreDiskIO.DevSupport",
-            "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreDiskIO.DevSupport"
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWCoreDiskIO.Test",
+            "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreDiskIO.Test"
         },
 
         {
@@ -382,11 +382,11 @@
             "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreDiskMgr.Source"
         },
         {
-            "RepoName": "TWOldCoreDiskMgr.DevSupport",
+            "RepoName": "TWOldCoreDiskMgr.Test",
             "TWRepoType": "TWTests",
             "Category": "OldInternalToolsLib",
-            "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWCoreDiskMgr.DevSupport",
-            "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreDiskMgr.DevSupport"
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWCoreDiskMgr.Test",
+            "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreDiskMgr.Test"
         },
 
         {
@@ -397,11 +397,11 @@
             "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreDataMgr.Source"
         },
         {
-            "RepoName": "TWOldCoreDataMgr.DevSupport",
+            "RepoName": "TWOldCoreDataMgr.Test",
             "TWRepoType": "TWTests",
             "Category": "OldInternalToolsLib",
-            "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWCoreDataMgr.DevSupport",
-            "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreDataMgr.DevSupport"
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWCoreDataMgr.Test",
+            "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreDataMgr.Test"
         },
 
         {
@@ -456,11 +456,11 @@
             "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreDeviceIO.Source"
         },
         {
-            "RepoName": "TWOldCoreDeviceIO.DevSupport",
+            "RepoName": "TWOldCoreDeviceIO.Test",
             "TWRepoType": "TWTests",
             "Category": "OldInternalToolsLib",
-            "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWCoreDeviceIO.DevSupport",
-            "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreDeviceIO.DevSupport"
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWCoreDeviceIO.Test",
+            "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreDeviceIO.Test"
         },
         {
             "RepoName": "TWOldCoreDeviceMgr.Source",
@@ -470,11 +470,11 @@
             "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreDeviceMgr.Source"
         },
         {
-            "RepoName": "TWOldCoreDeviceMgr.DevSupport",
+            "RepoName": "TWOldCoreDeviceMgr.Test",
             "TWRepoType": "TWTests",
             "Category": "OldInternalToolsLib",
-            "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWCoreDeviceMgr.DevSupport",
-            "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreDeviceMgr.DevSupport"
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWCoreDeviceMgr.Test",
+            "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreDeviceMgr.Test"
         },
         {
             "RepoName": "TWCoreDeviceIO.Source",

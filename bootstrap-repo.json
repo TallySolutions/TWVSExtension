@@ -159,7 +159,7 @@
         },
 
         {
-            "RepoName": "TWCoreObject.Source",
+            "RepoName": "TWOldCoreObject.Source",
             "TWRepoType": "TWSources",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreObject.Source",

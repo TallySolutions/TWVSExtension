@@ -163,7 +163,7 @@
             "TWRepoType": "TWSources",
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreObject.Source",
-            "LocalPath": "OldTallyWorld\\FoundationalPlatform\\TWCoreObject.Source"
+            "LocalPath": "OldTallyWorld\\FoundationalPlatform\\TWOldCoreObject.Source"
         },
         {
             "RepoName": "TWCoreObject.Test",

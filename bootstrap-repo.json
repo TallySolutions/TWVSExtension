@@ -590,14 +590,6 @@
         },
 
         {
-            "RepoName": "TWOldInternalTools.Source",
-            "TWRepoType": "TWSources",
-            "Category": "OldInternalToolsLib",
-            "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWInternalTools.Source",
-            "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldInternalTools.Source"
-        },
-
-        {
             "RepoName": "TWBhadra.Source",
             "TWRepoType": "TWSources",
             "Category": "InternalToolsLib",

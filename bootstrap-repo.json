@@ -598,18 +598,18 @@
         },
 
         {
-            "RepoName": "TWOldBhadra.Source",
+            "RepoName": "TWBhadra.Source",
             "TWRepoType": "TWSources",
-            "Category": "OldInternalToolsLib",
-            "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWBhadra.Source",
-            "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldBhadra.Source"
+            "Category": "InternalToolsLib",
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/InternalToolsLib/_git/TWBhadra.Source",
+            "LocalPath": "TallyWorld\\InternalToolsLib\\TWBhadra.Source"
         },
         {
-            "RepoName": "TWOldVastu.Source",
+            "RepoName": "TWVastu.Source",
             "TWRepoType": "TWSources",
-            "Category": "OldInternalToolsLib",
-            "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWVastu.Source",
-            "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldVastu.Source"
+            "Category": "InternalToolsLib",
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/InternalToolsLib/_git/TWVastu.Source",
+            "LocalPath": "TallyWorld\\InternalToolsLib\\TWVastu.Source"
         },
         {
             "RepoName": "TWInternalToolsLib.Source",

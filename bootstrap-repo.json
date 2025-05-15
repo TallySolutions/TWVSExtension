@@ -612,6 +612,13 @@
             "LocalPath": "TallyWorld\\InternalToolsLib\\TWVastu.Source"
         },
         {
+            "RepoName": "TWOldInternalToolsLib.Source",
+            "TWRepoType": "TWSources",
+            "Category": "OldInternalToolsLib",
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWInternalToolsLib.Source",
+            "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldInternalToolsLib.Source"
+        },
+        {
             "RepoName": "TWInternalToolsLib.Source",
             "TWRepoType": "TWSources",
             "Category": "InternalToolsLib",

@@ -478,6 +478,20 @@
             "LocalPath": "ThirdParty\\nanos"
         },
         {
+            "RepoName": "TWOldCoreStructures.Source",
+            "TWRepoType": "TWSources",
+            "Category": "OldInternalToolsLib",
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWCoreStructures.Source",
+            "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreStructures.Source"
+        },
+        {
+            "RepoName": "TWOldCoreStructures.Test",
+            "TWRepoType": "TWSources",
+            "Category": "OldInternalToolsLib",
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWCoreStructures.Test",
+            "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreStructures.Test"
+        },
+        {
             "RepoName": "TWOldCoreVariableDataTypes.Source",
             "TWRepoType": "TWSources",
             "Category": "OldInternalToolsLib",

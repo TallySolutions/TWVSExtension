@@ -182,13 +182,7 @@
             "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreSchemaMgr.Source",
             "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreSchemaMgr.Source"
         },
-        {
-            "RepoName": "TWCoreSchemaMgr.DevSupport",
-            "TWRepoType": "TWTests",
-            "Category": "FoundationalPlatform",
-            "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreSchemaMgr.DevSupport",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreSchemaMgr.DevSupport"
-        },
+
         {
             "RepoName": "TWCoreCacheStructures.Source",
             "TWRepoType": "TWSources",
@@ -594,13 +588,7 @@
             "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWCoreCommIO.Source",
             "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreCommIO.Source"
         },
-        {
-            "RepoName": "TWOldCoreCommIO.Test",
-            "TWRepoType": "TWTests",
-            "Category": "OldInternalToolsLib",
-            "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWCoreCommIO.Test",
-            "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreCommIO.Test"
-        },
+
         {
             "RepoName": "TWOldCoreCommMgr.Source",
             "TWRepoType": "TWSources",
@@ -608,13 +596,7 @@
             "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWCoreCommMgr.Source",
             "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreCommMgr.Source"
         },
-        {
-            "RepoName": "TWOldCoreCommMgr.Test",
-            "TWRepoType": "TWTests",
-            "Category": "OldInternalToolsLib",
-            "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWCoreCommMgr.Test",
-            "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreCommMgr.Test"
-        },
+
         {
             "RepoName": "TWOldCoreDiskIO.Source",
             "TWRepoType": "TWSources",
@@ -695,13 +677,6 @@
             "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreNotification.Source"
         },
 
-        {
-            "RepoName": "TWOldCoreNotification.Test",
-            "TWRepoType": "TWTests",
-            "Category": "OldInternalToolsLib",
-            "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWCoreNotification.Test",
-            "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreNotification.Test"
-        },
         {
             "RepoName": "TWOldInternalToolsLib.Source",
             "TWRepoType": "TWSources",

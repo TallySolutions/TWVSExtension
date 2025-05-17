@@ -409,13 +409,6 @@
             "RemoteUrl": "https://dev.azure.com/TallyWorld/InternalToolsLib/_git/TWInternalToolsLib.Source",
             "LocalPath": "TallyWorld\\InternalToolsLib\\TWInternalToolsLib.Source"
         },
-		{
-            "RepoName": "TWInternalTools.Source",
-            "TWRepoType": "TWSources",
-            "Category": "InternalToolsLib",
-            "RemoteUrl": "https://dev.azure.com/TallyWorld/InternalToolsLib/_git/TWInternalTools.Source",
-            "LocalPath": "TallyWorld\\InternalToolsLib\\TWInternalTools.Source"
-        },
         {
             "RepoName": "TWDevTools.Source",
             "TWRepoType": "TWSources",

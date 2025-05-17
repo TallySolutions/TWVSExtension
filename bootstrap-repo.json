@@ -604,6 +604,13 @@
             "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWCoreSchemaMgr.Source",
             "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreSchemaMgr.Source"
         },
+	{
+            "RepoName": "TWOldCoreCacheStructures.Source",
+            "TWRepoType": "TWSources",
+            "Category": "OldInternalToolsLib",
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWCoreCacheStructures.Source",
+            "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreCacheStructures.Source"
+        },
         {
             "RepoName": "TWOldCoreCommIO.Source",
             "TWRepoType": "TWSources",
@@ -715,14 +722,7 @@
             "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWCoreSchemaMgr.Test",
             "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreSchemaMgr.Test"
         },
-		
-		{
-            "RepoName": "TWOldCoreCacheStructures.Source",
-            "TWRepoType": "TWSources",
-            "Category": "OldInternalToolsLib",
-            "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWCoreCacheStructures.Source",
-            "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreCacheStructures.Source"
-        },
+	
 	{
             "RepoName": "TWOldAdminEngine.Source",
             "TWRepoType": "TWSources",

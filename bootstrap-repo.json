@@ -724,11 +724,11 @@
             "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreCacheStructures.Source"
         },
 	{
-            "RepoName": "OldAdminEngine.Source",
+            "RepoName": "TWOldAdminEngine.Source",
             "TWRepoType": "TWSources",
             "Category": "OldInternalToolsLib",
-            "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/AdminEngine.Source",
-            "LocalPath": "TallyWorld\\OldInternalToolsLib\\OldAdminEngine.Source"
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWAdminEngine.Source",
+            "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldAdminEngine.Source"
         },
 		
 	{

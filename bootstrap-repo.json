@@ -755,6 +755,16 @@
             "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldInteractionEngine.Source"
         },
     ],
+    "AdditionalRepositories": [
+        {
+            "ProjectName": "${DomainName}",
+            "TWRepoType": "Others",
+            "Category": "Personal",
+            "BaseRemoteUrl": "https://dev.azure.com/",
+            "LocalPath": "TWPersonal",
+            "Organization": "TWPersonal"
+        }
+    ],
     "RepoListConfig": {
         "AcceptableRefreshGap": 1,
         "DelayedExecutionTime": 3,

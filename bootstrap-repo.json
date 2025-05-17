@@ -512,6 +512,16 @@
             "RemoteUrl": "https://github.com/TallySolutions/nanos.git",
             "LocalPath": "ThirdParty\\nanos"
         },
+	"AdditionalRepositories": [
+        {
+            "ProjectName": "${DomainName}",
+            "TWRepoType": "Others",
+            "Category": "Personal",
+            "BaseRemoteUrl": "https://dev.azure.com/",
+            "LocalPath": "TWPersonal",
+            "Organization": "TWPersonal"
+        }
+        ],
         {
             "RepoName": "TWOldCoreStructures.Source",
             "TWRepoType": "TWSources",

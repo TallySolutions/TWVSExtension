@@ -513,6 +513,34 @@
             "LocalPath": "ThirdParty\\nanos"
         },
         {
+            "RepoName": "TWCoreFixedDataTypes.Source",
+            "TWRepoType": "TWSources",
+            "Category": "OldInternalToolsLib",
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWCoreFixedDataTypes.Source",
+            "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreFixedDataTypes.Source"
+        },
+        {
+            "RepoName": "TWCoreFixedDataTypes.DevSupport",
+            "TWRepoType": "TWTests",
+            "Category": "OldInternalToolsLib",
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWCoreFixedDataTypes.DevSupport",
+            "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreFixedDataTypes.DevSupport"
+        },
+        {
+            "RepoName": "TWOldCoreMain.Source",
+            "TWRepoType": "TWSources",
+            "Category": "OldInternalToolsLib",
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWCoreMain.Source",
+            "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreMain.Source"
+        },
+        {
+            "RepoName": "TWOldCoreMain.DevSupport",
+            "TWRepoType": "TWTests",
+            "Category": "OldInternalToolsLib",
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWCoreMain.DevSupport",
+            "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreMain.DevSupport"
+        },
+        {
             "RepoName": "TWOldCoreStructures.Source",
             "TWRepoType": "TWSources",
             "Category": "OldInternalToolsLib",
@@ -753,6 +781,20 @@
             "Category": "OldInternalToolsLib",
             "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWInteractionEngine.Source",
             "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldInteractionEngine.Source"
+        },
+        {
+            "RepoName": "TWOldDevTools.Source",
+            "TWRepoType": "TWSources",
+            "Category": "InternalTools",
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWDevTools.Source",
+            "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldDevTools.Source"
+        },
+        {
+            "RepoName": "TWOldQATools.Source",
+            "TWRepoType": "TWSources",
+            "Category": "InternalTools",
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWQATools.Source",
+            "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldQATools.Source"
         },
     ],
     "AdditionalRepositories": [

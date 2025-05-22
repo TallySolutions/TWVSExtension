@@ -785,14 +785,14 @@
         {
             "RepoName": "TWOldDevTools.Source",
             "TWRepoType": "TWSources",
-            "Category": "InternalTools",
+            "Category": "OldInternalToolsLib",
             "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWDevTools.Source",
             "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldDevTools.Source"
         },
         {
             "RepoName": "TWOldQATools.Source",
             "TWRepoType": "TWSources",
-            "Category": "InternalTools",
+            "Category": "OldInternalToolsLib",
             "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWQATools.Source",
             "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldQATools.Source"
         },

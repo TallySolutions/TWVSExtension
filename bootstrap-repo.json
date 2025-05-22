@@ -513,14 +513,14 @@
             "LocalPath": "ThirdParty\\nanos"
         },
         {
-            "RepoName": "TWCoreFixedDataTypes.Source",
+            "RepoName": "TWOldCoreFixedDataTypes.Source",
             "TWRepoType": "TWSources",
             "Category": "OldInternalToolsLib",
             "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWCoreFixedDataTypes.Source",
             "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreFixedDataTypes.Source"
         },
         {
-            "RepoName": "TWCoreFixedDataTypes.DevSupport",
+            "RepoName": "TWOldCoreFixedDataTypes.DevSupport",
             "TWRepoType": "TWTests",
             "Category": "OldInternalToolsLib",
             "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWCoreFixedDataTypes.DevSupport",

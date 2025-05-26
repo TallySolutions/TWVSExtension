@@ -1,1 +1,42 @@
-../bootstrap-build.json
+{
+    "Version"               : "2.0",
+    "BuildConfigFile"       : "TWBuildTargets.json",
+    "BuildScript"           : "CMake/Build/TWBuild.cmake",
+    "CleanScript"           : "CMake/Build/TWClean.cmake",
+    "CachGenAndBuildScript" : "CMake/Build/TWGenCacheAndBuild.cmake",
+    "OrganizationName"      : "TallyWorld",
+    "RSyncConfFile"         : "Configs/rsync.conf",
+    "RSyncOptions"          : "-t --delete --delete-excluded -r --exclude=.vs --exclude=.git --exclude=out --exclude=.favourites --exclude=_clang-format -8 -vW",
+    "AdditionalTargets"     :
+    [
+        {
+            "Name"  : "Generate Documentation",
+            "Suffix": "_GenDoc"
+        },
+        {
+            "Name"  : "Create Package",
+            "Suffix": "_create_package"
+        },
+        {
+            "Name"  : "Run Static Analyzer",
+            "Suffix": "_run_code_analysis"
+        },
+        {
+            "Name"  : "Create Coverage",
+            "Suffix": "_create_coverage",
+            "buildProperties": 
+            {
+                "configurations":
+                {
+                    "list": "Simulation",
+                    "isListSupported": true
+                },
+                "operatingSystems":
+                {
+                    "list": "Linux",
+                    "isListSupported": true
+                }
+            }
+        }
+    ]
+}

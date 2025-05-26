@@ -1,1 +1,9 @@
-../bootstrap-editor.json
+{
+    "Version"                :  "1.1",
+    "TallyWorld"            :
+    {
+        "TraceFunction"         :  "TRACEFUNC;",
+        "NoTraceIndicator"      :  "/*NoTrace*/",
+        "NoFileTraceIndicator"  :  "/*File:NoTrace*/"
+    }
+}

@@ -681,7 +681,13 @@
             "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWCoreCommIO.Source",
             "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreCommIO.Source"
         },
-
+        {
+            "RepoName": "TWOldCoreNotification.Source",
+            "TWRepoType": "OldSources",
+            "Category": "FoundationPlatform",
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWCoreNotification.Source",
+            "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreNotification.Source"
+        },
         {
             "RepoName": "TWOldCoreCommMgr.Source",
             "TWRepoType": "OldSources",
@@ -763,22 +769,6 @@
         },
 
         {
-            "RepoName": "TWOldCoreNotification.Source",
-            "TWRepoType": "OldSources",
-            "Category": "FoundationPlatform",
-            "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWCoreNotification.Source",
-            "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldCoreNotification.Source"
-        },
-
-        {
-            "RepoName": "TWOldInternalToolsLib.Source",
-            "TWRepoType": "OldSources",
-            "Category": "InternalToolsLib",
-            "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWInternalToolsLib.Source",
-            "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldInternalToolsLib.Source"
-        },
-
-        {
             "RepoName": "TWOldAdminEngine.Source",
             "TWRepoType": "OldSources",
             "Category": "AdminPlatform",
@@ -815,6 +805,14 @@
             "Category": "ClientPlatform",
             "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWVisualEngine.Source",
             "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldVisualEngine.Source"
+        },
+
+        {
+            "RepoName": "TWOldInternalToolsLib.Source",
+            "TWRepoType": "OldSources",
+            "Category": "InternalToolsLib",
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWInternalToolsLib.Source",
+            "LocalPath": "TallyWorld\\OldInternalToolsLib\\TWOldInternalToolsLib.Source"
         },
 
         {

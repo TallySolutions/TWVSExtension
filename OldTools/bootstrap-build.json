@@ -7,6 +7,14 @@
     "OrganizationName"      : "TallyWorld",
     "RSyncConfFile"         : "Configs/rsync.conf",
     "RSyncOptions"          : "-t --delete --delete-excluded -r --exclude=.vs --exclude=.git --exclude=out --exclude=.favourites --exclude=_clang-format -8 -vW",
+    "AdditionalBhadraParams": 
+    [
+        {            
+            "TW_BUILD_TYPE": "TWBhadra",
+            "TW_BUILD_ENV": "TallyWorld",
+            "TW_BUILD_OLD": "--old"            
+        }
+    ],
     "AdditionalTargets"     :
     [
         {

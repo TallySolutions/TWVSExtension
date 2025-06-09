@@ -122,21 +122,6 @@
         },
 
         {
-            "RepoName": "TWCoreFixedDataTypes.Source",
-            "TWRepoType": "Sources",
-            "Category": "FoundationalPlatform",
-            "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreFixedDataTypes.Source",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreFixedDataTypes.Source"
-        },
-        {
-            "RepoName": "TWCoreFixedDataTypes.DevSupport",
-            "TWRepoType": "DevSupport",
-            "Category": "FoundationalPlatform",
-            "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreFixedDataTypes.DevSupport",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreFixedDataTypes.DevSupport"
-        },
-
-        {
             "RepoName": "TWCoreStructures.Source",
             "TWRepoType": "Sources",
             "Category": "FoundationalPlatform",
@@ -149,6 +134,21 @@
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreStructures.DevSupport",
             "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreStructures.DevSupport"
+        },
+
+        {
+            "RepoName": "TWCoreFixedDataTypes.Source",
+            "TWRepoType": "Sources",
+            "Category": "FoundationalPlatform",
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreFixedDataTypes.Source",
+            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreFixedDataTypes.Source"
+        },
+        {
+            "RepoName": "TWCoreFixedDataTypes.DevSupport",
+            "TWRepoType": "DevSupport",
+            "Category": "FoundationalPlatform",
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreFixedDataTypes.DevSupport",
+            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreFixedDataTypes.DevSupport"
         },
 
         {
@@ -211,20 +211,6 @@
             "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreLogicObjects.DevSupport"
         },
 
-         {
-            "RepoName": "TWCoreExecutionEngine.Source",
-            "TWRepoType": "Sources",
-            "Category": "FoundationalPlatform",
-            "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreExecutionEngine.Source",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreExecutionEngine.Source"
-        },
-        {
-            "RepoName": "TWCoreExecutionEngine.DevSupport",
-            "TWRepoType": "DevSupport",
-            "Category": "FoundationalPlatform",
-            "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreExecutionEngine.DevSupport",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreExecutionEngine.DevSupport"
-        },
 
          {
             "RepoName": "TWCoreEvent.Source",
@@ -240,21 +226,6 @@
             "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreEvent.DevSupport",
             "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreEvent.DevSupport"
         },
-        
-        {
-            "RepoName": "TWCoreProcess.Source",
-            "TWRepoType": "Sources",
-            "Category": "FoundationalPlatform",
-            "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreProcess.Source",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreProcess.Source"
-        },
-        {
-            "RepoName": "TWCoreProcess.DevSupport",
-            "TWRepoType": "DevSupport",
-            "Category": "FoundationalPlatform",
-            "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreProcess.DevSupport",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreProcess.DevSupport"
-        },
 
         {
             "RepoName": "TWCoreDC.Source",
@@ -269,6 +240,36 @@
             "Category": "FoundationalPlatform",
             "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreDC.DevSupport",
             "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreDC.DevSupport"
+        },
+
+         {
+            "RepoName": "TWCoreExecutionEngine.Source",
+            "TWRepoType": "Sources",
+            "Category": "FoundationalPlatform",
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreExecutionEngine.Source",
+            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreExecutionEngine.Source"
+        },
+        {
+            "RepoName": "TWCoreExecutionEngine.DevSupport",
+            "TWRepoType": "DevSupport",
+            "Category": "FoundationalPlatform",
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreExecutionEngine.DevSupport",
+            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreExecutionEngine.DevSupport"
+        },
+        
+        {
+            "RepoName": "TWCoreProcess.Source",
+            "TWRepoType": "Sources",
+            "Category": "FoundationalPlatform",
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreProcess.Source",
+            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreProcess.Source"
+        },
+        {
+            "RepoName": "TWCoreProcess.DevSupport",
+            "TWRepoType": "DevSupport",
+            "Category": "FoundationalPlatform",
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreProcess.DevSupport",
+            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreProcess.DevSupport"
         },
 
         {

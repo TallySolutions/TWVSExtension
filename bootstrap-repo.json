@@ -7,7 +7,7 @@
         "WorkBranchPrefix": "Work",
         "EnableRecursiveRebase": true
     },
-    "Repositories": 
+    "Repositories": [
         {
             "RepoName": "TWBuildSupport.Source",
             "TWRepoType": "Sources",

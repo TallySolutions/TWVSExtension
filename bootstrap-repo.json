@@ -7,7 +7,7 @@
         "WorkBranchPrefix": "Work",
         "EnableRecursiveRebase": true
     },
-    "Repositories": [
+    "Repositories": 
         {
             "RepoName": "TWBuildSupport.Source",
             "TWRepoType": "Sources",
@@ -107,18 +107,18 @@
         },
 
         {
-            "RepoName": "TWCoreElement.Source",
+            "RepoName": "TWCoreConstructs.Source",
             "TWRepoType": "Sources",
             "Category": "FoundationalPlatform",
-            "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreElement.Source",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreElement.Source"
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreConstructs.Source",
+            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreConstructs.Source"
         },
         {
-            "RepoName": "TWCoreElement.DevSupport",
+            "RepoName": "TWCoreConstructs.DevSupport",
             "TWRepoType": "DevSupport",
             "Category": "FoundationalPlatform",
-            "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreElement.DevSupport",
-            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreElement.DevSupport"
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreConstructs.DevSupport",
+            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreConstructs.DevSupport"
         },
 
         {

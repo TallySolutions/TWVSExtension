@@ -507,6 +507,14 @@
         },
 
         {
+            "RepoName": "TWPrakriti.Source",
+            "TWRepoType": "Sources",
+            "Category": "InternalToolsLib",
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/InternalToolsLib/_git/TWPrakriti.Source",
+            "LocalPath": "TallyWorld\\InternalToolsLib\\TWPrakriti.Source"
+        },
+        
+        {
             "RepoName": "TWInternalToolsLib.Source",
             "TWRepoType": "Sources",
             "Category": "InternalToolsLib",

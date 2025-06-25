@@ -577,11 +577,11 @@
         },
 
         {
-            "RepoName": "TallyPMT.Source",
+            "RepoName": "TWVSExtension.Source",
             "TWRepoType": "PMT",
             "Category": "TWExtensions",
-            "RemoteUrl": "https://dev.azure.com/TallySolutions/TallyPMT/_git/TallyPMT.Source",
-            "LocalPath": "TallySolutions\\TallyPMT\\TallyPMT.Source"
+            "RemoteUrl": "https://dev.azure.com/TallySolutions/TallyPMT/_git/TWVSExtension.Source",
+            "LocalPath": "TallySolutions\\TallyPMT\\TWVSExtension.Source"
         },
         {
             "RepoName": "TWSampleProducts",

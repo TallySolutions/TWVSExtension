@@ -77,6 +77,21 @@
         },
 
         {
+            "RepoName": "TWCoreThreads.Source",
+            "TWRepoType": "Sources",
+            "Category": "FoundationalPlatform",
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreThreads.Source",
+            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreThreads.Source"
+        },
+        {
+            "RepoName": "TWCoreThreads.DevSupport",
+            "TWRepoType": "DevSupport",
+            "Category": "FoundationalPlatform",
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/FoundationalPlatform/_git/TWCoreThreads.DevSupport",
+            "LocalPath": "TallyWorld\\FoundationalPlatform\\TWCoreThreads.DevSupport"
+        },
+
+        {
             "RepoName": "TWCoreUtils.Source",
             "TWRepoType": "Sources",
             "Category": "FoundationalPlatform",

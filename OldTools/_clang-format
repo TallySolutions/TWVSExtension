@@ -1,0 +1,150 @@
+# BasedOnStyle:  LLVM
+# Reference: https://tallywiki.tallysolutions.com/display/PMT/ClangFormat+Tool+Customizations
+# Reference: https://clang.llvm.org/docs/ClangFormatStyleOptions.html
+Language:        Cpp
+AccessModifierOffset: 0                                              # Default -2
+AlignAfterOpenBracket: Align
+AlignConsecutiveMacros: true                                        # New. We columnarize macros, so keep this false.
+AlignConsecutiveAssignments: true                                    # Default false.
+AlignConsecutiveBitFields: false                                     # New. We have customized alignment across sections, so keep this false.
+AlignConsecutiveDeclarations: true                                   # Default false.
+AlignEscapedNewlines: Left                                           # Default Right.
+AlignOperands:   Align                                               # Earlier this was boolean, now a tri-val.
+AlignTrailingComments: true
+AllowAllArgumentsOnNextLine: true                                    # New.
+AllowAllConstructorInitializersOnNextLine: true                      # New.
+AllowAllParametersOfDeclarationOnNextLine: true                      # Earlier Tally configuration had 'false' with remark of not working
+AllowShortEnumsOnASingleLine: true                                   # New.
+AllowShortBlocksOnASingleLine: Never                                 # Earlier this was boolean, now a tri-val.
+AllowShortCaseLabelsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: None                               # Default All.
+AllowShortLambdasOnASingleLine: None                                 # New. Default All.
+AllowShortIfStatementsOnASingleLine: Never                           # Earlier this was boolean, now a tri-val.
+AllowShortLoopsOnASingleLine: false
+#AlwaysBreakAfterDefinitionReturnType: None                          # Deprecated, so commented out.
+AlwaysBreakAfterReturnType: AllDefinitions                           # Default None.
+AlwaysBreakBeforeMultilineStrings: false
+AlwaysBreakTemplateDeclarations: Yes                                 # Default MultiLine.
+BinPackArguments: true
+BinPackParameters: true
+BraceWrapping:
+  AfterCaseLabel:  false                                             # New.
+  AfterClass:      false
+  AfterControlStatement: Never                                       # Earlier this was boolean, now a tri-val.
+  AfterEnum:       false
+  AfterFunction:   true                                              # Default false.
+  AfterNamespace:  false
+  AfterObjCDeclaration: false                                        # New.
+  AfterStruct:     false
+  AfterUnion:      false
+  AfterExternBlock: true                                             # Default false.
+  BeforeCatch:     false
+  BeforeElse:      false
+  BeforeLambdaBody: false                                            # New.
+  BeforeWhile:     false                                             # New.
+  IndentBraces:    false
+  SplitEmptyFunction: true
+  SplitEmptyRecord: true
+  SplitEmptyNamespace: true
+BreakBeforeBinaryOperators: None
+BreakBeforeBraces: Custom                                            # Default Attach.
+BreakBeforeInheritanceComma: false
+BreakInheritanceList: BeforeColon
+BreakBeforeTernaryOperators: false                                   # Default true.
+BreakConstructorInitializersBeforeComma: false
+BreakConstructorInitializers: AfterColon                             # Default BeforeColon.
+BreakAfterJavaFieldAnnotations: false
+BreakStringLiterals: false
+ColumnLimit:     0                                                 # Default 80.
+CommentPragmas:  '^ IWYU pragma:'
+CompactNamespaces: false
+ConstructorInitializerAllOnOneLineOrOnePerLine: true                 # Default false.
+ConstructorInitializerIndentWidth: 4
+ContinuationIndentWidth: 4
+Cpp11BracedListStyle: true
+DeriveLineEnding: false                                              # New.
+DerivePointerAlignment: false
+DisableFormat:   false
+ExperimentalAutoDetectBinPacking: false
+FixNamespaceComments: true
+ForEachMacros:
+  - foreach
+  - Q_FOREACH
+  - BOOST_FOREACH
+IncludeBlocks:   Preserve
+IncludeCategories:
+  - Regex:           '^"(llvm|llvm-c|clang|clang-c)/'
+    Priority:        2
+    SortPriority:    0                                               # New.
+  - Regex:           '^(<|"(gtest|gmock|isl|json)/)'
+    Priority:        3
+    SortPriority:    0                                               # New.
+  - Regex:           '.*'
+    Priority:        1
+    SortPriority:    0                                               # New.
+IncludeIsMainRegex: '(Test)?$'
+IncludeIsMainSourceRegex: ''                                         # New.
+IndentCaseLabels: true                                               # Default false.
+IndentCaseBlocks: false                                              # New.
+IndentGotoLabels: true                                               # New.
+IndentPPDirectives: None
+IndentExternBlock: AfterExternBlock                                  # New.
+IndentWidth:     4                                                   # Default 2.
+IndentWrappedFunctionNames: false
+InsertTrailingCommas: None                                           # New.
+JavaScriptQuotes: Leave
+JavaScriptWrapImports: true
+KeepEmptyLinesAtTheStartOfBlocks: true
+MacroBlockBegin: ''
+MacroBlockEnd:   ''
+MaxEmptyLinesToKeep: 2                                               # Default 1.
+NamespaceIndentation: None
+ObjCBinPackProtocolList: Auto                                        # New.
+ObjCBlockIndentWidth: 2
+ObjCBreakBeforeNestedBlockParam: true                                # New.
+ObjCSpaceAfterProperty: false
+ObjCSpaceBeforeProtocolList: true
+PenaltyBreakAssignment: 200                                          # Default 2.
+PenaltyBreakBeforeFirstCallParameter: 19
+PenaltyBreakComment: 1000000000                                      # Default 300. We reflow comments, but don't want to break them for few chars excess of ColumnLimit of 120. However, if comment is significantly more than ColumnLimit (like double or more of the ColumnLimit) then we'd like to break it and reflow. 
+PenaltyBreakFirstLessLess: 120
+PenaltyBreakString: 1000
+PenaltyBreakTemplateDeclaration: 10                                  # New.
+PenaltyExcessCharacter: 1000000
+PenaltyReturnTypeOnItsOwnLine: 60
+PointerAlignment: Middle                                             # Default Right.
+ReflowComments:  true
+SortIncludes:    false                                               # Default true.
+SortUsingDeclarations: false                                         # Default true.
+SpaceAfterCStyleCast: true                                           # Default false.
+SpaceAfterLogicalNot: false                                          # New.
+SpaceAfterTemplateKeyword: true
+SpaceBeforeAssignmentOperators: true
+SpaceBeforeCpp11BracedList: false
+SpaceBeforeCtorInitializerColon: true
+SpaceBeforeInheritanceColon: true
+SpaceBeforeParens: Always                                            # Default ControlStatements.
+SpaceBeforeRangeBasedForLoopColon: true
+SpaceInEmptyBlock: false                                             # New.
+SpaceInEmptyParentheses: false
+SpacesBeforeTrailingComments: 8                                      # Default 1.
+SpacesInAngles:  false
+SpacesInConditionalStatement: false                                  # New.
+SpacesInContainerLiterals: false                                     # Default true.
+SpacesInCStyleCastParentheses: false
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+SpaceBeforeSquareBrackets: false                                     # New.
+Standard:        Latest                                              # Earlier set to Cpp11, now set to Latest.
+StatementMacros:                                                     # New.
+  - Q_UNUSED
+  - QT_REQUIRE_VERSION
+TabWidth:        4                                                   # Default 8.
+UseCRLF:         true                                                # New.
+UseTab:          Never
+InsertNewlineAtEOF: true
+WhitespaceSensitiveMacros:                                           # New.
+  - STRINGIZE
+  - PP_STRINGIZE
+  - BOOST_PP_STRINGIZE
+...

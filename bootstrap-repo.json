@@ -960,11 +960,4 @@
         "StaleIfNotSyncSince": 24
     },
     "RemoteName": "origin",
-    "IgnoredFolders": [
-        "Builds",
-        "Tools",
-        ".vs",
-        "backups",
-        "out"
-    ]
 }

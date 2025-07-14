@@ -11,7 +11,6 @@
     [
         {            
             "TW_BUILD_TYPE": "TWBhadra",
-            "TW_BUILD_ENV": "TallyWorld",
             "TW_BUILD_OLD": "--old"            
         }
     ],

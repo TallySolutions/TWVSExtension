@@ -766,7 +766,7 @@
             },
             "Linux": {
                 "ForPipelineOnly": true,
-                "VersionType": "ArtifactoryLatest",
+                "VersionString": "2.13.1",
                 "Artifactory": {
                     "Name": "ADOService",
                     "Organization": "TallyWorld",

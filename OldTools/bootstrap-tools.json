@@ -738,7 +738,7 @@
         {
             "Name": "TWBhadra",
             "Windows": {
-                "VersionType": "ArtifactoryLatest",
+                "VersionType": "2.13.1",
                 "Artifactory": {
                     "Name": "ADOService",
                     "Organization": "TallyWorld",
@@ -797,7 +797,7 @@
         {
             "Name": "TWVastu",
             "Windows": {
-                "VersionType": "ArtifactoryLatest",
+                "VersionType": "1.7.0",
                 "Artifactory": {
                     "Name": "ADOService",
                     "Organization": "TallyWorld",

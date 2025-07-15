@@ -797,7 +797,7 @@
         {
             "Name": "TWVastu",
             "Windows": {
-                "VersionString": "1.7.0",
+                "VersionString": "1.7.1",
                 "Artifactory": {
                     "Name": "ADOService",
                     "Organization": "TallyWorld",

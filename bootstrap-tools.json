@@ -42,6 +42,7 @@
 
         {
             "Name": "CMake",
+            "Type": "Build Env Tool",
             "Windows": {
                 "VersionString": "3.26.4",
                 "Command": "${VSCMakeProduct}",
@@ -124,6 +125,7 @@
         },
         {
             "Name": "clang-tidy",
+            "Type": "Dev Env Tool",
             "Windows": {
                 "VersionString": "19.1.0",
                 "VersionInfo": {
@@ -198,6 +200,7 @@
         },
         {
             "Name": "TWBaseBuildSystem",
+            "Type": "Build Env Tool",
             "Windows": {
                 "VersionType": "ArtifactoryLatest",
                 "Artifactory": {
@@ -273,6 +276,7 @@
         },
         {
             "Name": "Ninja",
+            "Type": "Build Env Tool",
             "Windows": {
                 "VersionString": "1.11.0",
                 "Command": "${VSNinjaProduct}",
@@ -311,6 +315,7 @@
         },
         {
             "Name": "rsync",
+            "Type": "Build Env Tool",
             "Windows": {
                 "VersionString": "3.1.3",
                 "VersionInfo": {
@@ -353,6 +358,7 @@
         },
         {
             "Name": "ccache",
+            "Type": "Build Env Tool",
             "Linux": {
                 "VersionString": "3.7.7",
                 "Command": "ccache",
@@ -397,6 +403,7 @@
         },
         {
             "Name": "LLVM",
+            "Type": "Build Env Tool",
             "Linux": {
                 "VersionString": "19.1.0",
                 "Command": "clang++",
@@ -437,6 +444,7 @@
         },
         {
             "Name": "git",
+            "Type": "Source Env Tool",
             "Windows": {
                 "VersionString": "2.40.0",
                 "VersionInfo": {
@@ -737,6 +745,7 @@
         },
         {
             "Name": "TWBhadra",
+            "Type": "Build Env Tool",
             "Windows": {
                 "VersionType": "ArtifactoryLatest",
                 "Artifactory": {
@@ -796,6 +805,7 @@
         },
         {
             "Name": "TWVastu",
+            "Type": "Build Env Tool",
             "Windows": {
                 "VersionType": "ArtifactoryLatest",
                 "Artifactory": {
@@ -855,6 +865,7 @@
         },
         {
             "Name": "Java",
+            "Type": "Build Env Tool",
             "Windows": {
                 "VersionString": "17.0.13",
                 "Artifactory": {
@@ -885,6 +896,7 @@
         },
         {
             "Name": "AndroidSDK_CMDLineTool",
+            "Type": "Build Env Tool",
             "Windows": {
                 "VersionString": "12.0",
                 "VersionInfo": {
@@ -926,6 +938,7 @@
         },
         {
             "Name": "AndroidSDK_BuildTools",
+            "Type": "Build Env Tool",
             "Windows": {
                 "VersionString": "35.0.0",
                 "VersionInfo": {
@@ -969,6 +982,7 @@
         },
         {
             "Name": "AndroidNDK",
+            "Type": "Build Env Tool",
             "Windows": {
                 "VersionString": "27.0",
                 "VersionInfo": {
@@ -1001,6 +1015,7 @@
         },
         {
             "Name": "Androidx",
+            "Type": "Build Env Tool",
             "Windows": {
                 "VersionType": "ArtifactoryLatest",
                 "Artifactory": {
@@ -1026,11 +1041,12 @@
                         "DEL /f ${InstallDir}\\androidx.properties"
                     ]
                 },
-                "DependsOn": [ "Java" , "AzureCLI" ]
+                "DependsOn": [ "Java", "AzureCLI" ]
             }
         },
         {
             "Name": "Kotlin",
+            "Type": "Build Env Tool",
             "Windows": {
                 "VersionString": "1.8.21",
                 "VersionInfo": {
@@ -1060,6 +1076,7 @@
         },
         {
             "Name": "Bison",
+            "Type": "Build Env Tool",
             "Windows": {
                 "VersionString": "3.8.2",
                 "VersionInfo": {
@@ -1146,6 +1163,7 @@
         },
         {
             "Name": "Gradle",
+            "Type": "Build Env Tool",
             "Windows": {
                 "VersionString": "8.10.2",
                 "Artifactory": {
@@ -1175,6 +1193,7 @@
         },
         {
             "Name": "TWCLangFormat",
+            "Type": "Dev Env Tool",
             "Windows": {
                 "VersionType": "ArtifactoryLatest",
                 "Artifactory": {
@@ -1206,6 +1225,7 @@
         },
         {
             "Name": "OPS",
+            "Type": "Build Env Tool",
             "Linux": {
                 "VersionString": "0.1.27",
                 "VersionInfo": {
@@ -1236,6 +1256,7 @@
         },
         {
             "Name": "GoogleTest",
+            "Type": "Build Env Tool",
             "Windows": {
                 "VersionType": "ArtifactoryLatest",
                 "Artifactory": {
@@ -1319,6 +1340,7 @@
         },
         {
             "Name": "DoxyGen",
+            "Type": "Build Env Tool",
             "Windows": {
                 "VersionString": "1.13.2",
                 "VersionInfo": {
@@ -1347,6 +1369,7 @@
         },
         {
             "Name": "WindowsAppRuntime",
+            "Type": "Build Env Tool",
             "Windows": {
                 "VersionType": "ArtifactoryLatest",
                 "Artifactory": {
@@ -1377,6 +1400,7 @@
         },
         {
             "Name": "ReportGenerator",
+            "Type": "Build Env Tool",
             "Windows": {
                 "VersionString": "1.0.0",
                 "ForPipelineOnly": true,
@@ -1408,6 +1432,7 @@
         {
 
             "Name": "junit2html",
+            "Type": "Build Env Tool",
             "Windows": {
                 "VersionString": "1.0.0",
                 "ForPipelineOnly": true,
@@ -1495,6 +1520,7 @@
         },
         {
             "Name": "BuildTools",
+            "Type": "Build Env Tool",
             "Windows": {
                 "VersionString": "17.11.0",
                 "ForPipelineOnly": true,
@@ -1531,6 +1557,7 @@
         },
         {
             "Name": "WinUI3Package",
+            "Type": "Build Env Tool",
             "Windows": {
                 "VersionString": "1.0.0",
                 "Artifactory": {

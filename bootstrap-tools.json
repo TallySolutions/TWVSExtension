@@ -1585,7 +1585,83 @@
                 "DependsOn": [ "AzureCLI" ]
 
             }
-        }
+        },
+        {
+            "Name": "TWDevSupport",
+            "Type": "Build Env Tool",
+            "Windows": {
+                "VersionType": "ArtifactoryLatest",
+                "Artifactory": {
+                    "Name": "ADOService",
+                    "Organization": "TallyWorld",
+                    "Feed": "Common-BuildTools",
+                    "Package": "twdevsupport"
+                },
+                "VersionInfo": {
+                    "Command": "type ${InstallDir}\\twdevsupport.properties",
+                    "OutputType": "PlainText",
+                    "Line": 1,
+                    "Column": 3
+                },
+                "Installer": {
+                    "InstallDir": "${TWToolsHome}\\Tools\\TWDevSupport",
+                    "InstallCommands": [
+                        "ADO_DOWNLOAD"
+                    ],
+                    "UninstallCommands": [
+                        "rmdir /S /Q ${InstallDir}"
+                    ]
+                }
+            },
+            "Linux": {
+                "VersionType": "ArtifactoryLatest",
+                "Artifactory": {
+                    "Name": "ADOService",
+                    "Organization": "TallyWorld",
+                    "Feed": "Common-BuildTools",
+                    "Package": "twdevsupport"
+                },
+                "VersionInfo": {
+                    "Command": "cat ${InstallDir}\\twdevsupport.properties",
+                    "OutputType": "PlainText",
+                    "Line": 1,
+                    "Column": 3
+                },
+                "Installer": {
+                    "InstallDir": "/usr/share/TWDevSupport",
+                    "InstallCommands": [
+                        "ADO_DOWNLOAD"
+                    ],
+                    "UninstallCommands": [
+                        "rmdir /S /Q ${InstallDir}"
+                    ]
+                }
+            },
+            "MacOS": {
+                "VersionType": "ArtifactoryLatest",
+                "Artifactory": {
+                    "Name": "ADOService",
+                    "Organization": "TallyWorld",
+                    "Feed": "Common-BuildTools",
+                    "Package": "twdevsupport"
+                },
+                "VersionInfo": {
+                    "Command": "cat ${InstallDir}\\twdevsupport.properties",
+                    "OutputType": "PlainText",
+                    "Line": 1,
+                    "Column": 3
+                },
+                "Installer": {
+                    "InstallDir": "/Users/Shared/TWDevSupport",
+                    "InstallCommands": [
+                        "ADO_DOWNLOAD"
+                    ],
+                    "UninstallCommands": [
+                        "rmdir /S /Q ${InstallDir}"
+                    ]
+                }
+            }
+        },
     ],
     "ValidationCMakeFile": "${BootstrapURL}/CMake/ValidateEnvironment.cmake",
     "VSSettingsFile": "${BootstrapURL}/TallyWorld.vssettings",

@@ -1604,7 +1604,7 @@
                     "Column": 3
                 },
                 "Installer": {
-                    "InstallDir": "${TWToolsHome}\\Tools\\TWDevSupport",
+                    "InstallDir": "${TWHome}\\Tools\\TWDevSupport",
                     "InstallCommands": [
                         "ADO_DOWNLOAD"
                     ],

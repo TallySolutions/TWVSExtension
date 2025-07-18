@@ -242,7 +242,7 @@
                 "Installer": {
                     "InstallDir": "/usr/share/TWBaseBuildSystem",
                     "InstallCommands": [
-                        "sudo ADO_DOWNLOAD"
+                        "ADO_DOWNLOAD"
                     ],
                     "UninstallCommands": [
                         "sudo rm -rf ${InstallDir}"

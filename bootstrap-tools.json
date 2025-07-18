@@ -245,7 +245,7 @@
                         "ADO_DOWNLOAD"
                     ],
                     "UninstallCommands": [
-                        "rmdir /S /Q ${InstallDir}"
+                        "sudo rm -rf ${InstallDir}"
                     ]
                 }
             },
@@ -1633,7 +1633,7 @@
                         "ADO_DOWNLOAD"
                     ],
                     "UninstallCommands": [
-                        "rmdir /S /Q ${InstallDir}"
+                        "sudo rm -rf ${InstallDir}"
                     ]
                 }
             },

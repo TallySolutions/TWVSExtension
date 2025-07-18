@@ -155,6 +155,7 @@ macro (install_patch_libssl_forubuntu22)
 endmacro()
 
 macro (setup_usr_share_folder)
+	message(NOTICE "Running command sudo chmod 777 /usr/share")
         execute_process(
             COMMAND  sudo chmod 777 /usr/share
             RESULT_VARIABLE retCode

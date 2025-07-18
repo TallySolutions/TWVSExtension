@@ -168,7 +168,7 @@ endmacro()
 
 if(CMAKE_HOST_SYSTEM_NAME STREQUAL Linux)
    #install_patch_libssl_forubuntu22()
-   setup_usr_share_folder()
+   #setup_usr_share_folder()
    message(NOTICE "Verifying packages installed on Linux ...")
    execute_process(COMMAND  lsb_release -r OUTPUT_VARIABLE outvar RESULT_VARIABLE retCode ERROR_VARIABLE error)
    set(failed_package_list)

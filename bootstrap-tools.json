@@ -1,4 +1,4 @@
-`{
+{
     "$schema": "https://raw.githubusercontent.com/TallySolutions/TWVSExtension/DevTrunk/bootstrap-tools-schema.json",
     "Version": "2.1",
     "ADOArtifcatories": [

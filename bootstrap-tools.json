@@ -1628,14 +1628,9 @@
                     "Column": 3
                 },
                 "Installer": {
-                    "InstallDir": "TWDevSupport",
-                    "TempInstallDir": "/usr/share/TWDevSupport",
+                    "InstallDir": "/usr/share/TWDevSupport",
                     "InstallCommands": [
-                        "ADO_DOWNLOAD",
-                        "sudo mv TWDevSupport /usr/share/",
-                        "sudo chmod -R 755 /usr/share/TWDevSupport/Linux",
-                        "sudo chmod -R 755 /usr/share/TWDevSupport/UniKernel",
-                        "sudo chmod -R 755 /usr/share/TWDevSupport/Includes"
+                        "ADO_DOWNLOAD"
                     ],
                     "UninstallCommands": [
                         "sudo rm -rf ${InstallDir}"

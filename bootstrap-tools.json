@@ -1598,18 +1598,18 @@
                     "Package": "twdevsupport"
                 },
                 "VersionInfo": {
-                    "Command": "type ${InstallDir}\\TWDevSupport\\twdevsupport.properties",
+                    "Command": "type ${InstallDir}\\twdevsupport.properties",
                     "OutputType": "PlainText",
                     "Line": 1,
                     "Column": 3
                 },
                 "Installer": {
-                    "InstallDir": "${TWHome}\\Tools",
+                    "InstallDir": "${TWHome}\\Tools\\TWDevSupport",
                     "InstallCommands": [
                         "ADO_DOWNLOAD"
                     ],
                     "UninstallCommands": [
-                        "rmdir /S /Q ${InstallDir}\\TWDevSupport"
+                        "rmdir /S /Q ${InstallDir}"
                     ]
                 }
             },
@@ -1622,18 +1622,18 @@
                     "Package": "twdevsupport"
                 },
                 "VersionInfo": {
-                    "Command": "cat ${InstallDir}\\TWDevSupport\\twdevsupport.properties",
+                    "Command": "cat ${InstallDir}\\twdevsupport.properties",
                     "OutputType": "PlainText",
                     "Line": 1,
                     "Column": 3
                 },
                 "Installer": {
-                    "InstallDir": "/usr/share/",
+                    "InstallDir": "/usr/share/TWDevSupport",
                     "InstallCommands": [
                         "ADO_DOWNLOAD"
                     ],
                     "UninstallCommands": [
-                        "rmdir /S /Q ${InstallDir}\\TWDevSupport"
+                        "rmdir /S /Q ${InstallDir}"
                     ]
                 }
             },
@@ -1646,18 +1646,18 @@
                     "Package": "twdevsupport"
                 },
                 "VersionInfo": {
-                    "Command": "cat ${InstallDir}\\TWDevSupport\\twdevsupport.properties",
+                    "Command": "cat ${InstallDir}\\twdevsupport.properties",
                     "OutputType": "PlainText",
                     "Line": 1,
                     "Column": 3
                 },
                 "Installer": {
-                    "InstallDir": "/Users/Shared",
+                    "InstallDir": "/Users/Shared/TWDevSupport",
                     "InstallCommands": [
                         "ADO_DOWNLOAD"
                     ],
                     "UninstallCommands": [
-                        "rmdir /S /Q ${InstallDir}\\TWDevSupport"
+                        "rmdir /S /Q ${InstallDir}"
                     ]
                 }
             }

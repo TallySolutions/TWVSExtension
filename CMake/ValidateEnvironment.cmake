@@ -156,6 +156,7 @@ endmacro()
 
 if(CMAKE_HOST_SYSTEM_NAME STREQUAL Linux)
    #install_patch_libssl_forubuntu22()
+   setup_usr_share_folder()
    message(NOTICE "Verifying packages installed on Linux ...")
    execute_process(COMMAND  lsb_release -r OUTPUT_VARIABLE outvar RESULT_VARIABLE retCode ERROR_VARIABLE error)
    set(failed_package_list)
@@ -298,6 +299,15 @@ endmacro()
 macro (setup_azure_cli_devops)
         execute_process(
             COMMAND  sudo az extension add --name azure-devops
+            RESULT_VARIABLE retCode
+            OUTPUT_VARIABLE out
+            ERROR_VARIABLE error
+        )
+endmacro()
+
+macro (setup_usr_share_folder)
+        execute_process(
+            COMMAND  sudo chmod 777 /usr/share
             RESULT_VARIABLE retCode
             OUTPUT_VARIABLE out
             ERROR_VARIABLE error

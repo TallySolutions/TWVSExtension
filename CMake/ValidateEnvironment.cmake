@@ -154,6 +154,15 @@ macro (install_patch_libssl_forubuntu22)
         endif()
 endmacro()
 
+macro (setup_usr_share_folder)
+        execute_process(
+            COMMAND  sudo chmod 777 /usr/share
+            RESULT_VARIABLE retCode
+            OUTPUT_VARIABLE out
+            ERROR_VARIABLE error
+        )
+endmacro()
+
 if(CMAKE_HOST_SYSTEM_NAME STREQUAL Linux)
    #install_patch_libssl_forubuntu22()
    setup_usr_share_folder()
@@ -305,14 +314,7 @@ macro (setup_azure_cli_devops)
         )
 endmacro()
 
-macro (setup_usr_share_folder)
-        execute_process(
-            COMMAND  sudo chmod 777 /usr/share
-            RESULT_VARIABLE retCode
-            OUTPUT_VARIABLE out
-            ERROR_VARIABLE error
-        )
-endmacro()
+
 
 macro(check_and_set_swift_integrationt_type_environment)
 

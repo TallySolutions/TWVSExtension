@@ -1,4 +1,4 @@
-{
+`{
     "$schema": "https://raw.githubusercontent.com/TallySolutions/TWVSExtension/DevTrunk/bootstrap-tools-schema.json",
     "Version": "2.1",
     "ADOArtifcatories": [
@@ -242,7 +242,7 @@
                 "Installer": {
                     "InstallDir": "/usr/share/TWBaseBuildSystem",
                     "InstallCommands": [
-                        "ADO_DOWNLOAD"
+                        "sudo ADO_DOWNLOAD"
                     ],
                     "UninstallCommands": [
                         "sudo rm -rf ${InstallDir}"
@@ -1630,7 +1630,7 @@
                 "Installer": {
                     "InstallDir": "/usr/share/TWDevSupport",
                     "InstallCommands": [
-                        "ADO_DOWNLOAD"
+                        "sudo ADO_DOWNLOAD"
                     ],
                     "UninstallCommands": [
                         "sudo rm -rf ${InstallDir}"

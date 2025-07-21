@@ -1642,7 +1642,7 @@
                 "Artifactory": {
                     "Name": "ADOService",
                     "Organization": "TallyWorld",
-                    "Feed": "MacOS-Build-Libs",
+                    "Feed": "MacOS-${HOST-ARCH}-Build-Libs",
                     "Package": "twdevsupport"
                 },
                 "VersionInfo": {

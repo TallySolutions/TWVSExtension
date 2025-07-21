@@ -304,6 +304,8 @@ macro (setup_azure_cli_devops)
         )
 endmacro()
 
+
+
 macro(check_and_set_swift_integrationt_type_environment)
 
     execute_process(

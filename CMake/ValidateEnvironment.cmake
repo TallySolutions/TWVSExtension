@@ -154,21 +154,8 @@ macro (install_patch_libssl_forubuntu22)
         endif()
 endmacro()
 
-macro (setup_usr_share_folder)
-	message(NOTICE "Running command sudo chmod 777 /usr/share")
-        execute_process(
-            COMMAND  sudo chmod 777 /usr/share
-            RESULT_VARIABLE retCode
-            OUTPUT_VARIABLE out
-            ERROR_VARIABLE error
-	    COMMAND_ECHO STDOUT
-            COMMAND_ERROR_IS_FATAL ANY
-        )
-endmacro()
-
 if(CMAKE_HOST_SYSTEM_NAME STREQUAL Linux)
    #install_patch_libssl_forubuntu22()
-   #setup_usr_share_folder()
    message(NOTICE "Verifying packages installed on Linux ...")
    execute_process(COMMAND  lsb_release -r OUTPUT_VARIABLE outvar RESULT_VARIABLE retCode ERROR_VARIABLE error)
    set(failed_package_list)

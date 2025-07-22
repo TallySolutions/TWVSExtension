@@ -12,7 +12,7 @@
             "RepoName": "TWBuildSupport.Source",
             "TWRepoType": "Sources",
             "Category": "BuildSupportPlatform",
-            "RemoteUrl": "https://dev.azure.com/TallyWorld/BuildSupportPlatform/_git/TWBuildSupport.Source",
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWBuildSupport.Source",
             "LocalPath": "TallyWorld\\BuildSupportPlatform\\TWBuildSupport.Source"
         },
 
@@ -20,7 +20,7 @@
             "RepoName": "TWDevSupport.Source",
             "TWRepoType": "Sources",
             "Category": "DevSupportPlatform",
-            "RemoteUrl": "https://dev.azure.com/TallyWorld/DevSupportPlatform/_git/TWDevSupport.Source",
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWDevSupport.Source",
             "LocalPath": "TallyWorld\\DevSupportPlatform\\TWDevSupport.Source"
         },
 
@@ -28,7 +28,7 @@
             "RepoName": "TWUniversal.Source",
             "TWRepoType": "Sources",
             "Category": "UniversalPlatform",
-            "RemoteUrl": "https://dev.azure.com/TallyWorld/UniversalPlatform/_git/TWUniversal.Source",
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/OldInternalToolsLib/_git/TWUniversal.Source",
             "LocalPath": "TallyWorld\\UniversalPlatform\\TWUniversal.Source"
         },
 

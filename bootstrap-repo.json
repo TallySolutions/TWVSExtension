@@ -644,6 +644,37 @@
             "RemoteUrl": "https://github.com/TallySolutions/nanos.git",
             "LocalPath": "ThirdParty\\nanos"
         },
+            {
+            "RepoName": "boringssl",
+            "TWRepoType": "ThirdParty",
+            "Category": "ThirdParty",
+            "RemoteUrl": "https://github.com/TallySolutions/boringssl.git",
+            "LocalPath": "ThirdParty\\boringssl"
+        },        {
+            "RepoName": "llhttp",
+            "TWRepoType": "ThirdParty",
+            "Category": "ThirdParty",
+            "RemoteUrl": "https://github.com/TallySolutions/llhttp.git",
+            "LocalPath": "ThirdParty\\llhttp"
+        },        {
+            "RepoName": "nghttp2",
+            "TWRepoType": "ThirdParty",
+            "Category": "ThirdParty",
+            "RemoteUrl": "https://github.com/TallySolutions/nghttp2.git",
+            "LocalPath": "ThirdParty\\nghttp2"
+        },        {
+            "RepoName": "nghttp3",
+            "TWRepoType": "ThirdParty",
+            "Category": "ThirdParty",
+            "RemoteUrl": "https://github.com/TallySolutions/nghttp3.git",
+            "LocalPath": "ThirdParty\\nghttp3"
+        },        {
+            "RepoName": "ngtcp2",
+            "TWRepoType": "ThirdParty",
+            "Category": "ThirdParty",
+            "RemoteUrl": "https://github.com/TallySolutions/ngtcp2.git",
+            "LocalPath": "ThirdParty\\ngtcp2"
+        },
         {
             "RepoName": "TWOldCoreBasic.Source",
             "TWRepoType": "OldSources",
@@ -959,3 +990,4 @@
     },
     "RemoteName": "origin",
 }
+

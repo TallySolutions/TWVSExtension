@@ -199,7 +199,6 @@
         {
             "Name": "TWBaseBuildSystem",
             "Windows": {
-                "VersionType": "ArtifactoryLatest",
                 "VersionString": "2.2.3",
                 "Artifactory": {
                     "Name": "ADOService",
@@ -224,7 +223,6 @@
                 }
             },
             "Linux": {
-                "VersionType": "ArtifactoryLatest",
                 "VersionString": "2.2.3",
                 "Artifactory": {
                     "Name": "ADOService",
@@ -249,7 +247,6 @@
                 }
             },
             "MacOS": {
-                "VersionType": "ArtifactoryLatest",
                 "VersionString": "2.2.3",                
                 "Artifactory": {
                     "Name": "ADOService",
@@ -1587,3 +1584,4 @@
         }
     ]
 } 
+

@@ -181,6 +181,7 @@ if(CMAKE_HOST_SYSTEM_NAME STREQUAL Linux)
    check_linux_package("libgegl-dev")
    if (outvar MATCHES "24.04")
     check_linux_package("libatspi2.0-0t64")
+    check_linux_package("qemu")
    else()
     check_linux_package("libatspi2.0-0")
    endif()
@@ -376,3 +377,4 @@ if(CMAKE_HOST_SYSTEM_NAME STREQUAL Darwin)
     endif()
 
 endif()
+

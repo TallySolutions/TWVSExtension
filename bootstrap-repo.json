@@ -45,7 +45,13 @@
             "RemoteUrl": "https://dev.azure.com/TallyWorld/UniversalPlatform/_git/TWUniversal.DevSupport",
             "LocalPath": "TallyWorld\\UniversalPlatform\\TWUniversal.DevSupport"
         },
-
+        {
+            "RepoName": "TWCompatibility.Source",
+            "TWRepoType": "Sources",
+            "Category": "CompatibilityPlatform",
+            "RemoteUrl": "https://dev.azure.com/TallyWorld/CompatibilityPlatform/_git/TWCompatibility.Source",
+            "LocalPath": "TallyWorld\\CompatibilityPlatform\\TWCompatibility.Source"
+        },
         {
             "RepoName": "TWCoreBasic.Source",
             "TWRepoType": "Sources",
@@ -959,3 +965,4 @@
     },
     "RemoteName": "origin",
 }
+
